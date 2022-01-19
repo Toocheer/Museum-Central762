@@ -1,0 +1,30 @@
+{
+	"tours":[
+		{
+			"title": "驰骋豫中五十载<br>中原窄轨活化石",
+			"badge": "朝杞铁路",
+			"bgImg": "https://s4.ax1x.com/2022/01/19/7rcNCR.jpg",
+			"link": "./virtualtour/chaoqi"
+		},
+		{
+			"title": "大陆最长窄轨路网<br>如今沉睡中州",
+			"badge": "许郸铁路",
+			"bgImg": "https://s4.ax1x.com/2022/01/19/7rgUoQ.jpg",
+			"link": "./virtualtour/xudan"
+		}
+	],
+	"specials":[
+		{
+			"title": "周口铁路公园",
+			"badge": "特展",
+			"bgImg": "https://s4.ax1x.com/2021/12/07/og88SA.jpg",
+			"link": "./#"
+		},
+		{
+			"title": "老河口水泥厂窄轨",
+			"badge": "特展",
+			"bgImg": "https://s4.ax1x.com/2021/12/07/og8GQI.jpg",
+			"link": "./#"
+		}
+	]
+}

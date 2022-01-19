@@ -131,6 +131,10 @@ mark {
 	margin-top: 56px;
 }
 
+.mt-7{
+	margin-top: 80px;
+}
+
 @media(max-width: 992px){
 	.mt-6{
 		margin-top: 64px;
@@ -264,4 +268,8 @@ blockquote {
     text-emphasis: circle;
     -webkit-text-emphasis-position: under;
     text-emphasis-position: under right;
+}
+
+.img-fluid {
+	border-radius: 0.3em;
 }
