@@ -4,8 +4,8 @@
 
 更新了以下内容：
 
-- [研究/工具书和表格](../../virtualtour/xudan)
-- [生活/刊物封面和目录](../../virtualtour/xudan)
+- [生活/工具书和表格](../../life)
+- [生活/刊物封面和目录](../../life)
 
 <br>
 <br>
@@ -16,7 +16,7 @@
 
 更新了以下内容：
 
-- [历史/开端](../../virtualtour/xudan)
+- [历史/开端](../../history/history-01)
 
 <br>
 <br>
@@ -28,7 +28,7 @@
 更新了以下内容：
 
 - [漫游/许郸铁路](../../virtualtour/xudan)
-- [建筑/部分图片](../../virtualtour/xudan)
+- [建筑/部分图片](../../architecture)
 
 <br>
 <br>

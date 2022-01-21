@@ -141,9 +141,28 @@ mark {
 	}
 }
 
-.height-60vh{	
-	height: 60vh;
+.jumboheight{	
+	height: 70vh;
 }
+
+@media(min-height: 1100px){
+	.jumboheight{	
+		height: 45vh;
+	}
+}
+
+@media(max-width: 992px){
+	.jumboheight{	
+		height: 50vh;
+	}
+}
+
+@media(max-width: 576px){
+	.jumboheight{	
+		height: 35vh;
+	}
+}
+
 .carousel-inner {
 	border-radius: 10px;
 }
@@ -270,6 +289,38 @@ blockquote {
     text-emphasis-position: under right;
 }
 
-.img-fluid {
+.img-fluid, .albumpic {
 	border-radius: 0.3em;
+}
+
+.albumitem {
+	margin: 5px;
+	position: relative;
+	overflow: hidden
+}
+
+.albumpic{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	vertical-align: bottom;
+}
+
+.albumcont {
+	display: flex;
+	flex-wrap: wrap;
+}
+.albumcont::after {
+	content: '';
+	flex-grow: 999999;
+}
+
+@media(max-width: 768px){
+	.albumcont::after {
+		flex-grow: 0;
+	}
+}
+
+.albumitem > i{
+	display: block;
 }
