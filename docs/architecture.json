@@ -49,20 +49,20 @@
 			"title": "胜天桥",
 			"pics": [
 				{
-					"url": "https://s4.ax1x.com/2022/01/14/78S9OK.jpg",
-					"width": 2400,
-					"height": 1600
-				},
-				{
-					"url": "https://s4.ax1x.com/2022/01/14/78Spy6.jpg",
-					"width": 2400,
-					"height": 1600
-				},
-				{
 					"url": "https://s4.ax1x.com/2022/01/14/78SSQx.jpg",
 					"width": 2400,
 					"height": 1600
-				}
+				},
+				{
+					"url": "https://s4.ax1x.com/2022/01/14/78S9OK.jpg",
+					"width": 1600,
+					"height": 2400
+				},
+				{
+					"url": "https://s4.ax1x.com/2022/01/14/78Spy6.jpg",
+					"width": 1600,
+					"height": 2400
+				}				
 			]
 		},
 		{

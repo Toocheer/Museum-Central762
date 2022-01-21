@@ -312,7 +312,7 @@ blockquote {
 }
 .albumcont::after {
 	content: '';
-	flex-grow: 999999;
+	flex-grow: 600;
 }
 
 @media(max-width: 768px){
