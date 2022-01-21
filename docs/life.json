@@ -4,13 +4,13 @@
 			"title": "刊物封面和目录展",
 			"badge": "实物展",
 			"bgImg": "https://s4.ax1x.com/2022/01/21/72UdsO.jpg",
-			"link": "./life/magazines"
+			"link": "/life/magazines"
 		},
 		{
 			"title": "工具书和表格展",
 			"badge": "实物展",
 			"bgImg": "https://s4.ax1x.com/2022/01/21/72UaQK.jpg",
-			"link": "./life/references"
+			"link": "/life/references"
 		}
 	]
 }

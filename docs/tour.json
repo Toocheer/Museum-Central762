@@ -4,13 +4,13 @@
 			"title": "驰骋豫中五十载<br>中原窄轨活化石",
 			"badge": "朝杞铁路",
 			"bgImg": "https://s4.ax1x.com/2022/01/19/7rcNCR.jpg",
-			"link": "./virtualtour/chaoqi"
+			"link": "/virtualtour/chaoqi"
 		},
 		{
 			"title": "大陆最长窄轨路网<br>如今沉睡中州",
 			"badge": "许郸铁路",
 			"bgImg": "https://s4.ax1x.com/2022/01/19/7rgUoQ.jpg",
-			"link": "./virtualtour/xudan"
+			"link": "/virtualtour/xudan"
 		}
 	],
 	"specials":[
