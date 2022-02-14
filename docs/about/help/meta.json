@@ -1,4 +1,8 @@
 {
-	"title": "帮助",
-	"subtitle": "Help"
+	"head": {
+	},
+	"page": {
+		"title": "帮助",
+		"subtitle": "Help"
+	}
 }

@@ -1,4 +1,8 @@
 {
-	"title": "更新日志",
-	"subtitle": "Update"
+	"head": {
+	},
+	"page": {
+		"title": "更新日志",
+		"subtitle": "Update"
+	}
 }

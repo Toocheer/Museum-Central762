@@ -1,4 +1,8 @@
 {
-	"title": "隐私政策",
-	"subtitle": "Privacy"
+	"head": {
+	},
+	"page": {
+		"title": "隐私政策",
+		"subtitle": "Privacy"
+	}
 }

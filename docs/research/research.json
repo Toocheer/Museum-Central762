@@ -1,0 +1,28 @@
+{
+	"head": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "窄轨资料,交通文化,交通历史"
+			},
+			{
+				"name": "description",
+				"content": "本板块提供研究河南地方铁路的资料和成果。现已上线电子馆藏资料库"
+			}
+		]
+	},
+	"page": {
+		"title": "研究",
+		"subtitle": "Research",
+		"intro": "提供研究河南地方铁路的资料和成果"
+	},
+	"researches":[
+		{
+			"title": "中原762馆藏资料",
+			"badge": "电子档案",
+			"bgImg": "https://s4.ax1x.com/2022/01/28/7z06JK.jpg",
+			"link": "https://leeward-channel-287.notion.site/762-004e72e669f24c16bf2f6497b5fe1866",
+			"type": "link"
+		}
+	]
+}

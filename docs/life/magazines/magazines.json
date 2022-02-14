@@ -1,6 +1,11 @@
 {
-	"title": "刊物封面和目录",
-	"subtitle": "Cover and Contents",
+
+	"head": {
+	},
+	"page": {
+		"title": "刊物封面和目录",
+		"subtitle": "Cover and Contents"
+	},
 	"scale": "280",
 	"list":[
 		{

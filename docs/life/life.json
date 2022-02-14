@@ -1,0 +1,35 @@
+{
+	"head": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "窄轨相关刊物"
+			},
+			{
+				"name": "description",
+				"content": "交通连接人间世，实物展再现地方铁路运营景象"
+			}
+		]
+	},
+	"page": {
+		"title": "生活",
+		"subtitle": "Life",
+		"intro": "交通连接人间世，实物展再现地方铁路运营景象"
+	},
+	"life":[
+		{
+			"title": "刊物封面和目录展",
+			"badge": "实物展",
+			"bgImg": "https://s4.ax1x.com/2022/01/21/72UdsO.jpg",
+			"link": "/life/magazines",
+			"type": "router"
+		},
+		{
+			"title": "工具书和表格展",
+			"badge": "实物展",
+			"bgImg": "https://s4.ax1x.com/2022/01/21/72UaQK.jpg",
+			"link": "/life/references",
+			"type": "router"
+		}
+	]
+}

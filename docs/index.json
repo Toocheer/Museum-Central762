@@ -1,6 +1,18 @@
 {
+	"head": {
+		"meta": [
+			{
+				"name": "keywords",
+				"content": "中原铁道,窄轨,河南窄轨,铁道博物馆"
+			},
+			{
+				"name": "description",
+				"content": "上世纪五十年代末期，河南省开始兴办地方铁路。半个多世纪间，先后有16条地方铁路线路横贯中原大地，长度逾1,600千米。欢迎来到中原铁道 (数字) 博物馆，开启一场轨距762毫米的旅程。"
+			}
+		]
+	},
 	"update":{
-		"info":"<b>2022年1月下旬</b> · 数字博物馆一期更新内容 ›",
+		"info":"<b>2022年2月下</b> · 数字博物馆一期更新内容 ›",
 		"link":"./about/update"
 	},
 	"jumboItems":[
@@ -40,7 +52,7 @@
 		{
 			"title": "漫游",
 			"subtitle": "Virtual Tour",
-			"details": "坐地日行千万里，探寻中原大地硕果累累的窄轨遗迹",
+			"details": "坐地日行千万里，探寻中原大地硕果累累的轨道遗迹",
 			"bgImg": "https://s4.ax1x.com/2022/01/19/7DLmDJ.jpg",
 			"link": "/virtualtour"
 		},

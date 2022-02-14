@@ -1,6 +1,10 @@
 {
-	"title": "工具书和表格",
-	"subtitle": "References and Sheets",
+	"head": {
+	},
+	"page": {
+		"title": "工具书和表格",
+		"subtitle": "References and Sheets"
+	},
 	"scale": "280",
 	"list":[
 		{

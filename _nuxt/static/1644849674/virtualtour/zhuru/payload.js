@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/virtualtour/zhuru", {data:[{}],fetch:{},mutations:void 0});
