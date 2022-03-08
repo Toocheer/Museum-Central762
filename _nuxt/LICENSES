@@ -1,24 +1,11 @@
 /*!
-  * vue-router v3.5.3
-  * (c) 2021 Evan You
-  * @license MIT
-  */
-
-/*!
- * Vue.js v2.6.14
- * (c) 2014-2021 Evan You
- * Released under the MIT License.
- */
-
-
-/*!
- * Viewer.js v1.10.2
+ * Viewer.js v1.10.4
  * https://fengyuanchen.github.io/viewerjs
  *
  * Copyright 2015-present Chen Fengyuan
  * Released under the MIT license
  *
- * Date: 2021-10-22T13:59:51.046Z
+ * Date: 2022-02-13T08:40:00.127Z
  */
 
 
@@ -35,3 +22,16 @@
  */
 
 /*! https://mths.be/punycode v1.4.1 by @mathias */
+
+
+/*!
+  * vue-router v3.5.3
+  * (c) 2021 Evan You
+  * @license MIT
+  */
+
+/*!
+ * Vue.js v2.6.14
+ * (c) 2014-2021 Evan You
+ * Released under the MIT License.
+ */

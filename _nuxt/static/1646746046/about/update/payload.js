@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/about/update", {data:[{}],fetch:{},mutations:void 0});
