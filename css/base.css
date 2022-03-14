@@ -46,7 +46,7 @@ div::-webkit-scrollbar-button {
   justify-content: space-between;
 }
 
-.nav-link>span {
+.nav-link > span {
   display: inline-block;
 }
 
@@ -94,7 +94,7 @@ h6 a {
 }
 
 a:hover,
-a:hover>span {
+a:hover > span {
   color: #df494f !important;
 }
 
@@ -109,9 +109,9 @@ mark {
 
 .colored,
 .nav-link.active,
-.nav-link.active>span,
+.nav-link.active > span,
 .nav-link.nuxt-link-exact-active,
-.nav-link.nuxt-link-exact-active>span {
+.nav-link.nuxt-link-exact-active > span {
   color: #df494f !important;
 }
 
@@ -121,7 +121,7 @@ mark {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .nav-link>.subtext {
+  .nav-link > .subtext {
     display: none;
   }
 }
@@ -283,7 +283,7 @@ mark {
   height: 40px !important;
 }
 
-#markdown>h1,
+#markdown > h1,
 h2,
 h3,
 h4,
@@ -338,6 +338,20 @@ blockquote {
   }
 }
 
-.albumitem>i {
+.albumitem > i {
   display: block;
 }
+
+.index-img {
+  transition: all .8s cubic-bezier(.22, .58, .12, .98);
+}
+
+.index-img:hover {
+  filter: brightness(0.6);
+}
+
+.card-img-overlay {
+  pointer-events: none;
+}
+
+
