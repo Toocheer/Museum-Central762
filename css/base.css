@@ -350,8 +350,16 @@ blockquote {
   filter: brightness(0.6);
 }
 
-.card-img-overlay {
-  pointer-events: none;
+.cardlist-img {
+  transition: all .8s cubic-bezier(.22, .58, .12, .98);
+  filter: brightness(0.6);
+}
+
+.cardlist-img:hover {
+  filter: brightness(0.4);
 }
 
 
+.card-img-overlay {
+  pointer-events: none;
+}

@@ -18,8 +18,8 @@ nav {
   background-color: #fff !important;
 }
 
-.card {
-  background-color: #f8f8f8;
+.card, .albumpic {
+  background-color: #eee;
 }
 
 blockquote {

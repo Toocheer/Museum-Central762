@@ -19,7 +19,7 @@ body {
   color: #e7e7e7 !important;
 }
 
-.card {
+.card, .albumpic {
   background-color: #222;
 }
 
