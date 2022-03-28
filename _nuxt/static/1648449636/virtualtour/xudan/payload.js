@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/virtualtour/xudan", {data:[{}],fetch:{},mutations:void 0});
