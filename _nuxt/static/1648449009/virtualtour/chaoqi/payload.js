@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/virtualtour/chaoqi", {data:[{}],fetch:{},mutations:void 0});
