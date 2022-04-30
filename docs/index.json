@@ -13,8 +13,15 @@
 	},
 	"update":{
 		"info":"<b>2022年2月下</b> · 数字博物馆一期更新内容 ›",
-		"link":"./about/update"
+		"link":"/about/update"
 	},
+  "specials":{
+    "info":"<h6>中原铁道(数字)博物馆 × 豫见铁路公园</h6><h3>五一小长假，<br>小火车再出发！</h3><br><small>专题报道即将呈现 ›</small>",
+    "link":"/404",
+    "bgImg":"https://s1.ax1x.com/2022/04/30/Lz6ujJ.png",
+    "colorBg":"#314c1e",
+    "color":"#ccedb5"
+  },
 	"jumboItems":[
 		{
 			"title": "仍在运用的老河口机车转盘",

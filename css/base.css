@@ -1,5 +1,5 @@
 /*app-base*/
-html,
+/*html,
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -7,13 +7,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+}*/
 
-code {
+/*code {
   font-family: consolas, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif !important;
-}
+}*/
 
-html::-webkit-scrollbar-button,
+/*html::-webkit-scrollbar-button,
 div::-webkit-scrollbar-button {
   display: none;
 }
@@ -31,28 +31,32 @@ div::-webkit-scrollbar-button {
 ::-webkit-selection {
   background: #ba565a;
   color: #fff;
-}
+}*/
 
-.inline-block {
+/*.inline-block {
   display: inline-block;
-}
+}*/
 
 .nav-item {
   margin: 0 0.6em;
 }
 
-.nav-link {
+/*.nav-link {
   display: flex;
   justify-content: space-between;
-}
+}*/
 
 .nav-link > span {
   display: inline-block;
 }
 
+/*.navbar-toggler{
+  border: none;
+}
+
 .navbar-toggler:focus {
   box-shadow: none !important;
-}
+}*/
 
 .sublink {
   margin-right: 1em;
@@ -73,9 +77,9 @@ div::-webkit-scrollbar-button {
   }
 }
 
-pre {
+/*pre {
   text-align: center;
-}
+}*/
 
 .nowrap {
   display: inline-block;
@@ -85,8 +89,8 @@ pre {
 
 a {
   color: inherit;
-  text-decoration: none !important;
-  transition: 0.3s !important;
+  /*text-decoration: none !important;
+  transition: 0.3s !important;*/
 }
 
 h6 a {
@@ -262,7 +266,7 @@ mark {
   }
 }
 
-@media(min-width: 992px) {
+/*@media(min-width: 992px) {
   .isStuck {
     max-width: 290px;
   }
@@ -279,7 +283,7 @@ mark {
     max-width: 420px !important;
   }
 }
-
+*/
 .logo img {
   height: 40px !important;
 }

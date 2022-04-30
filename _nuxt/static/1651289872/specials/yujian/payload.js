@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/specials/yujian", {data:[{}],fetch:{},mutations:void 0});
