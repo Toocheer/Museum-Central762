@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    <div class="main-contents container-xl mt-5 mb-5">
+    <div class="main-contents container-xl mt-3 mb-5">
       <slot name="top" />
 
       <Content />

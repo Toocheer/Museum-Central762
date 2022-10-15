@@ -10,6 +10,7 @@
       <span>{{ item.text }}</span>
       <span class="subtext ms-2">{{ item.subtext }}</span>
     </RouterLink>
+
     <a
       v-else
       :href="link"

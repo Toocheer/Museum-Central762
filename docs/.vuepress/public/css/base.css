@@ -17,7 +17,7 @@
   letter-spacing: 0.3em;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 991px) {
   .nav-item {
     margin: 0.6em 0.6em;
   }
@@ -62,8 +62,13 @@ mark {
 .nav-link.active > span,
 .nav-link.router-link-active,
 .nav-link.router-link-exact-active > span,
-.main-contents a {
+.main-contents a,
+.search-box .suggestion.focused {
   color: #df494f !important;
+}
+
+.search-box input.focused{
+  border-color: #df494f;
 }
 
 .main-contents a:hover {
@@ -75,7 +80,7 @@ mark {
   scroll-snap-margin: 56px;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 991px) and (max-width: 1400px) {
   .nav-link > .subtext {
     display: none;
   }
@@ -104,7 +109,7 @@ mark {
 }
 
 .jumboheight {
-  height: 70vh;
+  height: 65vh;
 }
 
 @media(min-height: 1100px) {
@@ -113,7 +118,7 @@ mark {
   }
 }
 
-@media(max-width: 992px) {
+@media(max-width: 991px) {
   .jumboheight {
     height: 50vh;
   }
@@ -208,8 +213,12 @@ mark {
   }
 }
 
-.logo img {
+img.logo  {
   height: 40px !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bolder;
 }
 
 .main-contents h1,
@@ -217,9 +226,8 @@ mark {
 .main-contents h3,
 .main-contents h4,
 .main-contents h5 {
-  font-weight: bolder;
   margin-bottom: 1em;
-  margin-top: 2em;
+  padding-top: 2.2em;
 }
 
 .main-contents blockquote h1:first-child,
@@ -227,7 +235,7 @@ mark {
 .main-contents blockquote h3:first-child,
 .main-contents blockquote h4:first-child,
 .main-contents blockquote h5:first-child {
-  margin-top: 0;
+  padding-top: 0;
 }
 
 .main-contents blockquote p:last-child {
@@ -311,7 +319,6 @@ blockquote {
   pointer-events: none;
 }
 
-
-.header-anchor {
-  display: none;
+.navbar-collapse {
+  flex-grow: 0!important;
 }

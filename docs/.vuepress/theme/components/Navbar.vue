@@ -4,31 +4,28 @@
       class="container-xl"
       id="navcontain"
     >
-    <RouterLink
-      :to="$localePath"
-      class="home-link"
-    >
+    <RouterLink :to="$localePath">
       <div
         class="d-flex"
         style="align-items:center;"
       >
         <img
           v-if="$site.themeConfig.logo"
-          class="logo d-inline-block"
-          style="height: 40px"
+          class="logo d-inline-block me-1"
           :src="$withBase($site.themeConfig.logo)"
           :alt="$siteTitle"
         >
-        <span class="d-md-inline me-1">·</span>
         <span
           v-if="$siteTitle"
           ref="siteName"
-          class="logo d-inline-block space"
+          class="logo d-none d-md-inline-block space"
           style="white-space:nowrap;"
           v-html="$site.themeConfig.displayTitle"
         ></span>
       </div>
     </RouterLink>
+
+    <SearchBox />
 
     <button
       class="navbar-toggler"
@@ -42,15 +39,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-      <!-- <SearchBox /> -->
-      <NavLinks />
+    <NavLinks />
   </div>
 
   </nav>
 </template>
 
 <script>
-import SearchBox from '@SearchBox'
+import SearchBox from '@theme/plugin/search/SearchBox.vue'
 import NavLinks from '@theme/components/NavLinks.vue'
 
 export default {

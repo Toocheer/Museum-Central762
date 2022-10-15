@@ -114,74 +114,6 @@ function resolvePath (relative, base, append) {
   return stack.join('/')
 }
 
-/**
- * @param { Page } page
- * @param { string } regularPath
- * @param { SiteData } site
- * @param { string } localePath
- * @returns { SidebarGroup }
- */
-export function resolveSidebarItems (page, regularPath, site, localePath) {
-  const { pages, themeConfig } = site
-
-  const localeConfig = localePath && themeConfig.locales
-    ? themeConfig.locales[localePath] || themeConfig
-    : themeConfig
-
-  const pageSidebarConfig = page.frontmatter.sidebar || localeConfig.sidebar || themeConfig.sidebar
-  if (pageSidebarConfig === 'auto') {
-    return resolveHeaders(page)
-  }
-
-  const sidebarConfig = localeConfig.sidebar || themeConfig.sidebar
-  if (!sidebarConfig) {
-    return []
-  } else {
-    const { base, config } = resolveMatchingConfig(regularPath, sidebarConfig)
-    if (config === 'auto') {
-      return resolveHeaders(page)
-    }
-    return config
-      ? config.map(item => resolveItem(item, pages, base))
-      : []
-  }
-}
-
-/**
- * @param { Page } page
- * @returns { SidebarGroup }
- */
-function resolveHeaders (page) {
-  const headers = groupHeaders(page.headers || [])
-  return [{
-    type: 'group',
-    collapsable: false,
-    title: page.title,
-    path: null,
-    children: headers.map(h => ({
-      type: 'auto',
-      title: h.title,
-      basePath: page.path,
-      path: page.path + '#' + h.slug,
-      children: h.children || []
-    }))
-  }]
-}
-
-export function groupHeaders (headers) {
-  // group h3s under h2
-  headers = headers.map(h => Object.assign({}, h))
-  let lastH2
-  headers.forEach(h => {
-    if (h.level === 2) {
-      lastH2 = h
-    } else if (lastH2) {
-      (lastH2.children || (lastH2.children = [])).push(h)
-    }
-  })
-  return headers.filter(h => h.level === 2)
-}
-
 export function resolveNavLinkItem (linkItem) {
   return Object.assign(linkItem, {
     type: linkItem.items && linkItem.items.length ? 'links' : 'link'
@@ -215,30 +147,4 @@ function ensureEndingSlash (path) {
   return /(\.html|\/)$/.test(path)
     ? path
     : path + '/'
-}
-
-function resolveItem (item, pages, base, groupDepth = 1) {
-  if (typeof item === 'string') {
-    return resolvePage(pages, item, base)
-  } else if (Array.isArray(item)) {
-    return Object.assign(resolvePage(pages, item[0], base), {
-      title: item[1]
-    })
-  } else {
-    const children = item.children || []
-    if (children.length === 0 && item.path) {
-      return Object.assign(resolvePage(pages, item.path, base), {
-        title: item.title
-      })
-    }
-    return {
-      type: 'group',
-      path: item.path,
-      title: item.title,
-      sidebarDepth: item.sidebarDepth,
-      initialOpenGroupIndex: item.initialOpenGroupIndex,
-      children: children.map(child => resolveItem(child, pages, base, groupDepth + 1)),
-      collapsable: item.collapsable !== false
-    }
-  }
 }
