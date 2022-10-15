@@ -1,0 +1,75 @@
+html::-webkit-scrollbar,
+div::-webkit-scrollbar {
+  width: 12px;
+  background: #111;
+}
+
+html::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+  background-color: #333;
+}
+
+nav {
+  border-bottom: none !important;
+  background: #111;
+}
+
+html, body {
+  background-color: #111 !important;
+  color: #e7e7e7 !important;
+}
+
+.card, .albumpic {
+  background-color: #222;
+}
+
+blockquote {
+  background-color: #222;
+  color: #999;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.jumbotron {
+  background-color: #222 !important;
+}
+
+.alert-danger {
+  background-color: #4c1a1f !important;
+  color: #f8d7da !important;
+}
+
+.alert-info {
+  background-color: #0c5460;
+  color: #d1ecf1;
+}
+
+.btn-outline-secondary {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-secondary:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #424242;
+}
+
+.card-img {
+  filter: brightness(0.7);
+}
+
+.grey,
+pre code {
+  color: #888 !important;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .75);
+}
+
+.subtext {
+  color: #777;
+}
