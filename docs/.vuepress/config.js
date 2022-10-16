@@ -14,7 +14,6 @@ module.exports = {
 	description: '上世纪五十年代末期，河南省开始兴办地方铁路。半个多世纪间，先后有16条地方铁路线路横贯中原大地，长度逾1,600千米。欢迎来到中原铁道 (数字) 博物馆，开启一场轨距762毫米的旅程。',
 	themeConfig: {
 		logo: '/img/logo.png',
-    displayTitle: '中原铁道<span class="d-inline d-md-none"><br></span>(数字)博物馆',
 		nav: [
 		  { text: '漫游', subtext: 'Tour', link: '/tour/' },
 		  { text: '车辆', subtext: 'Depot', link: '/depot/' },

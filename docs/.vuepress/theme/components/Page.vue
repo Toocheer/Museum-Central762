@@ -38,7 +38,7 @@ export default {
 .main-contents
   h1, h2, h3, h4, h5
     margin-bottom 1em
-    padding-top 2.2em
+    padding-top 65px
   blockquote
     h1, h2, h3, h4, h5
       &:first-child

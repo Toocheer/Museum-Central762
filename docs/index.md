@@ -3,7 +3,8 @@ type: Home
 head:
   meta:
     - name: keywords
-      content: 窄轨历史 河南窄轨
+      content: 中原铁道, 窄轨, 河南窄轨, 铁道博物馆
+permalink: /
 special:
   subtitle: 中原铁道(数字)博物馆 × 豫见铁路公园
   title: 小火车再出发！
@@ -69,7 +70,6 @@ categories:
     details: 提供研究河南地方铁路的资料和成果
     bgImg: https://s4.ax1x.com/2022/01/19/7DLQ4x.jpg
     link: /research
-permalink: /
 ---
 
 ::: slot preface

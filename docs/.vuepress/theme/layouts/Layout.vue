@@ -6,6 +6,8 @@
 
     <Home v-if="$page.frontmatter.type == 'Home'" />
 
+    <Tour v-else-if="$page.frontmatter.type == 'Tour'" />
+
     <Page
       v-else
     >
@@ -23,6 +25,8 @@
 
 <script>
 import Home from '@theme/components/Home.vue'
+import Tour from '@theme/components/Tour.vue'
+
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Footer from "@theme/components/Footer.vue";
@@ -32,6 +36,7 @@ export default {
 
   components: {
     Home,
+    Tour,
     Page,
     Navbar,
     Footer
