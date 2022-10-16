@@ -49,8 +49,10 @@ export function isActive (route, path) {
     return false
   }
   const routePath = normalize(route.path)
+  console.log(routePath)
   const pagePath = normalize(path)
-  return routePath === pagePath
+  console.log(pagePath)
+  return routePath + '/' === pagePath
 }
 
 export function resolvePage (pages, rawPath, base) {
@@ -120,31 +122,4 @@ export function resolveNavLinkItem (linkItem) {
   })
 }
 
-/**
- * @param { Route } route
- * @param { Array<string|string[]> | Array<SidebarGroup> | [link: string]: SidebarConfig } config
- * @returns { base: string, config: SidebarConfig }
- */
-export function resolveMatchingConfig (regularPath, config) {
-  if (Array.isArray(config)) {
-    return {
-      base: '/',
-      config: config
-    }
-  }
-  for (const base in config) {
-    if (ensureEndingSlash(regularPath).indexOf(encodeURI(base)) === 0) {
-      return {
-        base,
-        config: config[base]
-      }
-    }
-  }
-  return {}
-}
 
-function ensureEndingSlash (path) {
-  return /(\.html|\/)$/.test(path)
-    ? path
-    : path + '/'
-}

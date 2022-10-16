@@ -4,16 +4,18 @@ head:
   meta:
     - name: keywords
       content: 窄轨历史 河南窄轨
-specials:
-  info: <h6>中原铁道(数字)博物馆 × 豫见铁路公园</h6><h3>小火车再出发！</h3><br><small>查看专题报道 ›</small>
+special:
+  subtitle: 中原铁道(数字)博物馆 × 豫见铁路公园
+  title: 小火车再出发！
+  description: 查看专题报道 ›
   link: https://mp.weixin.qq.com/s/RyHyUdscQO_9E11lR2qgqg
   isInternalLink: false
   bgImg: https://s1.ax1x.com/2022/04/30/Lz6ujJ.png
   colorBg: 314c1e
   color: ccedb5
 updates:
-  info: <b>2022年10月上</b> · 数字博物馆一期更新内容 ›
-  link: /about/update
+  date: 2022年10月
+  info: 博物馆第一期建设
 jumboItems:
   - title: 仍在运用的老河口机车转盘
     subTitle: 湖北老河口 · 光化水泥厂
@@ -69,6 +71,10 @@ categories:
     link: /research
 permalink: /
 ---
+
+::: slot preface
+### 驰骋中州，纵横交通
+:::
 
 上世纪五十年代末期，河南省开始兴办地方铁路。半个多世纪间，先后有16条地方铁路线路横贯中原大地，长度逾1,600千米。
 

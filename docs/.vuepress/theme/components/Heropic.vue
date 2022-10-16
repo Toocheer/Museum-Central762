@@ -75,3 +75,28 @@ export default {
   },
 }
 </script>
+
+<style lang="stylus">
+.jumbotron
+  background-position center!important
+  background-size cover!important
+  background-repeat no-repeat!important
+
+.jumboheight
+  height 65vh
+
+@media(min-height: 1100px)
+  .jumboheight
+    height 45vh
+
+@media(max-width: 991px)
+  .jumboheight
+    height 50vh
+
+@media(max-width: 576px)
+  .jumboheight
+    height 35vh
+
+.carousel-inner
+  border-radius 10px
+</style>

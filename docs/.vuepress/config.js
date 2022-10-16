@@ -16,12 +16,12 @@ module.exports = {
 		logo: '/img/logo.png',
     displayTitle: '中原铁道<span class="d-inline d-md-none"><br></span>(数字)博物馆',
 		nav: [
-		  { text: '漫游', subtext: 'Tour', link: '/virtualtour' },
-		  { text: '车辆', subtext: 'Depot', link: '/depot' },
-		  { text: '建筑', subtext: 'Architecture', link: '/architecture' },
-		  { text: '展品', subtext: 'Expo', link: '/expo' },
-		  { text: '历史', subtext: 'History', link: '/history' },
-		  { text: '研究', subtext: 'Research', link: 'https://leeward-channel-287.notion.site/762-004e72e669f24c16bf2f6497b5fe1866' },
+		  { text: '漫游', subtext: 'Tour', link: '/tour/' },
+		  { text: '车辆', subtext: 'Depot', link: '/depot/' },
+		  { text: '建筑', subtext: 'Architecture', link: '/architecture/' },
+		  { text: '展品', subtext: 'Expo', link: '/expo/' },
+		  { text: '历史', subtext: 'History', link: '/history/' },
+		  { text: '资料', subtext: 'Collections', link: 'https://leeward-channel-287.notion.site/762-004e72e669f24c16bf2f6497b5fe1866' },
 		]
 	},
   permalink: "/:slug",

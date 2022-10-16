@@ -53,3 +53,20 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+a
+  color inherit
+
+h1, h2, h3, h4, h5
+  font-weight bolder
+
+p, ul, ol
+  line-height 1.7em
+
+.mt-6
+  margin-top 56px
+
+.mt-7
+  margin-top 80px
+</style>

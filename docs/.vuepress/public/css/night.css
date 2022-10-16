@@ -73,3 +73,28 @@ pre code {
 .subtext {
   color: #777;
 }
+
+.search-box .suggestions {
+  background-color: #111;
+}
+
+.search-box .suggestion.focused{
+  background-color: #222;
+}
+
+svg{
+  fill: #fff;
+}
+
+.search-box input {
+  color: #aaa;
+  border: 1px solid #777
+}
+
+.search-box input::-webkit-input-placeholder {
+  color: #aaa
+}
+
+.search-box input::placeholder {
+  color: #aaa
+}

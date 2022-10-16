@@ -15,13 +15,6 @@
           :src="$withBase($site.themeConfig.logo)"
           :alt="$siteTitle"
         >
-        <span
-          v-if="$siteTitle"
-          ref="siteName"
-          class="logo d-none d-md-inline-block space"
-          style="white-space:nowrap;"
-          v-html="$site.themeConfig.displayTitle"
-        ></span>
       </div>
     </RouterLink>
 
@@ -59,4 +52,11 @@ export default {
 
 }
 </script>
+
+<style lang="stylus">
+img.logo
+  height 40px
+.navbar-collapse
+  flex-grow 0!important
+</style>
 

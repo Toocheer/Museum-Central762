@@ -5,7 +5,7 @@
       aria-label="Search"
       :value="query"
       :class="{ 'focused': focused }"
-      placeholder="搜索 中原铁道(数字)博物馆"
+      placeholder="中原铁道（数字）博物馆"
       autocomplete="off"
       spellcheck="false"
       @input="query = $event.target.value"
@@ -207,17 +207,14 @@ export default {
     width 90%
     height: 2rem
     display inline-block
-    border 1px solid darken($borderColor, 10%)
     border-radius 10px
     font-size 0.9rem
-    line-height 2rem
     padding 0 0.5rem 0 2rem
     outline none
     transition all .2s ease
-    background #fff url(search.svg) 0.6rem 0.5rem no-repeat
+    background url(search.svg) 0.6rem 0.5rem no-repeat
     background-size 1rem
   .suggestions
-    background #fff
     width 90%
     display block
     position absolute
@@ -233,17 +230,7 @@ export default {
     a
       white-space normal
       .page-title
+        font-size 0.8em
+      .header
         font-weight bolder
-    &.focused
-      background-color #f3f4f5
-
-@media (max-width: 576px)
-  .search-box
-    input
-      cursor pointer
-      width 90%
-      &:focus
-        cursor text
-        left 0
-
 </style>

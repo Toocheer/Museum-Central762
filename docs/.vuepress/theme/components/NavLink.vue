@@ -92,3 +92,32 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+.nav-link
+  span
+    display inline-block
+  &.router-link-active,
+  &.router-link-exact-active
+    span
+      color: #df494f !important;
+
+.nav-item
+  margin 0 0.6em
+
+@media(max-width: 991px)
+  .nav-item
+    margin 0.6em 0.6em
+
+  .center
+    text-align center
+
+@media(min-width: 768px)
+  .right
+    text-align right
+
+ @media (min-width: 991px) and (max-width: 1200px)
+  .nav-link
+    .subtext
+      display none
+</style>

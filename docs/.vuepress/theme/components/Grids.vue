@@ -1,12 +1,12 @@
 <template>
   <div class="row">
     <div
-      class="col-12 col-sm-6 col-lg-4"
+      class="col-12 col-sm-6 col-lg-4 mt-3 "
       v-for="(item,index) in categories"
       :key="index"
     >
       <RouterLink :to="item.link">
-        <div class="card text-dark mt-3 ratio ratio-1x1">
+        <div class="card text-dark ratio ratio-1x1">
           <img
             class="card-img index-img"
             :src="item.bgImg"
