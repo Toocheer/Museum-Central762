@@ -6,7 +6,7 @@
 
     <Landingpage v-else-if="$page.frontmatter.type == 'Landingpage'" />
 
-    <Tour v-else-if="$page.frontmatter.type == 'Tour'" />
+    <Detail v-else-if="$page.frontmatter.type == 'Detail'" />
 
     <Underconstruction v-else-if="$page.frontmatter.type == 'Underconstruction'" />
 
@@ -19,12 +19,12 @@
 <script>
 import Home from '@theme/components/Home.vue'
 import Landingpage from '@theme/components/Landingpage.vue'
-import Tour from '@theme/components/Tour.vue'
+import Detail from '@theme/components/Detail.vue'
 import Underconstruction from '@theme/components/Underconstruction.vue'
 import Page from '@theme/components/Page.vue'
 
-import Navbar from '@theme/components/Navbar.vue'
-import Footer from "@theme/components/Footer.vue";
+import Navbar from '@theme/components/plugins/Navbar/Navbar.vue'
+import Footer from "@theme/components/plugins/Footer.vue";
 
 export default {
   name: 'Layout',
@@ -32,26 +32,11 @@ export default {
   components: {
     Home,
     Landingpage,
-    Tour,
+    Detail,
     Underconstruction,
     Page,
     Navbar,
     Footer
-  },
-
-  computed: {
-    shouldShowNavbar () {
-      const { themeConfig } = this.$site
-      const { frontmatter } = this.$page
-      console.log(this.$page)
-      return (
-        this.$title
-        || themeConfig.logo
-        || themeConfig.repo
-        || themeConfig.nav
-        || this.$themeLocaleConfig.nav
-      )
-    }
   }
 }
 </script>

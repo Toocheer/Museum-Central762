@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import { resolveNavLinkItem } from '../util'
-import NavLink from '@theme/components/NavLink.vue'
+import { resolveNavLinkItem } from '@theme/util'
+import NavLink from '@theme/components/plugins/Navbar/NavLink.vue'
 
 export default {
   name: 'NavLinks',

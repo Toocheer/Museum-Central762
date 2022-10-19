@@ -6,8 +6,8 @@ meta:
 permalink: /
 search: false
 special:
-  subtitle: 中原铁道(数字)博物馆 × 豫见铁路公园
   title: 小火车再出发！
+  subtitle: 中原铁道(数字)博物馆 × 豫见铁路公园
   description: 查看专题报道 ›
   link: https://mp.weixin.qq.com/s/RyHyUdscQO_9E11lR2qgqg
   bgImg: https://s1.ax1x.com/2022/04/30/Lz6ujJ.png
@@ -41,32 +41,32 @@ jumboItems:
 categories:
   - title: 漫游
     subtitle: Tour
-    details: 坐地日行千万里，探寻中原大地硕果累累的轨道遗迹
+    description: 坐地日行千万里，探寻中原大地硕果累累的轨道遗迹
     bgImg: https://s4.ax1x.com/2022/01/19/7DLmDJ.jpg
     link: /tour
   - title: 车辆
     subtitle: Depot
-    details: 动静交错之间，一探它们曾经风驰电掣的身影
+    description: 动静交错之间，一探它们曾经风驰电掣的身影
     bgImg: https://s4.ax1x.com/2022/01/19/7DLnb9.jpg
     link: /depot
   - title: 展览
     subtitle: Expo
-    details: 领略地方铁路风采，再现运营景象
+    description: 领略地方铁路风采，再现运营景象
     bgImg: https://s4.ax1x.com/2022/01/19/7DLMU1.jpg
     link: /expo
   - title: 历史
     subtitle: History
-    details: 寸尺亦能去西东，讲述中原地方铁路兴起与发展
+    description: 寸尺亦能去西东，讲述中原地方铁路兴起与发展
     bgImg: https://s4.ax1x.com/2022/01/19/7DLeu4.jpg
     link: /history
   - title: 专栏
     subtitle: Column
-    details: 考察者主笔，将地方铁路故事与见闻娓娓道来
+    description: 考察者主笔，将地方铁路故事与见闻娓娓道来
     bgImg: https://s4.ax1x.com/2022/01/19/7DLKER.jpg
     link: /column
   - title: 资料
     subtitle: Collections    
-    details: 提供研究中原地方铁路的资料和成果
+    description: 提供研究中原地方铁路的资料和成果
     bgImg: https://s4.ax1x.com/2022/01/19/7DLQ4x.jpg
     link: https://leeward-channel-287.notion.site/762-004e72e669f24c16bf2f6497b5fe1866
 ---

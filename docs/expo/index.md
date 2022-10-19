@@ -7,6 +7,8 @@ head:
   meta:
     - name: keywords
       content: 中原窄轨, 河南窄轨, 窄轨文物
+    - name: description
+      content: 领略地方铁路风采，再现运营景象
 permalink: /expo
 pages:
   - title: 朝杞铁路建筑展

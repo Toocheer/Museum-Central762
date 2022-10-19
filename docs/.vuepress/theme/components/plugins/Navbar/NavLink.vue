@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { isExternal, ensureExt } from '../util'
+import { isExternal, ensureExt } from '@theme/util'
 
 export default {
   name: 'NavLink',

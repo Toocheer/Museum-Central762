@@ -23,17 +23,7 @@
         :class="{active:item.isActive}"
         :key="item.index"
       >
-        <RouterLink :to="item.link">
-          <div
-            :style="{'background':'linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.8)),url(' + item.jumboImg + ')', 'margin-bottom':0}"
-            class="jumbotron jumbotron-fluid jumboheight"
-          >
-          </div>
-          <div class="carousel-caption">
-            <h5>{{item.title}}</h5>
-            <p>{{item.subTitle}}</p>
-          </div>
-        </RouterLink>
+        <Heropic :item="item" />
       </div>
     </div>
     <button
@@ -66,13 +56,20 @@
 </template>
 
 <script>
+import Heropic from '@theme/components/plugins/Heropics/Heropic.vue'
+import { isExternal, ensureExt } from '@theme/util'
 export default {
-  name: 'Heropic',
+  name: 'Heropics',
+
   props: {
     jumboItems: {
       required: true
     }
   },
+
+  components: {
+    Heropic
+  }
 }
 </script>
 

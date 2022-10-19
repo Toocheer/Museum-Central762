@@ -9,8 +9,10 @@ meta:
   - name: description
     content: 朝杞铁路始建于1974年，1976年朝阳沟至尉氏通车，1985年全线贯通。朝杞铁路西起登封朝阳沟站，经过新密、新郑、尉氏、通许到达杞县。朝杞铁路与国铁京广线在新郑设有换装站和准轨窄轨套轨线路，在竖岗站与窄轨竖开线、竖扶线相连，通达开封、周口地区。运营期间，朝杞铁路的主要货源是登封、新密等地的煤炭和铝矾土，并开行有客车。2013年，朝杞铁路因经营状况不佳停运，原有线路登封至新密段规划保留窄轨改建为旅游线路。
 permalink: /tour/chaoqi
-stations:
+items:
   - name: 朝阳沟站
+    w: 3
+    h: 2
     mainPic: 
       url: https://s4.ax1x.com/2022/01/09/7kHIjH.jpg
       alt: 朝阳沟站内停放的C2型蒸汽机车
@@ -22,6 +24,8 @@ stations:
       - url: https://s4.ax1x.com/2022/02/14/Hys9m9.jpg
         alt: 轨道车和朝阳沟站的迁车台、检修库
   - name: 川口站
+    w: 3
+    h: 2
     mainPic: 
       url: https://s4.ax1x.com/2022/01/09/7kL9kq.jpg
       alt: 川口站内的正线、车库和平车
@@ -33,6 +37,8 @@ stations:
       - url: https://s4.ax1x.com/2022/02/14/HysCwR.jpg
         alt: 川口站内，一台C2蒸汽机车的煤水车
   - name: 炮房站
+    w: 3
+    h: 2
     mainPic: 
       url: https://s4.ax1x.com/2022/01/09/7kLPhV.jpg
       alt: 炮房站内停放的废弃机车
@@ -45,6 +51,8 @@ stations:
         alt: 废弃JMY380型机车的操纵台
   - name: 大冶站
   - name: 平陌站
+    w: 3
+    h: 2
     mainPic: 
       url: https://s4.ax1x.com/2022/01/09/7AFpMn.jpg
       alt: 平陌站站房
@@ -56,10 +64,14 @@ stations:
       - url: https://s4.ax1x.com/2022/02/14/Hyrzy4.jpg
         alt: 平陌站站房靠近公路的一侧被改为洗车店
   - name: 莪沟站
+    w: 3
+    h: 2
     mainPic: 
       url: https://s4.ax1x.com/2022/01/09/7AFiZV.jpg
       alt: 一座依山而建的小庙位于车站道岔边
   - name: 超化站
+    w: 3
+    h: 2
     mainPic: 
       url: https://s4.ax1x.com/2022/01/09/7AFFaT.jpg
       alt: 超化站站场

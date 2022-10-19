@@ -1,6 +1,6 @@
 <template>
   <div class="theme-container">
-    <Navbar v-if="shouldShowNavbar" />
+    <Navbar />
 
     <div class="container-xl">
       <div
@@ -32,49 +32,33 @@
 </template>
 
 <script>
-import Home from '@theme/components/Home.vue'
-import Navbar from '@theme/components/Navbar.vue'
-import Page from '@theme/components/Page.vue'
-import Footer from "@theme/components/Footer.vue";
-import { resolveSidebarItems } from '../util'
+import Navbar from '@theme/components/plugins/Navbar/Navbar.vue'
+import Footer from "@theme/components/plugins/Footer.vue"
 
 export default {
   name: 'Layout',
 
   components: {
-    Home,
-    Page,
     Navbar,
     Footer
-  },
-
-  computed: {
-    shouldShowNavbar () {
-      const { themeConfig } = this.$site
-      const { frontmatter } = this.$page
-      if (
-        frontmatter.navbar === false
-        || themeConfig.navbar === false) {
-        return false
-      }
-      return (
-        this.$title
-        || themeConfig.logo
-        || themeConfig.repo
-        || themeConfig.nav
-        || this.$themeLocaleConfig.nav
-      )
-    },
-
-    pageClasses () {
-      const userPageClass = this.$page.frontmatter.pageClass
-      return [
-        {
-          'no-navbar': !this.shouldShowNavbar,
-        },
-        userPageClass
-      ]
-    }
   }
 }
 </script>
+
+<style lang="stylus">
+a
+  color inherit
+
+h1, h2, h3, h4, h5
+  font-weight bolder
+
+p, ul, ol
+  line-height 1.7em
+
+.mt-6
+  margin-top 56px
+
+.mt-7
+  margin-top 80px
+</style>
+

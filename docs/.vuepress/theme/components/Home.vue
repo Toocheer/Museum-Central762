@@ -11,7 +11,7 @@
 
       <div class="row">
         <div class="col-lg-8 col-12 mt-3">
-          <Heropic :jumboItems="data.jumboItems" />
+          <Heropics :jumboItems="data.jumboItems" />
         </div>
 
         <div class="col-lg-4 col-12 mt-3">
@@ -31,14 +31,13 @@
 </template>
 
 <script>
-import NavLink from '@theme/components/NavLink.vue'
-import Notifications from '@theme/components/Notifications.vue'
-import Heropic from '@theme/components/Heropic.vue'
-import Grids from '@theme/components/Grids.vue'
+import Notifications from '@theme/components/plugins/Notifications.vue'
+import Heropics from '@theme/components/plugins/Heropics/Heropics.vue'
+import Grids from '@theme/components/plugins/Grids/Grids.vue'
 export default {
   name: 'Home',
 
-  components: { NavLink, Notifications, Heropic, Grids },
+  components: { Notifications, Heropics, Grids },
 
   computed: {
     data () {

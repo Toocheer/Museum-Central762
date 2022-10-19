@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import Header from '@theme/components/Header.vue'
+import Header from '@theme/components/plugins/Header.vue'
 export default {
   name: 'Underconstruction',
 

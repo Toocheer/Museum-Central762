@@ -5,6 +5,8 @@ description: 寸尺亦能去西东，讲述中原地方铁路的兴起的发展
 meta:
   - name: keywords
     content: 窄轨历史, 河南窄轨
+  - name: description
+    content: 寸尺亦能去西东，讲述中原地方铁路的兴起的发展
 permalink: /history
 ---
 

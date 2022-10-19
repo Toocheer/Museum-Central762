@@ -68,7 +68,7 @@
 </template>
 
 <script>
-import { isExternal, ensureExt } from '../util'
+import { isExternal, ensureExt } from '@theme/util'
 
 export default {
   name: 'Notifications',
@@ -121,7 +121,7 @@ export default {
   border-radius 10px
 
 .update
-  background-image url("../../public/img/update.svg")
+  background-image url("/img/update.svg")
   background-size auto
   background-repeat no-repeat
   background-position center right

@@ -12,7 +12,7 @@
       <div class="card-img-overlay">
         <h2 class="text-light">{{item.title}}</h2>
         <h5 class="text-light">{{item.subtitle}}</h5>
-        <p class="text-light">{{item.details}}</p>
+        <p class="text-light">{{item.description}}</p>
       </div>
     </div>
   </RouterLink>
@@ -30,14 +30,14 @@
       <div class="card-img-overlay">
         <h2 class="text-light">{{item.title}}</h2>
         <h5 class="text-light">{{item.subtitle}}</h5>
-        <p class="text-light">{{item.details}}</p>
+        <p class="text-light">{{item.description}}</p>
       </div>
     </div>
   </a>
 </template>
 
 <script>
-import { isExternal, ensureExt } from '../util'
+import { isExternal, ensureExt } from '@theme/util'
 
 export default {
   name: 'Grid',

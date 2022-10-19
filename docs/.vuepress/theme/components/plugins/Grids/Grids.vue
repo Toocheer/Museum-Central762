@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Grid from '@theme/components/Grid.vue'
+import Grid from '@theme/components/plugins/Grids/Grid.vue'
   
 export default{
   name: 'Grids',
