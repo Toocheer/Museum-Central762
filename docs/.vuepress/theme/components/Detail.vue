@@ -11,7 +11,7 @@
       <div >
         <div
           v-for="item in data.items"
-          class="row padding"
+          class="row"
           v-viewer="{
             toolbar: false,
             transition: false,
@@ -21,11 +21,11 @@
         >
           <Content
             :slot-key="item.name"
-            class="col-12 col-md-4 mt-3"
+            class="col-12 col-md-4 mt-3 always-padding"
           />
           <div
             v-if="item.mainPic"
-            class="col-12 col-md-8 mt-3 d-flex mainPic"
+            class="col-12 col-md-8 mt-3 d-flex pic padding"
           >
             <div
               class="card ratio"
@@ -41,6 +41,7 @@
           </div>
           <div
             class="col-12 col-md-4 d-flex pic"
+            :class="item.mainPic ? '' : 'padding'"
             v-for="pic in item.pics"
           >
             <div
@@ -88,13 +89,16 @@ export default {
 </script>
 
 <style lang="stylus">
-.mainPic,
 .pic
   flex-wrap wrap
   justify-content center
 
 .card-img
   object-fit cover
+
+.always-padding
+  h1, h2
+    padding-top 65px
 
 @media (min-width: 768px)
   .padding
