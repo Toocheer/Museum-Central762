@@ -4,7 +4,7 @@
 
 `必需` `string` 指定页面使用的模板类型
 
-### 参数
+#### 参数
 
 * `Home`: 主页
 * `Landingpage`: 落地页，一般用于各栏目的扉页列表
@@ -12,7 +12,7 @@
 * `Underconstruction`: 未建成页，仅用于栏目未建成时作占位符
 * `Page`: 一般的markdown页面，用于历史、专栏等内页
 
-### 用例
+#### 用例
 
 ```
 type: Home
@@ -24,7 +24,7 @@ type: Home
 
 `可选` `string` 指定页面大标题
 
-### 用例
+#### 用例
 
 ```
 title: 历史
@@ -36,7 +36,7 @@ title: 历史
 
 `可选` `string` 指定页面副标题
 
-### 用例
+#### 用例
 
 ```
 subtitle: History
@@ -48,7 +48,7 @@ subtitle: History
 
 `可选` `string` 指定页面顶栏简介
 
-### 用例
+#### 用例
 
 ```
 description: 寸尺亦能去西东，讲述中原地方铁路的兴起的发展
@@ -62,12 +62,12 @@ description: 寸尺亦能去西东，讲述中原地方铁路的兴起的发展
 
 `必需` `array` 描述页面的关键词和简介，用于搜索引擎优化
 
-### 参数
+#### 参数
 
 * `name`: 用于描述该项指定的meta类型，可选 `keywords` 或 `description`
 * `content`: 用于描述该项的内容
 
-## 用例
+#### 用例
 
 ```
 meta:
@@ -85,7 +85,7 @@ meta:
 
 `必需` `string` 指定本页面的路径
 
-## 用例
+#### 用例
 
 ```
 permalink: /
@@ -97,7 +97,7 @@ permalink: /
 
 `可选` `boolean` 指定本页面是否被搜索插件索引
 
-## 用例
+#### 用例
 
 ```
 search: false
@@ -109,7 +109,7 @@ search: false
 
 `仅Home页` `string` 指定首页顶栏入口，提示网站的最新专题内容
 
-### 参数
+#### 参数
 
 * `title`: 标题
 * `subtitle`: 副标题
@@ -119,7 +119,7 @@ search: false
 * `colorBg`: 背景颜色，不带#号
 * `color`: 文字颜色，不带#号
 
-## 用例
+#### 用例
 
 ```
 special:
@@ -138,12 +138,12 @@ special:
 
 `仅Home页` `string` 指定首页顶栏入口，提示网站的更新内容
 
-### 参数
+#### 参数
 
 * `date`: 更新日期
 * `info`: 更新简介
 
-## 用例
+#### 用例
 
 ```
 updates:
@@ -157,7 +157,7 @@ updates:
 
 `仅Home页` `array` 指定网站的轮播图
 
-### 参数
+#### 参数
 
 * `title`: 标题
 * `subtitle`: 副标题
@@ -166,7 +166,7 @@ updates:
 * `link`: 指向链接。内链可用 `/your/tour/page/route` 形式，外链可直接粘贴URL
 * `isActive`: `boolean` 可选，指定轮播的首图。应为唯一。
 
-## 用例
+#### 用例
 
 ```
 jumboItems:
@@ -189,7 +189,7 @@ jumboItems:
 
 `仅Home页` `array` 指定网站的首页栏目入口网格
 
-### 参数
+#### 参数
 
 * `title`: 标题
 * `subtitle`: 副标题
@@ -197,7 +197,7 @@ jumboItems:
 * `bgImg`: 图片URL
 * `link`: 指向链接。内链可用 `/your/tour/page/route` 形式，外链可直接粘贴URL
 
-## 用例
+#### 用例
 
 ```
 categories:
@@ -221,7 +221,7 @@ categories:
 
 `仅Landingpage页` `array` 指定落地页的子页面网格
 
-### 参数
+#### 参数
 
 * `title`: 标题
 * `badge`: 角标文字
@@ -229,7 +229,7 @@ categories:
 * `bgColor`: 角标背景，可选 `primary` `success` `danger` `warning` 或 `info`
 * `link`: 指向链接。目前仅限内链形式
 
-## 用例
+#### 用例
 
 ```
 pages:
@@ -255,7 +255,7 @@ pages:
 
 `仅Detail页` `array` 指定页面的展示内容
 
-### 参数
+#### 参数
 
 * `name`: 插槽ID，要和Markdown插槽ID匹配。
 * `w`: 图片纵横比的横向比例值
@@ -267,7 +267,7 @@ pages:
   * `url` 小图URL
   * `alt` 小图图注
 
-## 用例
+#### 用例
 
 ```
 items:
@@ -305,9 +305,11 @@ items:
 
 `仅Detail页` 指定插槽内容
 
-### 参数
+#### 参数
 
 * `::: slot`: Markdown正文中的插槽ID，必须和 `items` 中的 `name` 值相匹配。结束符为 `:::`，之间为内容。
+
+#### 用例
 
 ```
 ::: slot 反修渡槽
