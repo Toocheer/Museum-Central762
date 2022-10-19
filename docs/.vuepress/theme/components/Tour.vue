@@ -1,16 +1,11 @@
 <template>
   <main class="page mt-6">
-    <div class="jumbotron jumbotron-fluid pt-5 pb-4 mt-6">
-      <div class="container-xl">
-        <h2 class="d-inline-block bold me-2">{{ data.title }}</h2>
-        <h5 class="subtext d-inline-block">{{ data.subtitle }}</h5>
-        <p
-          class="mt-3"
-          v-if="data.description"
-          v-html="data.description"
-        ></p>
-      </div>
-    </div>
+
+    <Header
+      :title="data.title"
+      :subtitle="data.subtitle"
+      :description="data.description"
+    />
 
     <div class="main-contents container-xl mt-3 mb-5">
       <div >
@@ -45,8 +40,7 @@
             <p class="mt-1 subtext">{{station.mainPic.alt}}</p>
           </div>
           <div
-            class="col-12 col-md-4 d-flex"
-            style="flex-wrap: wrap;justify-content: center;"
+            class="col-12 col-md-4 d-flex pic"
             v-for="pic in station.pics"
           >
             <div
@@ -70,12 +64,15 @@
 </template>
 
 <script>
+import Header from '@theme/components/Header.vue'
 import 'viewerjs/dist/viewer.css'
 import Viewer from 'v-viewer'
 import Vue from 'vue'
 Vue.use(Viewer)
 export default {
   name: 'Tour',
+
+  components: { Header },
 
   computed: {
     data () {
@@ -86,10 +83,15 @@ export default {
 </script>
 
 <style lang="stylus">
-.mainPic
+.mainPic,
+.pic
   flex-wrap wrap
   justify-content center
-  padding-top 65px
+
+@media (min-width: 768px)
+  .mainPic
+    padding-top 65px
+
 </style>
 
 

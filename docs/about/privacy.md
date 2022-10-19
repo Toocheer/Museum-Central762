@@ -2,6 +2,7 @@
 title: '隐私政策'
 subtitle: 'Privacy'
 permalink: /privacy
+search: false
 ---
 
 #### 一、总则

@@ -1,11 +1,6 @@
 <template>
-  <div
-    class="theme-container"
-    :class="pageClasses"
-  >
-    <Navbar
-      v-if="shouldShowNavbar"
-    />
+  <div class="theme-container">
+    <Navbar v-if="shouldShowNavbar" />
 
     <div class="container-xl">
       <div
@@ -32,6 +27,7 @@
     </div>
 
     <Footer />
+
   </div>
 </template>
 

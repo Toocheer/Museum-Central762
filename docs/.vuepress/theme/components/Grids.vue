@@ -2,8 +2,7 @@
   <div class="row">
     <div
       class="col-12 col-sm-6 col-lg-4 mt-3 "
-      v-for="(item,index) in categories"
-      :key="index"
+      v-for="item in categories"
     >
       <RouterLink :to="item.link">
         <div class="card text-dark ratio ratio-1x1">
@@ -30,6 +29,6 @@ export default {
     categories: {
       required: true
     }
-  },
+  }
 }
 </script>

@@ -2,6 +2,7 @@
 title: '使用协议与版权信息'
 subtitle: 'Agreement'
 permalink: /agreement
+search: false
 ---
 
 ### 免责声明

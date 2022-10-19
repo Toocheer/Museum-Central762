@@ -12,7 +12,7 @@ module.exports = (options, ctx) => {
 
     plugins: [
       ['@vuepress/active-header-links', options.activeHeaderLinks],
-      require('./plugin/search/index.js'),
+      require('./plugin/fulltext-search/index.js'),
       ['smooth-scroll', enableSmoothScroll]
     ]
   }

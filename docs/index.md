@@ -5,6 +5,7 @@ head:
     - name: keywords
       content: 中原铁道, 窄轨, 河南窄轨, 铁道博物馆
 permalink: /
+search: false
 special:
   subtitle: 中原铁道(数字)博物馆 × 豫见铁路公园
   title: 小火车再出发！
@@ -41,7 +42,7 @@ jumboItems:
     link: /tour/xudan
 categories:
   - title: 漫游
-    subtitle: Virtual Tour
+    subtitle: Tour
     details: 坐地日行千万里，探寻中原大地硕果累累的轨道遗迹
     bgImg: https://s4.ax1x.com/2022/01/19/7DLmDJ.jpg
     link: /tour
@@ -65,8 +66,8 @@ categories:
     details: 寸尺亦能去西东，讲述河南地方铁路的兴起发展
     bgImg: https://s4.ax1x.com/2022/01/19/7DLeu4.jpg
     link: /history
-  - title: 研究
-    subtitle: Research     
+  - title: 资料
+    subtitle: Collections    
     details: 提供研究河南地方铁路的资料和成果
     bgImg: https://s4.ax1x.com/2022/01/19/7DLQ4x.jpg
     link: /research

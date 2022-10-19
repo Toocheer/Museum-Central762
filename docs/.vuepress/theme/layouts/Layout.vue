@@ -1,23 +1,16 @@
 <template>
-  <div
-    class="theme-container"
-  >
+  <div class="theme-container">
     <Navbar />
 
     <Home v-if="$page.frontmatter.type == 'Home'" />
 
+    <Landingpage v-else-if="$page.frontmatter.type == 'Landingpage'" />
+
     <Tour v-else-if="$page.frontmatter.type == 'Tour'" />
 
-    <Page
-      v-else
-    >
-      <template #top>
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <slot name="page-bottom" />
-      </template>
-    </Page>
+    <Underconstruction v-else-if="$page.frontmatter.type == 'Underconstruction'" />
+
+    <Page v-else />
 
     <Footer />
   </div>
@@ -25,10 +18,12 @@
 
 <script>
 import Home from '@theme/components/Home.vue'
+import Landingpage from '@theme/components/Landingpage.vue'
 import Tour from '@theme/components/Tour.vue'
+import Underconstruction from '@theme/components/Underconstruction.vue'
+import Page from '@theme/components/Page.vue'
 
 import Navbar from '@theme/components/Navbar.vue'
-import Page from '@theme/components/Page.vue'
 import Footer from "@theme/components/Footer.vue";
 
 export default {
@@ -36,7 +31,9 @@ export default {
 
   components: {
     Home,
+    Landingpage,
     Tour,
+    Underconstruction,
     Page,
     Navbar,
     Footer

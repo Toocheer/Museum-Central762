@@ -39,7 +39,8 @@
 </template>
 
 <script>
-import SearchBox from '@theme/plugin/search/SearchBox.vue'
+// import SearchBox from '@theme/plugin/search/SearchBox.vue'
+import SearchBox from '@theme/plugin/fulltext-search/components/SearchBox.vue'
 import NavLinks from '@theme/components/NavLinks.vue'
 
 export default {

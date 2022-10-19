@@ -28,5 +28,6 @@ module.exports = {
     anchor: {
       permalink: false
     }
-  }
+  },
+  plugins: ['fulltext-search'],
 }
