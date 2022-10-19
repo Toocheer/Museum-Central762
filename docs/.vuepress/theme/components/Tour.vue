@@ -7,11 +7,11 @@
       :description="data.description"
     />
 
-    <div class="main-contents container-xl mt-3 mb-5">
+    <div class="container-xl mt-3 mb-5">
       <div >
         <div
           v-for="station in data.stations"
-          class="row"
+          class="row padding"
           v-viewer="{
             toolbar: false,
             transition: false,
@@ -53,7 +53,12 @@
                 :alt="pic.alt"
               />
             </div>
-            <p class="mt-1 subtext">{{pic.alt}}</p>
+            <p
+              class="mt-1 subtext center"
+              style="text-align: center;"
+            >
+              {{pic.alt}}
+            </p>
           </div>
         </div>
       </div>
@@ -88,8 +93,11 @@ export default {
   flex-wrap wrap
   justify-content center
 
+.card-img
+  object-fit cover
+
 @media (min-width: 768px)
-  .mainPic
+  .padding
     padding-top 65px
 
 </style>

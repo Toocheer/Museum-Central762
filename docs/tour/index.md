@@ -3,10 +3,11 @@ type: Landingpage
 title: 漫游
 subtitle: Tour
 description: 坐地日行千万里，探寻中原大地硕果累累的轨道遗迹
-head:
-  meta:
-    - name: keywords
-      content: 朝杞铁路, 许郸铁路, 驻汝铁路, 漯阜铁路
+meta:
+  - name: keywords
+    content: 朝杞铁路, 许郸铁路, 驻汝铁路, 漯阜铁路
+  - name: description
+    content: 坐地日行千万里，探寻中原大地硕果累累的轨道遗迹。欢迎探索：朝杞铁路, 许郸铁路, 驻汝铁路, 漯阜铁路。
 permalink: /tour
 pages:
   - title: 驰骋豫中五十载<br>中原窄轨活化石

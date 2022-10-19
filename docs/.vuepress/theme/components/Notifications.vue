@@ -5,8 +5,8 @@
       v-if="special"
     >
       <RouterLink
-        v-if="special.isInternalLink"
-        :to="special.link"
+        v-if="isInternal"
+        :to="link"
       >
         <div
           class="alert"
@@ -26,7 +26,7 @@
 
       <a
         v-else
-        :href="special.link"
+        :href="link"
       >
         <div
           class="alert"
@@ -68,6 +68,8 @@
 </template>
 
 <script>
+import { isExternal, ensureExt } from '../util'
+
 export default {
   name: 'Notifications',
   props: {
@@ -78,6 +80,37 @@ export default {
       required: true
     }
   },
+
+  computed: {
+    link () {
+      return ensureExt(this.special.link)
+    },
+
+    exact () {
+      if (this.$site.locales) {
+        return Object.keys(this.$site.locales).some(rootLink => rootLink === this.link)
+      }
+      return this.link === '/'
+    },
+
+    isBlankTarget () {
+      return this.target === '_blank'
+    },
+
+    isInternal () {
+      return !isExternal(this.link) && !this.isBlankTarget
+    },
+
+    target () {
+      if (this.isNonHttpURI) {
+        return null
+      }
+      if (this.item.target) {
+        return this.item.target
+      }
+      return isExternal(this.link) ? '_blank' : ''
+    }
+  }
 }
 </script>
 

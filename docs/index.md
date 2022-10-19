@@ -1,9 +1,8 @@
 ---
 type: Home
-head:
-  meta:
-    - name: keywords
-      content: 中原铁道, 窄轨, 河南窄轨, 铁道博物馆
+meta:
+  - name: keywords
+    content: 中原铁道, 窄轨, 河南窄轨, 铁道博物馆
 permalink: /
 search: false
 special:
@@ -11,7 +10,6 @@ special:
   title: 小火车再出发！
   description: 查看专题报道 ›
   link: https://mp.weixin.qq.com/s/RyHyUdscQO_9E11lR2qgqg
-  isInternalLink: false
   bgImg: https://s1.ax1x.com/2022/04/30/Lz6ujJ.png
   colorBg: 314c1e
   color: ccedb5
@@ -51,26 +49,26 @@ categories:
     details: 动静交错之间，一探它们曾经风驰电掣的身影
     bgImg: https://s4.ax1x.com/2022/01/19/7DLnb9.jpg
     link: /depot
-  - title: 建筑
-    subtitle: Architecture
-    details: 车站、桥梁、隧道，领略地方铁路建筑风采
-    bgImg: https://s4.ax1x.com/2022/01/19/7DLKER.jpg
-    link: /architecture
-  - title: 展品
+  - title: 展览
     subtitle: Expo
-    details: 交通连接人间世，实物展再现地方铁路运营景象
+    details: 领略地方铁路风采，再现运营景象
     bgImg: https://s4.ax1x.com/2022/01/19/7DLMU1.jpg
     link: /expo
   - title: 历史
     subtitle: History
-    details: 寸尺亦能去西东，讲述河南地方铁路的兴起发展
+    details: 寸尺亦能去西东，讲述中原地方铁路兴起与发展
     bgImg: https://s4.ax1x.com/2022/01/19/7DLeu4.jpg
     link: /history
+  - title: 专栏
+    subtitle: Column
+    details: 考察者主笔，将地方铁路故事与见闻娓娓道来
+    bgImg: https://s4.ax1x.com/2022/01/19/7DLKER.jpg
+    link: /column
   - title: 资料
     subtitle: Collections    
-    details: 提供研究河南地方铁路的资料和成果
+    details: 提供研究中原地方铁路的资料和成果
     bgImg: https://s4.ax1x.com/2022/01/19/7DLQ4x.jpg
-    link: /research
+    link: https://leeward-channel-287.notion.site/762-004e72e669f24c16bf2f6497b5fe1866
 ---
 
 ::: slot preface

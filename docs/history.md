@@ -1,7 +1,7 @@
 ---
 title: 历史
 subtitle: History
-description: 寸尺亦能去西东，讲述河南地方铁路的兴起发展
+description: 寸尺亦能去西东，讲述中原地方铁路的兴起的发展
 meta:
   - name: keywords
     content: 窄轨历史, 河南窄轨

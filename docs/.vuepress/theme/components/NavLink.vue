@@ -5,7 +5,6 @@
       class="nav-link"
       :to="link"
       :exact="exact"
-      @focusout.native="focusoutAction"
     >
       <span>{{ item.text }}</span>
       <span class="subtext ms-2">{{ item.subtext }}</span>
@@ -16,8 +15,6 @@
       :href="link"
       class="nav-link external"
       :target="target"
-      :rel="rel"
-      @focusout="focusoutAction"
     >
       <span>{{ item.text }}</span>
       <span class="subtext ms-2">{{ item.subtext }}</span>
@@ -26,7 +23,7 @@
 </template>
 
 <script>
-import { isExternal, isMailto, isTel, ensureExt } from '../util'
+import { isExternal, ensureExt } from '../util'
 
 export default {
   name: 'NavLink',
@@ -49,10 +46,6 @@ export default {
       return this.link === '/'
     },
 
-    isNonHttpURI () {
-      return isMailto(this.link) || isTel(this.link)
-    },
-
     isBlankTarget () {
       return this.target === '_blank'
     },
@@ -62,32 +55,10 @@ export default {
     },
 
     target () {
-      if (this.isNonHttpURI) {
-        return null
-      }
       if (this.item.target) {
         return this.item.target
       }
       return isExternal(this.link) ? '_blank' : ''
-    },
-
-    rel () {
-      if (this.isNonHttpURI) {
-        return null
-      }
-      if (this.item.rel === false) {
-        return null
-      }
-      if (this.item.rel) {
-        return this.item.rel
-      }
-      return this.isBlankTarget ? 'noopener noreferrer' : null
-    }
-  },
-
-  methods: {
-    focusoutAction () {
-      this.$emit('focusout')
     }
   }
 }
