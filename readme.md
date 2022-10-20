@@ -163,7 +163,7 @@ updates:
 * `subtitle`: 副标题
 * `description`: 描述文字
 * `jumboImg`: 图片URL
-* `link`: 指向链接。内链可用 `/your/tour/page/route` 形式，外链可直接粘贴URL
+* `link`: 指向链接。内链可用 `/your/tour/page/route/` 形式，外链可直接粘贴URL
 * `isActive`: `boolean` 可选，指定轮播的首图。应为唯一。
 
 #### 用例
@@ -195,7 +195,7 @@ jumboItems:
 * `subtitle`: 副标题
 * `description`: 描述文字
 * `bgImg`: 图片URL
-* `link`: 指向链接。内链可用 `/your/tour/page/route` 形式，外链可直接粘贴URL
+* `link`: 指向链接。内链可用 `/your/tour/page/route/` 形式，外链可直接粘贴URL
 
 #### 用例
 
