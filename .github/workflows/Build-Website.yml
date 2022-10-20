@@ -40,7 +40,7 @@ jobs:
         ref: gh-pages
     - name: Copy dist to gh-pages branch
       run: |
-        rm .
+        rm -r .
         cp -r -f ../site/. ./
     - name: Commit and push
       run: |
