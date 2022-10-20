@@ -1,0 +1,96 @@
+/*app-base*/
+
+a:hover,
+a:hover > span {
+  color: #df494f !important;
+}
+
+.colored,
+.main-contents a,
+.search-box .suggestion.focused {
+  color: #df494f !important;
+}
+
+.search-box input.focused{
+  border-color: #df494f;
+}
+
+
+/*--------------------*/
+/*home-components*/
+
+
+
+
+.card {
+  margin: 5px auto;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img-fluid,
+.albumpic {
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.albumitem {
+  margin: 5px;
+  position: relative;
+  overflow: hidden
+}
+
+.albumpic {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.albumcont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.albumcont::after {
+  content: '';
+  flex-grow: 600;
+}
+
+@media(max-width: 768px) {
+  .albumcont::after {
+    flex-grow: 0;
+  }
+}
+
+.albumitem > i {
+  display: block;
+}
+
+.index-img {
+  transition: all .8s cubic-bezier(.22, .58, .12, .98);
+}
+
+.index-img:hover {
+  filter: brightness(0.6);
+}
+
+.cardlist-img {
+  transition: all .8s cubic-bezier(.22, .58, .12, .98);
+  filter: brightness(0.6);
+}
+
+.cardlist-img:hover {
+  filter: brightness(0.4);
+}
+
+
+.card-img-overlay {
+  pointer-events: none;
+}
+
