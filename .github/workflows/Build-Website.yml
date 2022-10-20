@@ -1,0 +1,51 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Build Website
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      id: cache-node-modules
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install -g yarn && yarn
+    - name: Build dist
+      run: yarn docs:build
+    - name: Copy dist Files
+      run: cp -r ./docs/.vuepress/dist/. ../site
+    - name: Checkout branch
+      uses: actions/checkout@v3
+      with:
+        ref: gh-pages
+    - name: Copy dist to gh-pages branch
+      run: |
+        cp -r -f ../site/. ./
+    - name: Commit and push
+      run: |
+        git config user.name github-actions[bot]
+        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        git add *
+        git commit -m "Automatically update gh-page by Github Action"
+        git push origin gh-pages
+      
