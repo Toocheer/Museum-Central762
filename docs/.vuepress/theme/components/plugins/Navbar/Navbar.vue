@@ -18,7 +18,7 @@
       </div>
     </RouterLink>
 
-    <SearchBox />
+    <!-- <SearchBox /> -->
 
     <button
       class="navbar-toggler"
@@ -39,7 +39,6 @@
 </template>
 
 <script>
-// import SearchBox from '@theme/plugin/search/SearchBox.vue'
 import SearchBox from '@theme/plugin/fulltext-search/components/SearchBox.vue'
 import NavLinks from '@theme/components/plugins/Navbar/NavLinks.vue'
 

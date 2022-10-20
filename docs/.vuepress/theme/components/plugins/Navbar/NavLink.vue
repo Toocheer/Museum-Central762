@@ -1,5 +1,5 @@
 <template>
-  <li class="nav-item">
+  <div class="nav-item">
     <RouterLink
       v-if="isInternal"
       class="nav-link"
@@ -19,7 +19,7 @@
       <span>{{ item.text }}</span>
       <span class="subtext ms-2">{{ item.subtext }}</span>
     </a>
-  </li>
+  </div>
 </template>
 
 <script>

@@ -5,10 +5,7 @@
     style="justify-content:flex-end;"
   >
     <ul class="navbar-nav">
-      <li
-        v-for="item in userLinks"
-        :key="item.link"
-      >
+      <li v-for="item in userLinks">
         <NavLink :item="item" />
       </li>
     </ul>
