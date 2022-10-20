@@ -114,7 +114,7 @@ search: false
 * `title`: 标题
 * `subtitle`: 副标题
 * `description`: 描述文字
-* `link`: 指向链接。内链可用 `/your/special/page/route` 形式，外链可直接粘贴URL
+* `link`: 指向链接。内链可用 `/your/special/page/route/` 形式，外链可直接粘贴URL
 * `bgImg`: 背景图片URL
 * `colorBg`: 背景颜色，不带#号
 * `color`: 文字颜色，不带#号

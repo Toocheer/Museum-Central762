@@ -20,6 +20,7 @@
   <a
     v-else
     :href="link"
+    :target="target"
   >
     <div class="card text-dark ratio ratio-1x1">
       <img

@@ -17,6 +17,7 @@
   <a
     v-else
     :href="link"
+    :target="target"
   >
     <div
       :style="{'background':'linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.8)),url(' + item.jumboImg + ')', 'margin-bottom':0}"

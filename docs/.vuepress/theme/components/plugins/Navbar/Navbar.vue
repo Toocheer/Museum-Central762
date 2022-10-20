@@ -18,7 +18,7 @@
       </div>
     </RouterLink>
 
-    <!-- <SearchBox /> -->
+    <SearchBox />
 
     <button
       class="navbar-toggler"

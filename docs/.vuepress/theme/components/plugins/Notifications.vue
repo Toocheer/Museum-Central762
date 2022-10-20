@@ -27,6 +27,7 @@
       <a
         v-else
         :href="link"
+        :target="target"
       >
         <div
           class="alert"
@@ -102,11 +103,8 @@ export default {
     },
 
     target () {
-      if (this.isNonHttpURI) {
-        return null
-      }
-      if (this.item.target) {
-        return this.item.target
+      if (this.special.target) {
+        return this.special.target
       }
       return isExternal(this.link) ? '_blank' : ''
     }
