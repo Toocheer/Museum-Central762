@@ -41,8 +41,8 @@
           </div>
           <div
             class="col-12 col-md-4 d-flex pic"
-            :class="item.mainPic ? '' : 'padding'"
-            v-for="pic in item.pics"
+            :class="!item.mainPic && index < 2 ? 'padding' : ''"
+            v-for="(pic, index) in item.pics"
           >
             <div
               class="card ratio mt-3"
