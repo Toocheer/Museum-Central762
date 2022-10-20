@@ -1,6 +1,5 @@
 <template>
   <nav
-    v-if="userLinks.length || repoLink"
     class="collapse navbar-collapse"
     id="navbarNavDropdown"
     style="justify-content:flex-end;"

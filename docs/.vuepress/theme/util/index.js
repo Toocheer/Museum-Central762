@@ -52,7 +52,7 @@ export function isActive (route, path) {
   console.log(routePath)
   const pagePath = normalize(path)
   console.log(pagePath)
-  return routePath + '/' === pagePath
+  return routePath === pagePath
 }
 
 export function resolvePage (pages, rawPath, base) {

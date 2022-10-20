@@ -28,7 +28,7 @@ module.exports = {
 		  { text: '资料', subtext: 'Collections', link: 'https://leeward-channel-287.notion.site/762-004e72e669f24c16bf2f6497b5fe1866' },
 		]
 	},
-  permalink: "/:slug",
+  // permalink: "/:slug",
   markdown: {
     anchor: {
       permalink: false

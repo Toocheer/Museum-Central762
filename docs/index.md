@@ -25,45 +25,45 @@ jumboItems:
   - title: 废弃机车中的前方展望
     subTitle: 河南登封 · 朝杞铁路炮房沟站
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIjcd.jpg
-    link: /tour/chaoqi
+    link: /tour/chaoqi/
   - title: 2007年地铁改制后的印章
     subTitle: 河南新密 · 平陌车站站房
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIznI.jpg
-    link: /tour/chaoqi
+    link: /tour/chaoqi/
   - title: 夕阳下的扶沟车站
     subTitle: 河南周口 · 许郸铁路扶沟车站
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIX1H.jpg
-    link: /tour/xudan
+    link: /tour/xudan/
   - title: 贾鲁河畔跃进纪念碑,
     subTitle: 河南周口 · 许郸铁路扶沟贾鲁河桥
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIO9e.jpg
-    link: /tour/xudan
+    link: /tour/xudan/
 categories:
   - title: 漫游
     subtitle: Tour
     description: 坐地日行千万里，探寻中原大地硕果累累的轨道遗迹
     bgImg: https://s4.ax1x.com/2022/01/19/7DLmDJ.jpg
-    link: /tour
+    link: /tour/
   - title: 车辆
     subtitle: Depot
     description: 动静交错之间，一探它们曾经风驰电掣的身影
     bgImg: https://s4.ax1x.com/2022/01/19/7DLnb9.jpg
-    link: /depot
+    link: /depot/
   - title: 展览
     subtitle: Expo
     description: 领略地方铁路风采，再现运营景象
     bgImg: https://s4.ax1x.com/2022/01/19/7DLMU1.jpg
-    link: /expo
+    link: /expo/
   - title: 历史
     subtitle: History
     description: 寸尺亦能去西东，讲述中原地方铁路兴起与发展
     bgImg: https://s4.ax1x.com/2022/01/19/7DLeu4.jpg
-    link: /history
+    link: /history/
   - title: 专栏
     subtitle: Column
     description: 考察者主笔，将地方铁路故事与见闻娓娓道来
     bgImg: https://s4.ax1x.com/2022/01/19/7DLKER.jpg
-    link: /column
+    link: /column/
   - title: 资料
     subtitle: Collections    
     description: 提供研究中原地方铁路的资料和成果
