@@ -12,7 +12,7 @@
     "eslint-plugin-vue": "^9.8.0",
     "vuepress": "^1.9.7",
     "flexsearch": "^0.6.32",
-    "html-to-text": "^7.0.0"
+    "html-to-text": "^9.0.2"
   },
   "dependencies": {
     "v-viewer": "^1.6.4"
