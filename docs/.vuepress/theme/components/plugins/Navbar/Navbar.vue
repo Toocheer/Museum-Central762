@@ -14,6 +14,7 @@
           class="logo d-inline-block me-1"
           :src="$withBase($site.themeConfig.logo)"
           :alt="$siteTitle"
+          :title="$siteTitle"
         >
       </div>
     </RouterLink>

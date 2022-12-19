@@ -5,7 +5,7 @@
       aria-label="Search"
       :value="query"
       :class="{ focused: focused }"
-      :placeholder="placeholder"
+      placeholder="中原铁道（数字）博物馆"
       autocomplete="off"
       spellcheck="false"
       @input="query = $event.target.value"
@@ -90,8 +90,6 @@ export default {
   mounted() {
     const options = OPTIONS || {}
     flexsearchSvc.buildIndex(this.$site.pages, options)
-    this.placeholder = '中原铁道（数字）博物馆'
-
     // set query from URL
     const params = this.urlParams()
     if (params) {
