@@ -52,7 +52,7 @@
       <div class="col-12 col-md-6 mt-3 pt-5 right center">
         <img
         class="mb-3"
-        src="/img/10th.svg"
+        src="/img/LJR.svg"
         style="height:58px;max-width: 100%;"
         title="© LJR 旗下「驰骋中州」工作坊 出品"
         >
