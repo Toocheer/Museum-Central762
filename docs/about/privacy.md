@@ -1,6 +1,7 @@
 ---
-title: '隐私政策'
-subtitle: 'Privacy'
+title: 隐私政策
+displaytitle: 隐私政策
+subtitle: Privacy
 permalink: /privacy
 search: false
 ---

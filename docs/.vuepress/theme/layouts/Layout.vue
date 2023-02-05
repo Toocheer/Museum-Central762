@@ -8,6 +8,8 @@
 
     <Detail v-else-if="$page.frontmatter.type == 'Detail'" />
 
+    <Depot v-else-if="$page.frontmatter.type == 'Depot'" />
+
     <Underconstruction v-else-if="$page.frontmatter.type == 'Underconstruction'" />
 
     <Page v-else />
@@ -20,6 +22,7 @@
 import Home from '@theme/components/Home.vue'
 import Landingpage from '@theme/components/Landingpage.vue'
 import Detail from '@theme/components/Detail.vue'
+import Depot from '@theme/components/Depot.vue'
 import Underconstruction from '@theme/components/Underconstruction.vue'
 import Page from '@theme/components/Page.vue'
 
@@ -33,6 +36,7 @@ export default {
     Home,
     Landingpage,
     Detail,
+    Depot,
     Underconstruction,
     Page,
     Navbar,
@@ -51,8 +55,16 @@ h1, h2, h3, h4, h5
 p, ul, ol
   line-height 1.7em
 
+table
+  width 100%
+
+th, td {
+  padding: 1em 3em 1em 0;
+  text-align: left;
+}
+
 .mt-6
-  margin-top 56px
+  margin-top 60px
 
 .mt-7
   margin-top 80px

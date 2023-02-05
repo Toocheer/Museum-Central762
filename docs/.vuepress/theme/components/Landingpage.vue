@@ -15,8 +15,7 @@
         >
           <RouterLink :to="page.link">
             <div
-              class="card text-white mt-3 ratio"
-              style="--bs-aspect-ratio: calc(3 / 2 * 100%);"
+              class="card text-white mt-3 ratio lpratio"
             >
               <img
                 class="card-img cardlist-img"
@@ -56,7 +55,12 @@ export default {
 </script>
 
 <style lang="stylus">
+.lpratio
+  --bs-aspect-ratio: calc(3 / 2 * 100%)
 
+@media (max-width: 768px)
+  .lpratio
+    --bs-aspect-ratio: calc(2 / 3 * 100%)
 </style>
 
 

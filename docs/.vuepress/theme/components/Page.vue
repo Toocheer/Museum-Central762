@@ -2,12 +2,21 @@
   <main class="page mt-6">
 
     <Header
-      :title="data.title"
+      :title="data.displaytitle"
       :subtitle="data.subtitle"
       :description="data.description"
+      :bgImg="data.mainpic"
     />
 
-    <div class="main-contents container-xl mt-3 mb-5">
+    <div
+      class="main-contents container-xl mt-3 mb-5"
+      v-viewer="{
+        toolbar: false,
+        transition: false,
+        fullscreen: false,
+        rotatable: false
+      }"
+      >
       <Content />
     </div>
 
@@ -31,9 +40,11 @@ export default {
 
 <style lang="stylus">
 .main-contents
-  h1, h2, h3, h4, h5
-    margin-bottom 1em
+  max-width: 690px
+  h1, h2, h3, h4
+    margin-bottom 0.5em
     padding-top 65px
+    margin-top: -30px;
   blockquote
     h1, h2, h3, h4, h5
       &:first-child
@@ -44,6 +55,9 @@ export default {
   a
     &:hover
       text-decoration underline
+  img
+    max-width 100%
+    border-radius 10px
 
 .important
   -webkit-text-emphasis circle

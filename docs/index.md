@@ -14,14 +14,18 @@ special:
   colorBg: 314c1e
   color: ccedb5
 updates:
-  date: 2022年10月
-  info: 博物馆第一期建设
+  date: 2023年2月
+  info: 博物馆第二期建设
 jumboItems:
+  - title: C2蒸汽机车喷吐云雾
+    subTitle: 河南登封 · 朝杞铁路 ©巴伐利亚酒神
+    jumboImg: https://s1.ax1x.com/2023/02/04/pSy7CxP.jpg
+    link: /tour/chaoqi/
+    isActive: true
   - title: 仍在运用的老河口机车转盘
     subTitle: 湖北老河口 · 光化水泥厂
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIvjA.jpg
     link: ./#
-    isActive: true
   - title: 废弃机车中的前方展望
     subTitle: 河南登封 · 朝杞铁路炮房沟站
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIjcd.jpg
@@ -34,7 +38,7 @@ jumboItems:
     subTitle: 河南周口 · 许郸铁路扶沟车站
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIX1H.jpg
     link: /tour/xudan/
-  - title: 贾鲁河畔跃进纪念碑,
+  - title: 贾鲁河畔跃进纪念碑
     subTitle: 河南周口 · 许郸铁路扶沟贾鲁河桥
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIO9e.jpg
     link: /tour/xudan/

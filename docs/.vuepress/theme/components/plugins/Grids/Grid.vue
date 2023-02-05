@@ -3,7 +3,7 @@
     v-if="isInternal"
     :to="link"
   >
-    <div class="card text-dark ratio ratio-1x1">
+    <div class="card text-dark ratio homegrid">
       <img
         class="card-img index-img"
         :src="item.bgImg"
@@ -22,7 +22,7 @@
     :href="link"
     :target="target"
   >
-    <div class="card text-dark ratio ratio-1x1">
+    <div class="card text-dark ratio homegrid">
       <img
         class="card-img index-img"
         :src="item.bgImg"
@@ -78,3 +78,12 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+.homegrid
+  --bs-aspect-ratio: calc(1 / 1 * 100%)
+
+@media (max-width: 768px)
+  .homegrid
+    --bs-aspect-ratio: calc(1 / 2 * 100%)
+</style>

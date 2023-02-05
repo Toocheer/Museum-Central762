@@ -1,8 +1,17 @@
 ---
-title: '更新日志'
-subtitle: 'Updates'
+title: 更新日志
+displaytitle: 更新日志
+subtitle: Updates
 permalink: /updates
 ---
+
+### 2023.10.21
+
+更新了以下内容：
+
+- [专栏/窄轨JMY380车族简介及朝杞铁路机车坟场型号辨认](../../column/the-investigation-of-JMY380-series)
+- 网站样式优化
+
 
 ### 2022.10.21
 

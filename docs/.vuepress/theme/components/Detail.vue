@@ -99,10 +99,12 @@ export default {
 .always-padding
   h1, h2
     padding-top 65px
+    margin-top -30px
 
 @media (min-width: 768px)
   .padding
     padding-top 65px
+    margin-top -20px!important
 
 </style>
 

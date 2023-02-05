@@ -1,5 +1,6 @@
 ---
 title: 历史
+displaytitle: 历史
 subtitle: History
 description: 寸尺亦能去西东，讲述中原地方铁路的兴起的发展
 meta:
