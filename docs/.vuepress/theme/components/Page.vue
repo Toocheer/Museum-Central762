@@ -45,6 +45,9 @@ export default {
     margin-bottom 0.5em
     padding-top 65px
     margin-top: -30px;
+  .ref
+    padding-top 65px
+    margin-top: -65px;
   blockquote
     h1, h2, h3, h4, h5
       &:first-child
