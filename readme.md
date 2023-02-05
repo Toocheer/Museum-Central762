@@ -11,6 +11,7 @@
 * `Detail`: 图文混排页，用于漫游、展览等内页
 * `Underconstruction`: 未建成页，仅用于栏目未建成时作占位符
 * `Page`: 一般的Markdown页面，用于历史、专栏等内页
+* `Depot`: 机车介绍页面
 
 #### 用例
 
@@ -22,12 +23,22 @@ type: Home
 
 ## title
 
-`可选` `string` 指定页面大标题
+`必需` `string` 指定页面大标题
 
 #### 用例
 
 ```
 title: 历史
+```
+
+## displaytitle
+
+`仅Page页` `string` 指定页面题头大标题，支持html语法排版
+
+#### 用例
+
+```
+displaytitle: 历史
 ```
 
 
@@ -79,6 +90,17 @@ meta:
 
 **注意：每项前面都必须带`- `，因为这是一个列表项。此外，keywords的内容应用半角逗号分隔。**
 
+
+
+## mainpic
+
+`可选` `string` 指定页面头图
+
+#### 用例
+
+```
+mainpic: https://s4.ax1x.com/2022/01/09/7kH5ge.jpg。
+```
 
 
 ## permalink
@@ -303,7 +325,7 @@ items:
 
 ## Markdown正文插槽
 
-`仅Detail页` 指定插槽内容
+`仅Detail、Depot页` 指定插槽内容
 
 #### 参数
 
@@ -327,5 +349,60 @@ items:
 :::
 ```
 
+
+## illus, statimgs, hisimgs, drawing
+
+`仅Depot页` `array` 指定图示、现状、历史影像、图纸内容
+
+#### 参数
+
+* `url` 图片URL
+* `alt` `可选` 图注
+
+#### 用例
+
+```
+illus:
+  - url: https://s4.ax1x.com/2022/02/14/HyrxlF.jpg
+    alt: 长沙矿山通用机械厂制造的JMY380型机车
+statimgs:
+  - url: https://s4.ax1x.com/2022/02/14/HyrxlF.jpg
+    alt: 长沙矿山通用机械厂制造的JMY380型机车
+hisimgs:
+  - url: https://s4.ax1x.com/2022/02/14/HyrxlF.jpg
+    alt: 长沙矿山通用机械厂制造的JMY380型机车
+drawing:
+  - url: https://s4.ax1x.com/2022/02/14/HyrxlF.jpg
+    alt: 长沙矿山通用机械厂制造的JMY380型机车
+```
+
+**注意：每项前面都必须带`- `，因为这是一个列表项，即便只有一项。**
+
+
+
+## PNS, parameters, appearance
+
+`仅Depot页` `array` 指定生产运营、性能参数、外观参数内容
+
+#### 参数
+
+* `name` 名称
+* `text` 数据
+
+#### 用例
+
+```
+PNS:
+  - name: 制造厂商
+    text: 长沙矿山通用机械厂
+parameters:
+  - name: 功率
+    text: 380HP / 279kW
+appearance:
+  - name: 长
+    text: 10,000mm
+```
+
+**注意：每项前面都必须带`- `，因为这是一个列表项，即便只有一项。**
 
 

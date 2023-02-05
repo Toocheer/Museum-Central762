@@ -112,7 +112,7 @@
             <div class="row">
               <div
                 class="col-md-6 col-12 d-flex pic"
-                v-for="(pic, index) in data.status"
+                v-for="(pic, index) in data.statimgs"
               >
                 <div
                   class="card ratio"
@@ -140,7 +140,7 @@
             <div class="row">
               <div
                 class="col-md-6 col-12 d-flex pic"
-                v-for="(pic, index) in data.images"
+                v-for="(pic, index) in data.hisimgs"
               >
                 <div
                   class="card ratio"
