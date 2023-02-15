@@ -25,7 +25,7 @@
             class="ms-2"
             href="https://weibo.com/ljrgc"
             target="_blank"
-          >微博 @LJR交通美学研究所</a>
+          >微博 @交通美学研究所</a>
         </p>
         <p class="mt-2 mb-0" title="知乎专栏">
           <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20">

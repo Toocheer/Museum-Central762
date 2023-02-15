@@ -46,6 +46,11 @@ blockquote {
   color: #d1ecf1;
 }
 
+.alert-success {
+  background-color: #1d3c2d;
+  color: #badbcc;
+}
+
 .btn-outline-secondary {
   border-color: #fff;
   color: #fff;
