@@ -11,7 +11,11 @@
       <div
         class="row"
         v-viewer="{
-          toolbar: false,
+          toolbar: {
+            prev:true,
+            next:true
+          },
+          navbar:false,
           transition: false,
           fullscreen: false,
           rotatable: false

@@ -5,7 +5,7 @@
     data-bs-ride="carousel"
     data-bs-interval="3000"
   >
-    <div class="carousel-indicators">
+    <!-- <div class="carousel-indicators">
       <button
         type="button"
         data-bs-target="#carouselExampleIndicators"
@@ -16,7 +16,7 @@
         :aria-label="index"
       ></button>
     </div>
-    <div class="carousel-inner">
+ -->    <div class="carousel-inner">
       <div
         class="carousel-item "
         v-for="item in jumboItems"
@@ -27,7 +27,7 @@
       </div>
     </div>
     <button
-      class="carousel-control-prev d-none d-md-flex"
+      class="carousel-control-prev d-flex"
       type="button"
       data-bs-target="#carouselExampleIndicators"
       data-bs-slide="prev"
@@ -40,7 +40,7 @@
       <span class="visually-hidden">上一个</span>
     </button>
     <button
-      class="carousel-control-next d-none d-md-flex"
+      class="carousel-control-next d-flex"
       type="button"
       data-bs-target="#carouselExampleIndicators"
       data-bs-slide="next"
@@ -96,4 +96,9 @@ export default {
 
 .carousel-inner
   border-radius 10px
+
+.carousel-caption
+  left 8%
+  right 8%
+  bottom 0
 </style>

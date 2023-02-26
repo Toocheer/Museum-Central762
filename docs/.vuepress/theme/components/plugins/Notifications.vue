@@ -1,7 +1,7 @@
 <template>
   <div class="row mt-5">
     <div
-      class="col-12 col-md-6 mt-2"
+      class="col-12 col-md-8 mt-2"
       v-if="special"
     >
       <RouterLink
@@ -19,7 +19,7 @@
           }"
         >
           <span>{{special.subtitle}}</span>
-          <h3>{{special.title}}</h3><br>
+          <h3 class="mb-3">{{special.title}}</h3>
           <small>{{special.description}}</small>
         </div>
       </RouterLink>
@@ -40,18 +40,18 @@
           }"
         >
           <span>{{special.subtitle}}</span>
-          <h3>{{special.title}}</h3><br>
+          <h3 class="mb-3">{{special.title}}</h3>
           <small>{{special.description}}</small>
         </div>
       </a>
     </div>
 
-    <RouterLink to="/about/updates" class="col-12 col-md-6 mt-2" v-if="special">
+    <RouterLink to="/about/updates" class="col-12 col-md-4 mt-2" v-if="special">
       <div
         class="alert alert-danger d-flex d-md-block justify update"
       >
         <span>{{updates.date}}更新<span class="d-inline d-md-none"> · {{updates.info}}</span></span>
-        <span class="d-none d-md-block"><h3>{{updates.info}}</h3><br></span>
+        <span class="d-none d-md-block"><h3 class="mb-3">{{updates.info}}</h3></span>
         <small class="d-none d-md-inline-block">查看更新日志 ›</small>
       </div>
     </RouterLink>
@@ -119,7 +119,7 @@ export default {
   border-radius 10px
 
 .update
-  background-image url("/img/update.svg")
+  // background-image url("/img/update.svg")
   background-size auto
   background-repeat no-repeat
   background-position center right

@@ -11,7 +11,11 @@
     <div
       class="main-contents container-xl mt-3 mb-5"
       v-viewer="{
-        toolbar: false,
+        toolbar: {
+          prev:true,
+          next:true
+        },
+        navbar:false,
         transition: false,
         fullscreen: false,
         rotatable: false

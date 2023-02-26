@@ -1,7 +1,7 @@
 <template>
   <div class="container-xl">
   <div
-    class="jumbotron pt-5 pb-4 mt-6"
+    class="jumbotron round pt-5 pb-4 mt-6"
     :class="bgImg ? 'hero' : ''"
     :style="bgImg ? {'background-image':`linear-gradient(#00000077,#00000077),url('${bgImg}')`} : ''">
     <div>
@@ -52,7 +52,7 @@ export default {
 .hero
   height 45vh
 
-.jumbotron
+.round
   border-radius 10px
 
 .herotext
