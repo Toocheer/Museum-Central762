@@ -1,19 +1,21 @@
 ---
 type: Depot
-title: JMY380型内燃机车 A
-subtitle: JMY380 Diesel Locomotive A
+title: 长沙380马力内燃机车
+subtitle: NY380 Diesel Locomotive（Changsha）
 meta:
   - name: keywords
-    content: JMY380型内燃机车, JMY380, 窄轨机车
+    content: 380马力内燃机车, NY380, 窄轨机车
   - name: description
-    content: JMY380型内燃机车是全国各地窄轨铁路最常见的车型之一，也是762毫米轨距线路上当之无愧的干线运输主力。但事实上，冠以JMY380这一型号的机车是来自不同厂家的数种车型。这类机车也在各地厂矿企业广泛运用，包括牡丹江北方水泥厂、南京江南水泥厂、马鞍山桃冲矿业等知名窄轨线路。
+    content: 380马力内燃机车是全国各地窄轨铁路最常见的车型之一，也是河南地方铁路当之无愧的干线客货运输主力。这一类型的机车包括来自长沙、常州、石家庄和许昌等不同厂家的数种车型。这类机车也在全国各地厂矿企业线路上广泛运用，包括牡丹江北方水泥厂、南京江南水泥厂、马鞍山桃冲矿业等知名窄轨铁路。
 permalink: /depot/JMY380A
-mainpic: https://s4.ax1x.com/2022/01/09/7kH5ge.jpg
+mainpic: https://s1.ax1x.com/2023/09/07/pPyQ7WR.jpg
 illus:
-  - url: https://s4.ax1x.com/2022/02/14/HyrxlF.jpg
+  - url: https://s1.ax1x.com/2023/09/07/pPyQLy6.jpg
     alt: 长沙矿山通用机械厂制造的JMY380型机车
-  - url: https://s4.ax1x.com/2022/01/09/7kH5ge.jpg
-    alt: 朝阳沟站内的380马力内燃机车
+  - url: https://s1.ax1x.com/2023/09/07/pPyQqQx.jpg
+    alt: 机车铭牌、配属特写
+  - url: https://s1.ax1x.com/2023/09/07/pPyQbS1.jpg
+    alt: 机车正面
 PNS:
   - name: 制造厂商
     text: 长沙矿山通用机械厂
