@@ -1,7 +1,7 @@
 ---
 type: Depot
 title: 长沙380马力内燃机车
-subtitle: NY380 Diesel Locomotive（Changsha）
+subtitle: Changsha NY380 Diesel Locomotive
 meta:
   - name: keywords
     content: 380马力内燃机车, NY380, 窄轨机车
