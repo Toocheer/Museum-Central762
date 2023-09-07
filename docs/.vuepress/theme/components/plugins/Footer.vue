@@ -51,7 +51,7 @@
           <span class="ms-2"><code>LJRstudio#aliyun.com</code> （#替换成@）</span>
         </p>
         <small class="subtext">
-        <RouterLink to="/about/help">帮助</RouterLink> · <RouterLink to="/about/agreement">使用协议与版权信息</RouterLink> · <RouterLink to="/about/privacy">隐私政策</RouterLink> · <RouterLink to="/about/updates">更新日志</RouterLink>
+        <RouterLink to="/about/help">帮助</RouterLink> · <RouterLink to="/about/agreement">使用协议与版权信息</RouterLink> · <RouterLink to="/about/privacy">隐私政策</RouterLink> · <RouterLink to="/about/updates">更新日志</RouterLink> · <a href="https://stats.uptimerobot.com/0n1DlcJrMY">服务状态</a>
         </small>
       </div>
 

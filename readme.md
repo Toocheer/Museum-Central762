@@ -1,3 +1,33 @@
+#### git操作
+
+**设置git**
+```
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+(可选，设置GPG密钥）git config --global user.signingkey "GPGKEYID"
+
+git config --global http.proxy "127.0.0.1:11451"
+git config --global https.proxy "127.0.0.1:11451"
+
+(可选，将每次提交签名）git config --global commit.gpgsign true
+```
+GPG密钥设置可参见[](https://zhuanlan.zhihu.com/p/76861431)
+
+**克隆到本地**
+`git clone https://github.com/Toocheer/Museum-Central762.git`
+
+**同步在线版本**（在Museum-Central762文件夹下）
+`git pull`
+
+**提交修改**（在Museum-Central762文件夹下）
+```
+git add *
+git commit -m "更新日志"
+git push origin main
+```
+
+-------
+
 # Frontmatter使用指导
 
 ## type
