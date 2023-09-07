@@ -1,3 +1,4 @@
+const path = require("path");
 module.exports = {
   head: [
     ['meta', { charset: 'utf-8' }],
@@ -28,6 +29,9 @@ module.exports = {
 		  { text: '资料', subtext: 'Collections', link: 'https://leeward-channel-287.notion.site/762-004e72e669f24c16bf2f6497b5fe1866' },
 		]
 	},
+  // extend: "@vuepress/theme-default", // 默认主题
+  // 将自定义的 enhanceApp.js 引入
+  enhanceAppFiles: [path.resolve(__dirname, "enhanceApp.js")],
   // permalink: "/:slug",
   markdown: {
     anchor: {

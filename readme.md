@@ -5,12 +5,12 @@
 ```
 git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
-(可选，设置GPG密钥）git config --global user.signingkey "GPGKEYID"
+（可选，设置GPG密钥）git config --global user.signingkey "GPGKEYID"
 
 git config --global http.proxy "127.0.0.1:11451"
 git config --global https.proxy "127.0.0.1:11451"
 
-(可选，将每次提交签名）git config --global commit.gpgsign true
+（可选，将每次提交签名）git config --global commit.gpgsign true
 ```
 GPG密钥设置可参见[https://zhuanlan.zhihu.com/p/76861431](https://zhuanlan.zhihu.com/p/76861431)
 

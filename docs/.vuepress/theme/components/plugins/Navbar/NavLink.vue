@@ -76,7 +76,7 @@ export default {
 .nav-item
   margin 0 0.6em
 
-@media(max-width: 991px)
+@media(max-width: 992px)
   .nav-item
     margin 0.6em 0.6em
 
@@ -87,7 +87,7 @@ export default {
   .right
     text-align right
 
- @media (min-width: 991px) and (max-width: 1200px)
+ @media (min-width: 992px) and (max-width: 1200px)
   .nav-link
     .subtext
       display none

@@ -15,7 +15,7 @@ special:
   color: ccedb5
 updates:
   date: 2023年2月
-  info: 博物馆第二期建设
+  info: 新增内容公告
 jumboItems:
   - title: C2蒸汽机车喷吐云雾
     subTitle: 河南登封 · 朝杞铁路 ©巴伐利亚酒神

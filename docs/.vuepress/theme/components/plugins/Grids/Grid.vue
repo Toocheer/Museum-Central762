@@ -81,7 +81,7 @@ export default {
 
 <style lang="stylus">
 .homegrid
-  --bs-aspect-ratio: calc(1 / 1 * 100%)
+  --bs-aspect-ratio: calc(2 / 3 * 100%)
 
 @media (max-width: 768px)
   .homegrid
