@@ -30,6 +30,21 @@ git commit -m "更新日志"
 git push origin main
 ```
 
+**更新本地依赖**（在Museum-Central762文件夹下）
+
+`yarn`
+
+如首次执行未安装依赖，应先安装nodejs v16+后执行`npm install`，再执行上述命令
+
+**本地预览**（在Museum-Central762文件夹下）
+
+`yarn docs:dev`
+
+如首次执行未安装依赖，应先安装nodejs v16+后执行`npm install`，再执行上述命令
+
+网站将可通过`localhost:8080`访问
+
+
 -------
 
 # Frontmatter使用指导
