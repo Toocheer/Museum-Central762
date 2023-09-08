@@ -5,6 +5,14 @@ subtitle: Updates
 permalink: /updates
 ---
 
+### 2023.9.8
+
+更新了以下内容：
+
+- [车辆/长沙380马力内燃机车](../../depot/Changsha380)
+- 网站样式优化
+
+
 ### 2023.2.5
 
 更新了以下内容：

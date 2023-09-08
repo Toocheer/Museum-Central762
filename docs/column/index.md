@@ -2,12 +2,12 @@
 type: Landingpage
 title: 专栏
 subtitle: Column
-description: 考察者主笔，将地方铁路故事与见闻娓娓道来
+description: 考察者主笔，讲述地方铁路故事与见闻
 meta:
   - name: keywords
     content: 窄轨考察手记
   - name: description
-    content: 考察者主笔，将地方铁路故事与见闻娓娓道来
+    content: 考察者主笔，讲述地方铁路故事与见闻
 permalink: /column
 search: false
 pages:

@@ -60,12 +60,12 @@ categories:
     link: /expo/
   - title: 历史
     subtitle: History
-    description: 寸尺亦能去西东，讲述中原地方铁路兴起与发展
+    description: 寸尺亦能去西东，回顾中原地方铁路兴起与发展
     bgImg: https://s4.ax1x.com/2022/01/19/7DLeu4.jpg
     link: /history/
   - title: 专栏
     subtitle: Column
-    description: 考察者主笔，将地方铁路故事与见闻娓娓道来
+    description: 考察者主笔，讲述地方铁路故事与见闻
     bgImg: https://s4.ax1x.com/2022/01/19/7DLKER.jpg
     link: /column/
   - title: 资料
