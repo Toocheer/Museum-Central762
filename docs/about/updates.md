@@ -57,8 +57,8 @@ permalink: /updates
 
 更新了以下内容：
 
-- [生活/工具书和表格](../../life/references)
-- [生活/刊物封面和目录](../../life/magazines)
+- [展览/工具书和表格展](../../expo/references)
+- [展览/刊物封面和目录展](../../expo/magazines)
 
 
 ### 2022.1.15
@@ -73,7 +73,7 @@ permalink: /updates
 更新了以下内容：
 
 - [漫游/许郸铁路](../../tour/xudan)
-- [建筑/部分图片](../../architecture)
+- [展览/朝杞铁路建筑展](../../expo/chaoqi-architecture)
 
 
 ### 2022.1.9
