@@ -14,7 +14,7 @@ special:
   colorBg: 314c1e
   color: ccedb5
 updates:
-  date: 2023年2月
+  date: 2023年9月
   info: 新增内容公告
 jumboItems:
   - title: C2蒸汽机车喷吐云雾
