@@ -4,7 +4,7 @@ title: 长沙380马力内燃机车
 subtitle: Changsha NY380 Diesel Locomotive
 meta:
   - name: keywords
-    content: 380马力内燃机车, NY380, 窄轨机车
+    content: 380马力内燃机车, NY380, JMY380, 窄轨机车
   - name: description
     content: 380马力内燃机车是全国各地窄轨铁路最常见的车型之一，也是河南地方铁路当之无愧的干线客货运输主力。这一类型的机车包括来自长沙、常州、石家庄和许昌等不同厂家的数种车型。这类机车也在全国各地厂矿企业线路上广泛运用，包括牡丹江北方水泥厂、南京江南水泥厂、马鞍山桃冲矿业等知名窄轨铁路。
 permalink: /depot/JMY380A
