@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "vuepress": "^1.9.10",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
     "flexsearch": "^0.6.32",
     "html-to-text": "^7.0.0"
