@@ -7,8 +7,8 @@ git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
 （可选，设置GPG密钥）git config --global user.signingkey "GPGKEYID"
 
-git config --global http.proxy "127.0.0.1:11451"
-git config --global https.proxy "127.0.0.1:11451"
+git config --global http.proxy "127.0.0.1:[port]"
+git config --global https.proxy "127.0.0.1:[port]"
 
 （可选，将每次提交签名）git config --global commit.gpgsign true
 ```
@@ -34,13 +34,13 @@ git push origin main
 
 `yarn`
 
-如首次执行未安装依赖，应先安装nodejs v16+后执行`npm install`，再执行上述命令
+如首次执行未安装依赖，应先安装nodejs v16.x后执行`npm install -g yarn`，再执行上述命令
 
 **本地预览**（在Museum-Central762文件夹下）
 
 `yarn docs:dev`
 
-如首次执行未安装依赖，应先安装nodejs v16+后执行`npm install`，再执行上述命令
+如首次执行未安装依赖，应先安装nodejs v16.x后执行`npm install -g yarn`，再执行上述命令
 
 网站将可通过`localhost:8080`访问
 
