@@ -49,12 +49,12 @@
               </div>
             </div>
           </div>
-          <div id="intro" class="mt-5 mb-3">
+          <div id="intro" class="main-contents mt-5 mb-3">
             <h3 class="d-inline-block bold me-2">概述</h3>
             <h5 class="subtext d-inline-block">Introduction</h5>
             <Content slot-key="概述" />
           </div>
-          <div id="conservation" class="mt-5 mb-3">
+          <div id="conservation" class="main-contents mt-5 mb-3">
             <h3 class="d-inline-block bold me-2">保存</h3>
             <h5 class="subtext d-inline-block">Conservation</h5>
             <Content slot-key="保存" />
@@ -62,7 +62,7 @@
         </div>
 
         <div class="col-md-6 col-12">
-          <div id="production" class="mt-5 mb-3">
+          <div id="production" class="main-contents mt-5 mb-3">
             <h3 class="d-inline-block bold me-2">生产运用</h3>
             <h5 class="subtext d-inline-block">Production and Service</h5>
             <br>
