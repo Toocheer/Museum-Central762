@@ -14,7 +14,7 @@ special:
   colorBg: 314c1e
   color: ccedb5
 updates:
-  date: 2023年9月
+  date: 2023年10月
   info: 新增内容公告
 jumboItems:
   - title: C2蒸汽机车喷吐云雾
@@ -25,7 +25,7 @@ jumboItems:
   - title: 仍在运用的老河口机车转盘
     subTitle: 湖北老河口 · 光化水泥厂
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIvjA.jpg
-    link: ./#
+    link: https://www.xiaohongshu.com/explore/65164ee5000000001e022912
   - title: 废弃机车中的前方展望
     subTitle: 河南登封 · 朝杞铁路炮房沟站
     jumboImg: https://s4.ax1x.com/2022/01/19/7DIjcd.jpg

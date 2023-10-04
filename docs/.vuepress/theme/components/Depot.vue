@@ -173,7 +173,7 @@
             <h5 class="subtext d-inline-block">Drawing</h5>
             <div class="row">
               <div
-                class="col-md-6 col-12 d-flex pic"
+                class="col-12 d-flex pic"
                 v-for="(pic, index) in data.drawing"
               >
                 <div

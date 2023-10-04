@@ -16,6 +16,9 @@ illus:
     alt: 机车铭牌、配属特写
   - url: https://s1.ax1x.com/2023/09/07/pPyQbS1.jpg
     alt: 机车正面
+drawing:
+  - url: https://pic1.zhimg.com/v2-3faa05799bb7470b3fee0c11361f8c30_r.jpg
+    alt: 常州内燃机车厂JMY380机车图纸（与本车型构造相似）
 PNS:
   - name: 制造厂商
     text: 长沙矿山通用机械厂
