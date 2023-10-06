@@ -15,18 +15,18 @@ pages:
     badge: 影像展
     color: dark
     bgColor: light
-    bgImg: https://s4.ax1x.com/2022/01/14/78SVfA.jpg
+    bgImg: https://pic.imgdb.cn/item/65201a64c458853aefda7d67/chaoqi_arch.jpg
     link: /expo/chaoqi-architecture
   - title: 刊物封面和目录展
     badge: 实物展
     color: dark
     bgColor: light
-    bgImg: https://s4.ax1x.com/2022/01/21/72UdsO.jpg
+    bgImg: https://pic.imgdb.cn/item/65201a64c458853aefda7dc1/magazines.jpg
     link: /expo/magazines
   - title: 工具书和表格展
     badge: 实物展
     color: dark
     bgColor: light
-    bgImg: https://s4.ax1x.com/2022/01/21/72UaQK.jpg
+    bgImg: https://pic.imgdb.cn/item/65201a64c458853aefda7dfb/references.jpg
     link: /expo/references
 ---

@@ -14,24 +14,24 @@ pages:
     badge: 朝杞铁路
     color: dark
     bgColor: light
-    bgImg: https://s4.ax1x.com/2022/01/19/7rcNCR.jpg
+    bgImg: https://pic.imgdb.cn/item/65201a8ac458853aefdab523/Chaoqi.jpg
     link: /tour/chaoqi
   - title: 大陆最长窄轨路网<br>如今沉睡中州
     badge: 许郸铁路
     color: dark
     bgColor: light
-    bgImg: https://s4.ax1x.com/2022/01/19/7rgUoQ.jpg
+    bgImg: https://pic.imgdb.cn/item/65201a8cc458853aefdab6d7/Xudan.jpg
     link: /tour/xudan
   - title: 豫东平原<br>最后的窄轨记忆
     badge: 驻汝铁路
     color: dark
     bgColor: light
-    bgImg: https://s4.ax1x.com/2022/02/14/H6Ef4U.jpg
+    bgImg: https://pic.imgdb.cn/item/65201a8cc458853aefdab731/Zhuru.jpg
     link: /tour/zhuru
   - title: 连结京广京九<br>通达皖北豫东
     badge: 特别展出 · 漯阜铁路
     color: light
     bgColor: danger
-    bgImg: https://s4.ax1x.com/2021/12/07/og88SA.jpg
+    bgImg: https://pic.imgdb.cn/item/65201a8bc458853aefdab582/Luofu.jpg
     link: /tour/luofu
 ---
