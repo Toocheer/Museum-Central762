@@ -8,43 +8,18 @@
     />
 
     <div class="container-xl mt-3 mb-5">
-      <div class="row">
-        <div
-          class="col-12 col-md-3"
-          v-for="page in data.pages"
-        >
-          <RouterLink :to="page.link">
-            <div
-              class="card text-white mt-3 ratio lpratio"
-            >
-              <img
-                class="card-img cardlist-img"
-                :src="page.bgImg"
-              >
-              <div class="card-img-overlay">
-                <p
-                  class="badge"
-                  :class="'text-' + page.color + ' bg-' + page.bgColor"
-                >{{page.badge}}</p>
-                <h3
-                  class="home"
-                  v-html="page.title"
-                ></h3>
-              </div>
-            </div>
-          </RouterLink>
-        </div>
-      </div>
+      <LandingGrids :pages="data.pages" />
     </div>
   </main>
 </template>
 
 <script>
 import Header from '@theme/components/plugins/Header.vue'
+import LandingGrids from '@theme/components/plugins/Grids/LandingGrids.vue'
 export default {
   name: 'Landingpage',
 
-  components: { Header },
+  components: { Header, LandingGrids },
 
   computed: {
     data () {
@@ -53,14 +28,5 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus">
-.lpratio
-  --bs-aspect-ratio: calc(3 / 2 * 100%)
-
-@media (max-width: 768px)
-  .lpratio
-    --bs-aspect-ratio: calc(2 / 3 * 100%)
-</style>
 
 

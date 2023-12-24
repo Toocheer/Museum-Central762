@@ -1,5 +1,5 @@
 <template>
-  <div class="container-xl mb-5">
+  <div class="container-xl mb-3">
     <div class="row">
       <div class="col-12 col-lg-4 mt-3">
         <h5>纵横交通，趣由心生</h5>
@@ -54,12 +54,9 @@
           </svg>
           <span class="ms-2"><code>LJRstudio#aliyun.com</code> （#替换成@）</span>
         </p>
-        <small class="subtext">
-        <RouterLink to="/about/help">帮助</RouterLink> · <RouterLink to="/about/agreement">使用协议与版权信息</RouterLink> · <RouterLink to="/about/privacy">隐私政策</RouterLink> · <RouterLink to="/about/updates">更新日志</RouterLink> · <a href="https://stats.uptimerobot.com/0n1DlcJrMY" target="_blank">服务状态</a>
-        </small>
       </div>
 
-      <div class="col-12 col-lg-2 mt-3 pt-lg-5">
+      <div class="col-12 col-lg-4 mt-3 pt-lg-5">
         <div class="text-center">
           <img
             src="/img/QR.jpg"
@@ -70,29 +67,44 @@
         </div>
       </div>
 
-      <div class="col-12 col-lg-6 mt-3 d-flex flex-column justify-content-center align-items-center align-items-lg-end text-center text-lg-end">
+      <div class="col-12 col-lg-4 mt-3 d-flex flex-column justify-content-center align-items-center align-items-lg-end">
         <img
-          class="mb-3 mt-lg-6"
           src="/img/LJR.svg"
           style="height:58px;max-width: 100%;"
           title="纵横交通，趣由心生"
           />
-        <small class="mt-3 mt-lg-6">
-        <a
-          rel="license"
-          href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/"
-        >
-          <img
-            alt="知识共享许可协议"
-            style="width:88px"
-            src="/img/CC_BY-NC-SA.svg"
-            />
-        </a>
-        <br>
-        <RouterLink to="/about/agreement#版权信息">
-          <p class="mt-3"><code>本站全部内容禁止商业使用 · 内容除另有声明外，均在 <span class="nowrap">CC BY-NC-SA 3.0 CN</span> 许可协议下提供</code></p>
-        </RouterLink>
-        </small>
+
+      </div>
+
+      <div class="col-12 col-lg-6 mt-2 subtext">
+        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start small">
+          <RouterLink to="/about/help" class="nowrap me-1">帮助</RouterLink> ·
+          <RouterLink to="/about/agreement" class="nowrap ms-1 me-1">使用协议与版权信息</RouterLink> ·
+          <RouterLink to="/about/privacy" class="nowrap ms-1 me-1">隐私政策</RouterLink> ·
+          <a href="https://stats.uptimerobot.com/0n1DlcJrMY" target="_blank" class="nowrap ms-1 me-1">服务状态</a> ·
+          <RouterLink to="/about/updates" class="nowrap ms-1 me-1">更新日志
+            <span class="badge bg-danger" style="color:#fff!important">{{$themeConfig.globalVariables.GIT_INFO.date}} @{{ $themeConfig.globalVariables.GIT_INFO.commitHash }}</span>
+          </RouterLink>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6 mt-2">
+        <div class="d-flex flex-wrap justify-content-center justify-content-lg-end small">
+          <a
+            rel="license"
+            class="d-lg-inline-block"
+            href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/"
+          >
+            <img
+              alt="知识共享许可协议"
+              style="width:60px"
+              src="/img/CC_BY-NC-SA.svg"
+              />
+          </a>
+          <RouterLink to="/about/agreement#版权信息" class="d-lg-inline-block text-center ms-1">
+            <p><code>本站全部内容禁止商业使用 · 内容除另有声明外，均在 <span class="nowrap">CC BY-NC-SA 3.0 CN</span> 许可协议下提供</code></p>
+          </RouterLink>
+        </div>
       </div>
     </div>
   </div>
@@ -109,5 +121,10 @@ export default {
   .mt-lg-6
     margin-top: 4.2rem !important
 
+.nowrap
+  word-break:keep-all
+
+.small
+  font-size:0.8em
 
 </style>

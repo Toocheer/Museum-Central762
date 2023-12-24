@@ -46,24 +46,30 @@
       </a>
     </div>
 
-    <RouterLink to="/about/updates" class="col-12 col-md-4 mt-2" v-if="special">
-      <div
-        class="alert alert-danger d-flex d-md-block justify update"
+    <div
+      class="col-12 col-md-4 mt-2"
+    >
+      <RouterLink
+        v-if="special"
+        to="/about/updates"
       >
-        <span>{{updates.date}}更新<span class="d-inline d-md-none"> · {{updates.info}}</span></span>
-        <span class="d-none d-md-block"><h3 class="mb-3">{{updates.info}}</h3></span>
-        <small class="d-none d-md-inline-block">查看更新日志 ›</small>
-      </div>
-    </RouterLink>
+        <div class="alert alert-danger d-flex d-md-block justify update">
+          <span>{{updates.date}}更新<span class="d-inline d-md-none"> · {{updates.info}}</span></span>
+          <span class="d-none d-md-block"><h3 class="mb-3">{{updates.info}}</h3></span>
+          <small class="d-none d-md-inline-block">查看更新日志 ›</small>
+        </div>
+      </RouterLink>
 
-    <RouterLink to="/about/updates" class="update col-12 mt-2" v-else>
-      <div
-        class="alert alert-danger d-flex justify update"
+      <RouterLink
+        v-else
+        to="/about/updates"
       >
-        <span>{{updates.date}}更新 · {{updates.info}}</span>
-        <small class="d-none d-md-inline-block">查看更新日志 ›</small>
-      </div>
-    </RouterLink>
+        <div class="alert alert-danger d-flex justify update">
+          <span>{{updates.date}}更新 · {{updates.info}}</span>
+          <small class="d-none d-md-inline-block">查看更新日志 ›</small>
+        </div>
+      </RouterLink>
+    </div>
 
   </div>
 </template>

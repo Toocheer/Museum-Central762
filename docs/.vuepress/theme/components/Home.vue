@@ -4,12 +4,12 @@
     :aria-labelledby="null"
   >
     <div class="container-xl">
-      <Notifications
+      <!-- <Notifications
         :special="data.special"
         :updates="data.updates"
-      />
+      /> -->
 
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-lg-8 col-12 mt-3">
           <Heropics :jumboItems="data.jumboItems" />
         </div>

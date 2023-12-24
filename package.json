@@ -4,18 +4,21 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "node scripts/getGitInfo.js && vuepress dev docs",
+    "docs:build": "node scripts/getGitInfo.js && vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^1.9.10",
-    "eslint-plugin-vue": "^9.19.2",
+    "child_process": "^1.0.2",
     "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.19.2",
     "flexsearch": "^0.6.32",
-    "html-to-text": "^7.0.0"
+    "html-to-text": "^7.0.0",
+    "simple-git": "^3.21.0",
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
-    "v-viewer": "^1.6.4"
+    "moment": "^2.29.4",
+    "v-viewer": "^1.6.4",
+    "yarn": "^1.22.21"
   }
 }
-

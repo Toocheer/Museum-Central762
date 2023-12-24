@@ -22,6 +22,10 @@
       }"
       >
       <Content />
+
+      <div class="col-12">
+        <p class="subtext">内容上一次更新于{{$page.lastUpdated}}</p>
+      </div>
     </div>
 
   </main>

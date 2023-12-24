@@ -20,7 +20,7 @@ jumboItems:
   - title: C2蒸汽机车喷吐云雾
     subTitle: 河南登封 · 朝杞铁路 ©巴伐利亚酒神
     jumboImg: https://pic.imgdb.cn/item/65201ab5c458853aefdae874/C2_locomotive.jpg
-    link: /tour/chaoqi/
+    link: https://mp.weixin.qq.com/s/RyHyUdscQO_9E11lR2qgqg
     isActive: true
   - title: 仍在运用的老河口机车转盘
     subTitle: 湖北老河口 · 六官营村 

@@ -17,4 +17,10 @@ pages:
     bgColor: light
     bgImg: https://pic4.zhimg.com/v2-25367e1483ac93736d6c98d336a9eee7_r.jpg
     link: /column/the-investigation-of-JMY380-series
+  - title: 遇见 · 豫见,<br>小火车再出发！
+    badge: 特写
+    color: dark
+    bgColor: light
+    bgImg: https://pic.imgdb.cn/item/65201ab5c458853aefdae874/C2_locomotive.jpg
+    link: https://mp.weixin.qq.com/s/RyHyUdscQO_9E11lR2qgqg
 ---

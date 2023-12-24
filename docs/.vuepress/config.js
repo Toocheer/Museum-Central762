@@ -1,4 +1,5 @@
 const path = require("path");
+const getLastCommitInfo = require('./gitInfo');
 module.exports = {
   head: [
     ['meta', { charset: 'utf-8' }],
@@ -18,6 +19,16 @@ module.exports = {
       description: '上世纪五十年代末期，河南省开始兴办地方铁路。半个多世纪间，先后有16条地方铁路线路横贯中原大地，长度逾1,600千米。欢迎来到中原铁道 (数字) 博物馆，开启一场轨距762毫米的旅程。'
     },
   },
+  plugins: [
+    '@vuepress/last-updated',
+    {
+      transformer: (timestamp, lang) => {
+        const moment = require('moment')
+        moment.locale(lang)
+        return moment(timestamp).fromNow()
+      }
+    },
+  ],
 	themeConfig: {
 		logo: '/img/logo.png',
 		nav: [
@@ -27,12 +38,15 @@ module.exports = {
 		  { text: '历史', subtext: 'History', link: '/history/' },
       { text: '专栏', subtext: 'Column', link: '/column/' },
 		  { text: '资料', subtext: 'Collections', link: 'https://leeward-channel-287.notion.site/762-004e72e669f24c16bf2f6497b5fe1866' },
-		]
+		],
+    globalVariables: {
+      GIT_INFO: getLastCommitInfo(),
+    }
 	},
   enhanceAppFiles: [path.resolve(__dirname, "enhanceApp.js")],
   markdown: {
     anchor: {
       permalink: false
     }
-  }
+  },
 }
