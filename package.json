@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "node scripts/getGitInfo.js && vuepress dev docs",
-    "docs:build": "node scripts/getGitInfo.js && vuepress build docs"
+    "docs:build": "node scripts/getGitInfo.js && vuepress build docs --no-cache"
   },
   "devDependencies": {
     "child_process": "^1.0.2",
