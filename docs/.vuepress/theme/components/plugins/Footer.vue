@@ -2,7 +2,7 @@
   <div class="container-xl mb-3">
     <div class="row">
       <div class="col-12 col-lg-4 mt-3">
-        <h5>纵横交通，趣由心生</h5>
+        <h5>纵横交通，乐趣其中</h5>
         <p class="mt-2 mb-0" title="QQ群">
           <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
             <path d="M824.8 613.2c-16-51.4-34.4-94.6-62.7-165.3C766.5 262.2 689.3 112 511.5 112 331.7 112 256.2 265.2 261 447.9c-28.4 70.8-46.7 113.7-62.7 165.3-34 109.5-23 154.8-14.6 155.8 18 2.2 70.1-82.4 70.1-82.4 0 49 25.2 112.9 79.8 159-26.4 8.1-85.7 29.9-71.6 53.8 11.4 19.3 196.2 12.3 249.5 6.3 53.3 6 238.1 13 249.5-6.3 14.1-23.8-45.3-45.7-71.6-53.8 54.6-46.2 79.8-110.1 79.8-159 0 0 52.1 84.6 70.1 82.4 8.5-1.1 19.5-46.4-14.5-155.8z"></path>
@@ -69,27 +69,27 @@
 
       <div class="col-12 col-lg-4 mt-3 d-flex flex-column justify-content-center align-items-center align-items-lg-end">
         <img
-          src="/img/LJR.svg"
-          style="height:58px;max-width: 100%;"
-          title="纵横交通，趣由心生"
+          src="/img/LJRslogan.svg"
+          style="height:40px;max-width: 100%;"
+          title="纵横交通，乐趣其中"
           />
 
       </div>
 
       <div class="col-12 col-lg-6 mt-2 subtext">
-        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start small">
-          <RouterLink to="/about/help" class="nowrap me-1">帮助</RouterLink> ·
-          <RouterLink to="/about/agreement" class="nowrap ms-1 me-1">使用协议与版权信息</RouterLink> ·
-          <RouterLink to="/about/privacy" class="nowrap ms-1 me-1">隐私政策</RouterLink> ·
-          <a href="https://stats.uptimerobot.com/0n1DlcJrMY" target="_blank" class="nowrap ms-1 me-1">服务状态</a> ·
-          <RouterLink to="/about/updates" class="nowrap ms-1 me-1">更新日志
+        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start align-items-center small">
+          <RouterLink to="/about/help" class="d-inline-block nowrap me-1">帮助</RouterLink> ·
+          <RouterLink to="/about/agreement" class="d-inline-block nowrap ms-1 me-1">使用协议与版权信息</RouterLink> ·
+          <RouterLink to="/about/privacy" class="d-inline-block nowrap ms-1 me-1">隐私政策</RouterLink> ·
+          <a href="https://stats.uptimerobot.com/0n1DlcJrMY" target="_blank" class="d-inline-block nowrap ms-1 me-1">服务状态</a> ·
+          <RouterLink to="/about/updates" class="d-inline-block nowrap ms-1 me-1">更新日志
             <span class="badge bg-danger" style="color:#fff!important">{{$themeConfig.globalVariables.GIT_INFO.date}} @{{ $themeConfig.globalVariables.GIT_INFO.commitHash }}</span>
           </RouterLink>
         </div>
       </div>
 
       <div class="col-12 col-lg-6 mt-2">
-        <div class="d-flex flex-wrap justify-content-center justify-content-lg-end small">
+        <div class="d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center small">
           <a
             rel="license"
             class="d-lg-inline-block"
@@ -97,12 +97,12 @@
           >
             <img
               alt="知识共享许可协议"
-              style="width:60px"
+              style="width:80px"
               src="/img/CC_BY-NC-SA.svg"
               />
           </a>
-          <RouterLink to="/about/agreement#版权信息" class="d-lg-inline-block text-center ms-1">
-            <p><code>本站全部内容禁止商业使用 · 内容除另有声明外，均在 <span class="nowrap">CC BY-NC-SA 3.0 CN</span> 许可协议下提供</code></p>
+          <RouterLink to="/about/agreement#版权信息" class="d-lg-inline-block ms-3">
+            <p class="subtext" style="margin-bottom: 0;">本站全部内容禁止商业使用 · 内容除另有声明外<br>均在 <span class="nowrap">CC BY-NC-SA 3.0 CN</span> 许可协议下提供</p>
           </RouterLink>
         </div>
       </div>

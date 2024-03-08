@@ -80,22 +80,22 @@ export default {
   background-repeat no-repeat!important
 
 .jumboheight
-  height 65vh
+  height 90vh
 
-@media(min-height: 1100px)
-  .jumboheight
-    height 45vh
+// @media(min-height: 1100px)
+//   .jumboheight
+//     height 60vh
 
 @media(max-width: 991px)
   .jumboheight
-    height 50vh
+    height 60vh
 
 @media(max-width: 576px)
   .jumboheight
     height 35vh
 
 .carousel-inner
-  border-radius 10px
+  border-radius 5px
 
 .carousel-caption
   left 8%

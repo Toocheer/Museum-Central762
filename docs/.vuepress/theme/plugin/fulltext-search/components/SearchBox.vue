@@ -224,10 +224,10 @@ function highlight(str, strHighlight) {
   justify-content center
   input
     cursor text
-    width 90%
+    width 95%
     height: 2rem
     display inline-block
-    border-radius 10px
+    border-radius 5px
     font-size 0.9rem
     padding 0 0.5rem 0 2rem
     outline none
