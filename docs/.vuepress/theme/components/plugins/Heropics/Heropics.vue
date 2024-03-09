@@ -81,6 +81,7 @@ export default {
 
 .jumboheight
   height 90vh
+  max-height 600px
 
 // @media(min-height: 1100px)
 //   .jumboheight
