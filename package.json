@@ -10,7 +10,7 @@
   "devDependencies": {
     "child_process": "^1.0.2",
     "eslint": "^8.55.0",
-    "eslint-plugin-vue": "^9.19.2",
+    "eslint-plugin-vue": "^9.23.0",
     "flexsearch": "^0.6.32",
     "html-to-text": "^7.0.0",
     "simple-git": "^3.21.0",
