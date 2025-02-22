@@ -41,6 +41,7 @@ module.exports = {
 		],
     globalVariables: {
       GIT_INFO: getLastCommitInfo(),
+      BAIDU_MAP_KEY: `${process.env.BAIDU_MAP_KEY}`
     }
 	},
   enhanceAppFiles: [path.resolve(__dirname, "enhanceApp.js")],

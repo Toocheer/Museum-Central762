@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# secrets
+docs/.vuepress/public/js/secrets.js

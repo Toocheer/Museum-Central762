@@ -8,6 +8,8 @@
 
     <Detail v-else-if="$page.frontmatter.type == 'Detail'" />
 
+    <Tour v-else-if="$page.frontmatter.type == 'Tour'" />
+
     <Depot v-else-if="$page.frontmatter.type == 'Depot'" />
 
     <Underconstruction v-else-if="$page.frontmatter.type == 'Underconstruction'" />
@@ -22,6 +24,7 @@
 import Home from '@theme/components/Home.vue'
 import Landingpage from '@theme/components/Landingpage.vue'
 import Detail from '@theme/components/Detail.vue'
+import Tour from '@theme/components/Tour.vue'
 import Depot from '@theme/components/Depot.vue'
 import Underconstruction from '@theme/components/Underconstruction.vue'
 import Page from '@theme/components/Page.vue'
@@ -36,6 +39,7 @@ export default {
     Home,
     Landingpage,
     Detail,
+    Tour,
     Depot,
     Underconstruction,
     Page,

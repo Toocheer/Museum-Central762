@@ -1,5 +1,5 @@
 ---
-type: Detail
+type: Tour
 title: 朝杞铁路
 subtitle: Chaoqi Narrow Gauge Railway
 description: 朝杞铁路始建于1974年，1976年朝阳沟至尉氏通车，1985年全线贯通。<br><br>朝杞铁路西起登封朝阳沟站，经过新密、新郑、尉氏、通许到达杞县。朝杞铁路与国铁京广线在新郑设有换装站和准轨窄轨套轨线路，在竖岗站与窄轨竖开线、竖扶线相连，通达开封、周口地区。运营期间，朝杞铁路的主要货源是登封、新密等地的煤炭和铝矾土，并开行有客车。<br><br>2013年，朝杞铁路因经营状况不佳停运，原有线路登封至新密段规划保留窄轨改建为旅游线路。
@@ -11,76 +11,91 @@ meta:
 permalink: /tour/chaoqi
 items:
   - name: 朝阳沟站
+    lng: 113.193972
+    lat: 34.434166
     w: 3
     h: 2
     mainPic: 
-      url: https://s4.ax1x.com/2022/01/09/7kHIjH.jpg
+      url: https://pic1.imgdb.cn/item/65201b8bc458853aefdb127a.jpg
       alt: 朝阳沟站内停放的C2型蒸汽机车
     pics:
-      - url: https://s4.ax1x.com/2022/01/09/7kHqEt.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8bc458853aefdb124e.jpg
         alt: 仍可运行的太行内燃机车在朝阳沟站
-      - url: https://s4.ax1x.com/2022/01/09/7kH5ge.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8ac458853aefdb11de.jpg
         alt: 朝阳沟站内的380马力内燃机车
-      - url: https://s4.ax1x.com/2022/02/14/Hys9m9.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8bc458853aefdb1235.jpg
         alt: 轨道车和朝阳沟站的迁车台、检修库
   - name: 川口站
+    lng: 113.214107
+    lat: 34.427202
     w: 3
     h: 2
     mainPic: 
-      url: https://s4.ax1x.com/2022/01/09/7kL9kq.jpg
+      url: https://pic1.imgdb.cn/item/65201b8cc458853aefdb1305.jpg
       alt: 川口站内的正线、车库和平车
     pics:
-      - url: https://s4.ax1x.com/2022/01/09/7kHHHI.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8bc458853aefdb1292.jpg
         alt: 站内停放的太行机车和敞车
-      - url: https://s4.ax1x.com/2022/01/09/7kHTud.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8ac458853aefdb11c6.jpg
         alt: 川口站南咽喉展望
-      - url: https://s4.ax1x.com/2022/02/14/HysCwR.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8cc458853aefdb12bf.jpg
         alt: 川口站内，一台C2蒸汽机车的煤水车
   - name: 炮房站
+    lng: 113.243913
+    lat: 34.447701
     w: 3
     h: 2
     mainPic: 
-      url: https://s4.ax1x.com/2022/01/09/7kLPhV.jpg
+      url: https://pic1.imgdb.cn/item/65201b8dc458853aefdb143b.jpg
       alt: 炮房站内停放的废弃机车
     pics:
-      - url: https://s4.ax1x.com/2022/01/09/7kLFpT.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8dc458853aefdb13af.jpg
         alt: 常州内燃机车厂制造的NY380型机车
-      - url: https://s4.ax1x.com/2022/02/14/HyrxlF.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8cc458853aefdb1331.jpg
         alt: 长沙矿山通用机械厂制造的JMY380型机车
-      - url: https://s4.ax1x.com/2022/02/14/HyrvSU.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8cc458853aefdb1344.jpg
         alt: 废弃JMY380型机车的操纵台
   - name: 大冶站
+    lng: 113.297088
+    lat: 34.449308
+    
   - name: 平陌站
+    lng: 113.32048
+    lat: 34.457512
     w: 3
     h: 2
     mainPic: 
-      url: https://s4.ax1x.com/2022/01/09/7AFpMn.jpg
+      url: https://pic1.imgdb.cn/item/65201b8ec458853aefdb148d.jpg
       alt: 平陌站站房
     pics:
-      - url: https://s4.ax1x.com/2022/01/09/7AFVG4.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8dc458853aefdb13c7.jpg
         alt: 平陌车站二楼的副站长室
-      - url: https://s4.ax1x.com/2022/01/09/7AFEiF.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8dc458853aefdb1414.jpg
         alt: 车站办公室内
-      - url: https://s4.ax1x.com/2022/02/14/Hyrzy4.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8ec458853aefdb14d7.jpg
         alt: 平陌站站房靠近公路的一侧被改为洗车店
   - name: 莪沟站
+    lng: 113.372636
+    lat: 34.461958
     w: 3
     h: 2
     mainPic: 
-      url: https://s4.ax1x.com/2022/01/09/7AFiZV.jpg
+      url: https://pic1.imgdb.cn/item/65201b8cc458853aefdb12ed.jpg
       alt: 一座依山而建的小庙位于车站道岔边
   - name: 超化站
+    lng: 113.412458
+    lat: 34.459254
     w: 3
     h: 2
     mainPic: 
-      url: https://s4.ax1x.com/2022/01/09/7AFFaT.jpg
+      url: https://pic1.imgdb.cn/item/65201b8ac458853aefdb1207.jpg
       alt: 超化站站场
     pics:
-      - url: https://s4.ax1x.com/2022/01/09/7AF9rq.jpg
+      - url: https://pic1.imgdb.cn/item/65201b89c458853aefdb116b.jpg
         alt: 超化站机车转盘
-      - url: https://s4.ax1x.com/2022/01/09/7AFCq0.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8ac458853aefdb1215.jpg
         alt: 超化站内停放的轨道车
-      - url: https://s4.ax1x.com/2022/02/14/HysSOJ.jpg
+      - url: https://pic1.imgdb.cn/item/65201b8ac458853aefdb11a0.jpg
         alt: 敞车、正线和通向转盘的股道
 ---
 
