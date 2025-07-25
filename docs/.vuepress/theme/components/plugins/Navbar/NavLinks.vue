@@ -34,28 +34,25 @@ export default {
         const currentLink = this.$page.path
         const routes = this.$router.options.routes
         const themeLocales = this.$site.themeConfig.locales || {}
-        const languageDropdown = {
-          text: this.$themeLocaleConfig.selectText || 'Languages',
-          ariaLabel: this.$themeLocaleConfig.ariaLabel || 'Select language',
-          items: Object.keys(locales).map(path => {
-            const locale = locales[path]
-            const text = themeLocales[path] && themeLocales[path].label || locale.lang
-            let link
-            // Stay on the current page
-            if (locale.lang === this.$lang) {
-              link = currentLink
-            } else {
-              // Try to stay on the same page
-              link = currentLink.replace(this.$localeConfig.path, path)
-              // fallback to homepage
-              if (!routes.some(route => route.path === link)) {
-                link = path
-              }
+        let alterLangText
+        let alterLangLink
+        Object.keys(locales).filter(path => {
+          const lang = locales[path].lang
+          if (lang !== this.$lang) {
+            alterLangText = themeLocales[path] && themeLocales[path].langLabel || lang
+            alterLangLink = currentLink.replace(this.$localeConfig.path, path)
+            // fallback to homepage
+            if (!routes.some(route => route.path === alterLangLink)) {
+              alterLangLink = path
             }
-            return { text, link }
-          })
+          }
+        })
+        const alterLang = {
+          text: alterLangText,
+          ariaLabel: this.$themeLocaleConfig.ariaLabel || 'Select language',
+          link: alterLangLink
         }
-        return [...this.userNav, languageDropdown]
+        return [...this.userNav, alterLang]
       }
       return this.userNav
     },

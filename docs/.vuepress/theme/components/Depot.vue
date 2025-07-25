@@ -7,24 +7,15 @@
       :bgImg="data.mainpic"
     />
 
-    <div class="container-xl mt-3 mb-5">
-      <div
-        class="row"
-        v-viewer="{
-          toolbar: {
-            prev:true,
-            next:true
-          },
-          navbar:false,
-          transition: false,
-          fullscreen: false,
-          rotatable: false
-        }"
-      >
+    <div class="theme-default-content container-xl mt-3 mb-5">
+      <div class="row">
         <div class="col-md-6 col-12">
+          <div id="intro" class="main-contents mt-5 mb-3">
+            <h3 class="d-inline-block bold me-2">{{ overviewTxt }}</h3>
+            <Content slot-key="Overview" />
+          </div>
           <div id="illustration" class="mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">图示</h3>
-            <h5 class="subtext d-inline-block">Illustration</h5>
+            <h3 class="d-inline-block bold me-2">{{ illusTxt }}</h3>
             <div class="row">
               <div
                 class="col-md-6 col-12 d-flex pic"
@@ -49,22 +40,39 @@
               </div>
             </div>
           </div>
-          <div id="intro" class="main-contents mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">概述</h3>
-            <h5 class="subtext d-inline-block">Introduction</h5>
-            <Content slot-key="概述" />
-          </div>
-          <div id="conservation" class="main-contents mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">保存</h3>
-            <h5 class="subtext d-inline-block">Conservation</h5>
-            <Content slot-key="保存" />
+          <div class="col-md-6 col-12">
+            <div id="drawing" class="mt-5 mb-3">
+              <h3 class="d-inline-block bold me-2">{{ drawingTxt }}</h3>
+              <div class="row">
+                <div
+                  class="col-12 d-flex pic"
+                  v-for="(pic, index) in data.drawing"
+                >
+                  <div
+                    class="card ratio"
+                    style="--bs-aspect-ratio:calc(2 / 3 * 100%)"
+                  >
+                    <img
+                      class="card-img"
+                      :src="pic.url"
+                      :alt="pic.alt"
+                    />
+                  </div>
+                  <p
+                    class="mt-1 subtext center"
+                    style="text-align: center;"
+                  >
+                    {{pic.alt}}
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="col-md-6 col-12">
           <div id="production" class="main-contents mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">生产运用</h3>
-            <h5 class="subtext d-inline-block">Production and Service</h5>
+            <h3 class="d-inline-block bold me-2">{{ pnsTxt }}</h3>
             <br>
             <div
               v-for="item in data.PNS"
@@ -78,8 +86,7 @@
             </div>
           </div>
           <div id="parameters" class="mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">性能指标</h3>
-            <h5 class="subtext d-inline-block">Parameters</h5>
+            <h3 class="d-inline-block bold me-2">{{ paramTxt }}</h3>
             <br>
             <div
               v-for="item in data.parameters"
@@ -93,8 +100,7 @@
             </div>
           </div>
           <div id="appearance" class="mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">外观参数</h3>
-            <h5 class="subtext d-inline-block">Appearance</h5>
+            <h3 class="d-inline-block bold me-2">{{ appearanceTxt }}</h3>
             <br>
             <div
               v-for="item in data.appearance"
@@ -109,38 +115,9 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-12">
-          <div id="status" class="mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">现状</h3>
-            <h5 class="subtext d-inline-block">Status</h5>
-            <div class="row">
-              <div
-                class="col-md-6 col-12 d-flex pic"
-                v-for="(pic, index) in data.statimgs"
-              >
-                <div
-                  class="card ratio"
-                  style="--bs-aspect-ratio:calc(2 / 3 * 100%)"
-                >
-                  <img
-                    class="card-img"
-                    :src="pic.url"
-                    :alt="pic.alt"
-                  />
-                </div>
-                <p
-                  class="mt-1 subtext center"
-                  style="text-align: center;"
-                >
-                  {{pic.alt}}
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div id="images" class="mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">历史影像</h3>
-            <h5 class="subtext d-inline-block">Images</h5>
+        <div class="col-12 row">
+          <div id="images" class="col-md-6 col-12 mt-5 mb-3">
+            <h3 class="d-inline-block bold me-2">{{ hisImgTxt }}</h3>
             <div class="row">
               <div
                 class="col-md-6 col-12 d-flex pic"
@@ -165,38 +142,37 @@
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="col-md-6 col-12">
-          <div id="drawing" class="mt-5 mb-3">
-            <h3 class="d-inline-block bold me-2">图纸</h3>
-            <h5 class="subtext d-inline-block">Drawing</h5>
-            <div class="row">
-              <div
-                class="col-12 d-flex pic"
-                v-for="(pic, index) in data.drawing"
-              >
+          <div id="conservation" class="col-md-6 col-12 mt-5 mb-3">
+            <h3 class="d-inline-block bold me-2">{{ conservationTxt }}</h3>
+            <h5 class="subtext d-inline-block"></h5>
+            <Content slot-key="Conservation" />
+            <div id="status" class="mt-5 mb-3">
+              <div class="row">
                 <div
-                  class="card ratio"
-                  style="--bs-aspect-ratio:calc(2 / 3 * 100%)"
+                  class="col-md-6 col-12 d-flex pic"
+                  v-for="(pic, index) in data.statimgs"
                 >
-                  <img
-                    class="card-img"
-                    :src="pic.url"
-                    :alt="pic.alt"
-                  />
+                  <div
+                    class="card ratio"
+                    style="--bs-aspect-ratio:calc(2 / 3 * 100%)"
+                  >
+                    <img
+                      class="card-img"
+                      :src="pic.url"
+                      :alt="pic.alt"
+                    />
+                  </div>
+                  <p
+                    class="mt-1 subtext center"
+                    style="text-align: center;"
+                  >
+                    {{pic.alt}}
+                  </p>
                 </div>
-                <p
-                  class="mt-1 subtext center"
-                  style="text-align: center;"
-                >
-                  {{pic.alt}}
-                </p>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </main>
@@ -204,10 +180,6 @@
 
 <script>
 import Header from '@theme/components/plugins/Header.vue'
-import 'viewerjs/dist/viewer.css'
-import Viewer from 'v-viewer'
-import Vue from 'vue'
-Vue.use(Viewer)
 export default {
   name: 'Depot',
 
@@ -216,6 +188,30 @@ export default {
   computed: {
     data () {
       return this.$page.frontmatter
+    },
+    overviewTxt () {
+      return this.$lang == 'zh-CN'? '简介' : 'Overview'
+    },
+    illusTxt () {
+      return this.$lang == 'zh-CN'? '图示' : 'illustration'
+    },
+    drawingTxt () {
+      return this.$lang == 'zh-CN'? '图纸' : 'Drawing'
+    },
+    pnsTxt () {
+      return this.$lang == 'zh-CN'? '生产运用' : 'Production & Service'
+    },
+    paramTxt () {
+      return this.$lang == 'zh-CN'? '性能指标' : 'Parameters'
+    },
+    appearanceTxt () {
+      return this.$lang == 'zh-CN'? '外观参数' : 'Appearance'
+    },
+    hisImgTxt () {
+      return this.$lang == 'zh-CN'? '历史影像' : 'Historical Images'
+    },    
+    conservationTxt () {
+      return this.$lang == 'zh-CN'? '保存与现状' : 'Conservation & Status'
     }
   }
 }

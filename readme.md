@@ -30,17 +30,19 @@ git commit -m "更新日志"
 git push origin main
 ```
 
+
 **更新本地依赖**（在Museum-Central762文件夹下）
 
 `yarn`
 
-如首次执行未安装依赖，应先安装nodejs v16.x后执行`npm install -g yarn`，再执行上述命令
+如首次执行未安装依赖，应先安装nodejs后执行`export NODE_OPTIONS=--openssl-legacy-provider && corepack enable`，再执行上述命令
+
 
 **本地预览**（在Museum-Central762文件夹下）
 
 `yarn docs:dev`
 
-如首次执行未安装依赖，应先安装nodejs v16.x后执行`npm install -g yarn`，再执行上述命令
+如首次执行未安装依赖，应先安装nodejs后执行`export NODE_OPTIONS=--openssl-legacy-provider && corepack enable && yarn`，再执行上述命令
 
 网站将可通过`localhost:8080`访问
 
@@ -49,6 +51,8 @@ git push origin main
 
 # Frontmatter使用指导
 
+
+
 ## type
 
 `必需` `string` 指定页面使用的模板类型
@@ -56,7 +60,7 @@ git push origin main
 #### 参数
 
 * `Home`: 主页
-* `Landingpage`: 落地页，一般用于各栏目的扉页列表
+* `LandingPage`: 落地页，一般用于各栏目的扉页列表
 * `Detail`: 图文混排页，用于漫游、展览等内页
 * `Underconstruction`: 未建成页，仅用于栏目未建成时作占位符
 * `Page`: 一般的Markdown页面，用于历史、专栏等内页
@@ -77,8 +81,10 @@ type: Home
 #### 用例
 
 ```
-title: 历史
+title: 史话
 ```
+
+
 
 ## displaytitle
 
@@ -87,19 +93,7 @@ title: 历史
 #### 用例
 
 ```
-displaytitle: 历史
-```
-
-
-
-## subtitle
-
-`可选` `string` 指定页面副标题
-
-#### 用例
-
-```
-subtitle: History
+displaytitle: <p>史话</p>
 ```
 
 
@@ -120,7 +114,7 @@ description: 寸尺亦能去西东，讲述中原地方铁路的兴起的发展
 
 ## meta
 
-`必需` `array` 描述页面的关键词和简介，用于搜索引擎优化
+`必需` `object` 描述页面的关键词和简介，用于搜索引擎优化
 
 #### 参数
 
@@ -154,12 +148,12 @@ mainpic: https://s4.ax1x.com/2022/01/09/7kH5ge.jpg。
 
 ## permalink
 
-`必需` `string` 指定本页面的路径
+`必需` `string` 指定本页面的路径，以 `/` 开头及结尾。注意此处无需针对双语内容加前缀（如`/en/`)
 
 #### 用例
 
 ```
-permalink: /
+permalink: /tour/
 ```
 
 
@@ -185,7 +179,7 @@ search: false
 * `title`: 标题
 * `subtitle`: 副标题
 * `description`: 描述文字
-* `link`: 指向链接。内链可用 `/your/special/page/route/` 形式，外链可直接粘贴URL
+* `link`: 指向链接。内链可用 `/your/tour/page/route/` 形式，双语内容需加前缀（如`/en/`)；外链可直接粘贴URL
 * `bgImg`: 背景图片URL
 * `colorBg`: 背景颜色，不带#号
 * `color`: 文字颜色，不带#号
@@ -226,7 +220,7 @@ updates:
 
 ## jumboItems
 
-`仅Home页` `array` 指定网站的轮播图
+`仅Home页` `object` 指定网站的轮播图
 
 #### 参数
 
@@ -234,7 +228,7 @@ updates:
 * `subtitle`: 副标题
 * `description`: 描述文字
 * `jumboImg`: 图片URL
-* `link`: 指向链接。内链可用 `/your/tour/page/route/` 形式，外链可直接粘贴URL
+* `link`: 指向链接。内链可用 `/your/tour/page/route/` 形式，双语内容需加前缀（如`/en/`)；外链可直接粘贴URL
 * `isActive`: `boolean` 可选，指定轮播的首图。应为唯一。
 
 #### 用例
@@ -258,30 +252,27 @@ jumboItems:
 
 ## categories
 
-`仅Home页` `array` 指定网站的首页栏目入口网格
+`仅Home页` `object` 指定网站的首页栏目入口网格
 
 #### 参数
 
 * `title`: 标题
-* `subtitle`: 副标题
 * `description`: 描述文字
 * `bgImg`: 图片URL
-* `link`: 指向链接。内链可用 `/your/tour/page/route/` 形式，外链可直接粘贴URL
+* `link`: 指向链接。内链可用 `/your/tour/page/route/` 形式，双语内容需加前缀（如`/en/`)；外链可直接粘贴URL
 
 #### 用例
 
 ```
 categories:
   - title: 漫游
-    subtitle: Tour
     description: 坐地日行千万里，探寻中原大地硕果累累的轨道遗迹
     bgImg: https://s4.ax1x.com/2022/01/19/7DLmDJ.jpg
-    link: /tour
+    link: /tour/
   - title: 车辆
-    subtitle: Depot
     description: 动静交错之间，一探它们曾经风驰电掣的身影
     bgImg: https://s4.ax1x.com/2022/01/19/7DLnb9.jpg
-    link: /depot
+    link: /depot/
 ```
 
 **注意：每项前面都必须带`- `，因为这是一个列表项，即便只有一项。**
@@ -290,14 +281,12 @@ categories:
 
 ## pages
 
-`仅Landingpage页` `array` 指定落地页的子页面网格
+`仅Landingpage页` `object` 指定落地页的子页面网格
 
 #### 参数
 
 * `title`: 标题
-* `badge`: 角标文字
-* `color`: 角标文字颜色，根据角标背景颜色搭配可选 `light` 或 `dark`
-* `bgColor`: 角标背景，可选 `primary` `success` `danger` `warning` 或 `info`
+* `subtitle`: 副标题
 * `link`: 指向链接。目前仅限内链形式
 
 #### 用例
@@ -305,17 +294,13 @@ categories:
 ```
 pages:
   - title: 朝杞铁路建筑展
-    badge: 影像展
-    color: dark
-    bgColor: light
+    subtitle: 影像展
     bgImg: https://s4.ax1x.com/2022/01/14/78SVfA.jpg
-    link: /expo/chaoqi-architecture
+    link: /expo/chaoqi-architecture/
   - title: 刊物封面和目录展
-    badge: 实物展
-    color: dark
-    bgColor: light
+    subtitle: 实物展
     bgImg: https://s4.ax1x.com/2022/01/21/72UdsO.jpg
-    link: /expo/magazines
+    link: /expo/magazines/
 ```
 
 **注意：每项前面都必须带`- `，因为这是一个列表项，即便只有一项。**
@@ -324,7 +309,7 @@ pages:
 
 ## items
 
-`仅Detail页` `array` 指定页面的展示内容
+`仅Detail页` `object` 指定页面的展示内容
 
 #### 参数
 
@@ -334,7 +319,7 @@ pages:
 * `mainPic`: `可选` `string` 主图
   * `url` 主图URL
   * `alt` `可选` 主图图注
-* `pics`: `可选` `array` 小图
+* `pics`: `可选` `object` 小图
   * `url` 小图URL
   * `alt` `可选` 小图图注
 
@@ -401,7 +386,7 @@ items:
 
 ## illus, statimgs, hisimgs, drawing
 
-`仅Depot页` `array` 指定图示、现状、历史影像、图纸内容
+`仅Depot页` `object` 指定图示、现状、历史影像、图纸内容
 
 #### 参数
 
@@ -431,7 +416,7 @@ drawing:
 
 ## PNS, parameters, appearance
 
-`仅Depot页` `array` 指定生产运营、性能参数、外观参数内容
+`仅Depot页` `object` 指定生产运营、性能参数、外观参数内容
 
 #### 参数
 

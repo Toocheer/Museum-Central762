@@ -5,7 +5,7 @@
       aria-label="Search"
       :value="query"
       :class="{ focused: focused }"
-      placeholder="中原铁道（数字）博物馆"
+      :placeholder="placeholder"
       autocomplete="off"
       spellcheck="false"
       @input="query = $event.target.value"
@@ -52,12 +52,16 @@ import hooks from '@dynamic/hooks'
 /* global SEARCH_MAX_SUGGESTIONS, SEARCH_PATHS, SEARCH_HOTKEYS */
 export default {
   name: 'SearchBox',
+  props: {
+    placeholder: {
+      required: true
+    }
+  },
   data() {
     return {
       query: '',
       focused: false,
       focusIndex: 0,
-      placeholder: undefined,
       suggestions: null,
     }
   },
@@ -211,20 +215,19 @@ function highlight(str, strHighlight) {
   const highlightedContent = str.slice(start, end)
   const suffix = str.slice(end)
   return { prefix, highlightedContent, suffix }
-
-  // return `${prefix}<span class="highlight">${highlightedContent}</span>${suffix}`
 }
 </script>
 
 <style lang="stylus">
 .search-box
+  margin 0 0.5em
   display flex
   position relative
   flex-grow 1
   justify-content center
   input
     cursor text
-    width 95%
+    width 100%
     height: 2rem
     display inline-block
     border-radius 5px
@@ -235,11 +238,12 @@ function highlight(str, strHighlight) {
     background url(../assets/search.svg) 0.6rem 0.5rem no-repeat
     background-size 1rem
   .suggestions
-    width 90%
+    width 100%
     display block
     position absolute
     top 2 rem
     border-radius 10px
+    margin 0 -1em
     padding 0.4rem
     list-style-type none
   .suggestion
@@ -258,4 +262,12 @@ function highlight(str, strHighlight) {
       .highlight
         color #df494f
         font-weight bold
+
+@media(min-width: 992px)
+  .search-box
+    justify-content start
+    input
+      width 24em
+    .suggestions
+      width 24em
 </style>

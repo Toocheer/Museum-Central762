@@ -5,17 +5,6 @@ meta:
     content: 中原铁道, 窄轨, 河南窄轨, 铁道博物馆
 permalink: /
 search: false
-special:
-  title: 小火车再出发！
-  subtitle: 中原铁道(数字)博物馆 × 豫见铁路公园
-  description: 查看专题报道 ›
-  link: https://mp.weixin.qq.com/s/RyHyUdscQO_9E11lR2qgqg
-  bgImg: https://pic.imgdb.cn/item/65201c77c458853aefdb5cea/bg-special-chaoqi.png
-  colorBg: 436728
-  color: ccedb5
-updates:
-  date: 2023年10月
-  info: 新增内容公告
 jumboItems:
   - title: C2蒸汽机车喷吐云雾
     subTitle: 河南登封 · 朝杞铁路 ©巴伐利亚酒神

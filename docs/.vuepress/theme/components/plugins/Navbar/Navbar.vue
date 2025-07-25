@@ -19,7 +19,7 @@
       </div>
     </RouterLink>
 
-    <SearchBox />
+    <SearchBox :placeholder="searchLabel" />
 
     <button
       class="navbar-toggler"
@@ -51,12 +51,32 @@ export default {
     SearchBox
   },
 
+  computed: {
+    searchLabel () {
+      const { locales } = this.$site
+      var searchLabelTxt
+      if (locales && Object.keys(locales).length > 1) {
+        const themeLocales = this.$site.themeConfig.locales || {}
+
+        Object.keys(locales).filter(path => {
+          const lang = locales[path].lang
+
+          if (lang === this.$lang) {
+            searchLabelTxt = themeLocales[path] && themeLocales[path].searchLabel || 'Search'
+          }
+        })
+      }
+      return searchLabelTxt
+    }
+  }
+
 }
 </script>
 
 <style lang="stylus">
 img.logo
   height 40px
+
 .navbar-collapse
   flex-grow 0!important
 </style>

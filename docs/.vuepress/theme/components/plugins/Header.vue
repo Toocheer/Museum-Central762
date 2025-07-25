@@ -19,7 +19,7 @@
       {{ subtitle }}
       </h5>
       <p
-        class="mt-3"
+        class="mt-3 description-contents"
         v-if="description"
         v-html="description"
       ></p>

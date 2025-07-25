@@ -4,15 +4,11 @@
 
     <Home v-if="$page.frontmatter.type == 'Home'" />
 
-    <Landingpage v-else-if="$page.frontmatter.type == 'Landingpage'" />
+    <LandingPage v-else-if="$page.frontmatter.type == 'LandingPage'" />
 
     <Detail v-else-if="$page.frontmatter.type == 'Detail'" />
 
-    <Tour v-else-if="$page.frontmatter.type == 'Tour'" />
-
     <Depot v-else-if="$page.frontmatter.type == 'Depot'" />
-
-    <Underconstruction v-else-if="$page.frontmatter.type == 'Underconstruction'" />
 
     <Page v-else />
 
@@ -22,11 +18,9 @@
 
 <script>
 import Home from '@theme/components/Home.vue'
-import Landingpage from '@theme/components/Landingpage.vue'
+import LandingPage from '@theme/components/LandingPage.vue'
 import Detail from '@theme/components/Detail.vue'
-import Tour from '@theme/components/Tour.vue'
 import Depot from '@theme/components/Depot.vue'
-import Underconstruction from '@theme/components/Underconstruction.vue'
 import Page from '@theme/components/Page.vue'
 
 import Navbar from '@theme/components/plugins/Navbar/Navbar.vue'
@@ -37,11 +31,9 @@ export default {
 
   components: {
     Home,
-    Landingpage,
+    LandingPage,
     Detail,
-    Tour,
     Depot,
-    Underconstruction,
     Page,
     Navbar,
     Footer

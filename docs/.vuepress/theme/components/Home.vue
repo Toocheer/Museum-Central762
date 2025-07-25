@@ -4,21 +4,21 @@
     :aria-labelledby="null"
   >
     <div class="container-xl">
-      <!-- <Notifications
-        :special="data.special"
-        :updates="data.updates"
-      /> -->
 
       <div class="row mt-5">
         <div class="col-lg-8 col-12 mt-3">
           <Heropics :jumboItems="data.jumboItems" />
         </div>
 
-        <div class="col-lg-4 col-12 mt-3">
-          <h5>序言 <span class="ms-2 subtext">Preface</span></h5>
-          <Content slot-key="preface" class="colored bold"/>
-          <br>
-          <Content />
+        <div class="col-lg-4 col-12 mt-3 preface-container">
+          <div class="preface-title mb-3">
+            <h5>{{ prefaceTxt }}</h5>
+            <Content slot-key="preface" class="colored bold"/>
+          </div>
+
+          <div class="preface-content">
+            <Content />
+          </div>
         </div>
 
         <div class="col-12 mb-5">
@@ -31,19 +31,38 @@
 </template>
 
 <script>
-import Notifications from '@theme/components/plugins/Notifications.vue'
 import Heropics from '@theme/components/plugins/Heropics/Heropics.vue'
 import Grids from '@theme/components/plugins/Grids/Grids.vue'
 export default {
   name: 'Home',
 
-  components: { Notifications, Heropics, Grids },
+  components: { Heropics, Grids },
 
   computed: {
     data () {
       return this.$page.frontmatter
+    },
+
+    prefaceTxt () {
+      return this.$lang == 'zh-CN'? '序言' : 'Preface'
     }
   }
 }
 </script>
 
+<style lang="stylus">
+.preface-container
+  height auto
+  max-height auto
+
+@media(min-width: 992px)
+  .preface-container
+    height 90vh
+    max-height 600px
+    display flex
+    flex-direction column
+
+  .preface-content
+    flex 1
+    overflow-y auto
+</style>

@@ -1,13 +1,12 @@
 ---
 type: Depot
 title: 长沙380马力内燃机车
-subtitle: Changsha NY380 Diesel Locomotive
 meta:
   - name: keywords
     content: 380马力内燃机车, NY380, JMY380, 窄轨机车
   - name: description
     content: 380马力内燃机车是全国各地窄轨铁路最常见的车型之一，也是河南地方铁路当之无愧的干线客货运输主力。这一类型的机车包括来自长沙、常州、石家庄和许昌等不同厂家的数种车型。这类机车也在全国各地厂矿企业线路上广泛运用，包括牡丹江北方水泥厂、南京江南水泥厂、马鞍山桃冲矿业等知名窄轨铁路。
-permalink: /depot/Changsha380
+permalink: /depot/Changsha380/
 mainpic: https://s1.ax1x.com/2023/09/07/pPyQ7WR.jpg
 illus:
   - url: https://s1.ax1x.com/2023/09/07/pPyQLy6.jpg
@@ -28,47 +27,47 @@ PNS:
     text: 新郑机务段、许昌机务段
 parameters:
   - name: 功率
-    text: 380HP / 279kW
+    text: 279 kW (380hp)
   - name: 最大速度
-    text: 45km/h
+    text: 45 km/h
   - name: 持续速度
-    text: 13.5km/h
+    text: 13.5 km/h
   - name: 持续牵引力
-    text: 7.92kN
+    text: 7.92 kN
   - name: 引擎
     text: 12V135Z柴油机
   - name: 传动方式
     text: 液力
   - name: 最小曲线半径
-    text: 60M
+    text: 60m
 appearance:
   - name: 长
-    text: 10,000mm
+    text: 10,000 mm
   - name: 宽
-    text: 2,510mm
+    text: 2,510 mm
   - name: 高
-    text: 3,330mm
+    text: 3,330 mm
   - name: 轨距
-    text: 762mm
+    text: 762 mm
   - name: 轮径
-    text: 600mm
+    text: 600 mm
   - name: 整备质量
-    text: 24t
+    text: 24 t
   - name: 轴重
-    text: 6t
-  - name: 轴式
+    text: 6 t
+  - name: UIC轴式
     text: B-B
-  - name: 车体
-    text: I端司机室+II端非操纵司机室
+  - name: 车体结构
+    text: Ⅰ端司机室 + Ⅱ端非操纵司机室
 ---
 
-::: slot 概述
+::: slot Overview
 380马力内燃机车是全国各地窄轨铁路最常见的车型之一，也是河南地方铁路当之无愧的干线客货运输主力。这一类型的机车包括来自长沙、常州、石家庄和许昌等不同厂家的数种车型。这类机车也在全国各地厂矿企业线路上广泛运用，包括牡丹江北方水泥厂、南京江南水泥厂、马鞍山桃冲矿业等知名窄轨铁路。
 
 可参见[窄轨JMY380车族简介及朝杞铁路机车坟场型号辨认](/column/the-investigation-of-JMY380-series)
 :::
 
-::: slot 保存
+::: slot Conservation
 | 车站   | 数量 | 状态 |
 | ------ | ---- | ---- |
 | 炮房沟 | 5    | 废弃 |

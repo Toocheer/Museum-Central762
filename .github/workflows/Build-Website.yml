@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: 22.14.0
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -29,7 +29,7 @@ jobs:
         cache: 'npm'
 
     - name: Install dependencies
-      run: npm install -g yarn && yarn
+      run: export NODE_OPTIONS=--openssl-legacy-provider && corepack enable && yarn
     - name: Build dist
       run: yarn docs:build
     - name: Copy dist files

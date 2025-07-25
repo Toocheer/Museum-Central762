@@ -1,15 +1,15 @@
 ---
 title: 更新日志
 displaytitle: 更新日志
-subtitle: Updates
-permalink: /updates
+permalink: /updates/
 ---
 
-### 2025.2.23
+### 2025.7.25
 
 更新了以下内容：
 
-- 在[漫游/朝杞铁路](../../tour/chaoqi)添加了实验性互动地图功能
+- 全站增加了中英文对照翻译
+- 优化了图片查看器
 - 网站样式优化
 
 ### 2023.9.8
@@ -56,7 +56,6 @@ permalink: /updates
 
 更新了以下内容：
 
-- [研究](../../research)
 - 优化了了图片查看器
 
 
@@ -72,7 +71,7 @@ permalink: /updates
 
 更新了以下内容：
 
-- [历史/开端](../../history/)
+- [史话/开端](../../history/)
 
 
 ### 2022.1.14

@@ -11,7 +11,7 @@
           <div class="row">
             <div
               class="col-12 mt-6 d-flex flex-column justify-content-center"
-              style="height:65vh;"
+              style="height:70vh;"
             >
               <h1>404 not found</h1>
               <h5 class="subtext">这里什么都没有</h5>
@@ -44,15 +44,3 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus">
-a
-  color inherit
-
-h1, h2, h3, h4, h5
-  font-weight bolder
-
-p, ul, ol
-  line-height 1.7em
-</style>
-

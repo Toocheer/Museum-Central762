@@ -1,14 +1,11 @@
 ---
-title: 历史
-displaytitle: 历史
-subtitle: History
+title: 史话
+displaytitle: 史话
 description: 寸尺亦能去西东，回顾中原地方铁路的兴起的发展
 meta:
   - name: keywords
     content: 窄轨历史, 河南窄轨
-  - name: description
-    content: 寸尺亦能去西东，回顾中原地方铁路的兴起的发展
-permalink: /history
+permalink: /history/
 ---
 
 ### 大跃进和土铁路的兴起

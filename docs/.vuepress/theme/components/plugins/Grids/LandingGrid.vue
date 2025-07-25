@@ -1,8 +1,5 @@
 <template>
-  <RouterLink
-    v-if="isInternal"
-    :to="link"
-  >
+  <AutoLink :url="item.link">
     <div
       class="card text-white mt-3 ratio lpratio"
     >
@@ -11,83 +8,31 @@
         :src="item.bgImg"
       >
       <div class="card-img-overlay">
-        <p
-          class="badge"
-          :class="'text-' + item.color + ' bg-' + item.bgColor"
-        >{{item.badge}}</p>
+        <p class="text-light" >{{ item.subtitle }}</p>
         <h3
           class="home"
           v-html="item.title"
         ></h3>
       </div>
     </div>
-  </RouterLink>
-
-  <a
-    v-else
-    :href="link"
-    :target="target"
-  >
-    <div
-      class="card text-white mt-3 ratio lpratio"
-    >
-      <img
-        class="card-img cardlist-img"
-        :src="item.bgImg"
-      >
-      <div class="card-img-overlay">
-        <p
-          class="badge"
-          :class="'text-' + item.color + ' bg-' + item.bgColor"
-        >{{item.badge}}</p>
-        <h3
-          class="home"
-          v-html="item.title"
-        ></h3>
-      </div>
-    </div>
-  </a>
+  </AutoLink>
 </template>
 
 <script>
-import { isExternal, ensureExt } from '@theme/util'
+import AutoLink from '@theme/components/plugins/AutoLink.vue'
 
 export default {
   name: 'LandingGrid',
+
+  components: {
+    AutoLink
+  },
 
   props: {
     item: {
       required: true
     }
   },
-
-  computed: {
-    link () {
-      return ensureExt(this.item.link)
-    },
-
-    exact () {
-      if (this.$site.locales) {
-        return Object.keys(this.$site.locales).some(rootLink => rootLink === this.link)
-      }
-      return this.link === '/'
-    },
-
-    isBlankTarget () {
-      return this.target === '_blank'
-    },
-
-    isInternal () {
-      return !isExternal(this.link) && !this.isBlankTarget
-    },
-
-    target () {
-      if (this.item.target) {
-        return this.item.target
-      }
-      return isExternal(this.link) ? '_blank' : ''
-    }
-  }
 }
 </script>
 

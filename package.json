@@ -1,6 +1,6 @@
 {
   "name": "central762-vuepress",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -8,18 +8,18 @@
     "docs:build": "node scripts/getGitInfo.js && vuepress build docs --no-cache"
   },
   "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
     "child_process": "^1.0.2",
     "eslint": "^8.55.0",
     "eslint-plugin-vue": "^9.19.2",
     "flexsearch": "^0.6.32",
     "html-to-text": "^7.0.0",
     "simple-git": "^3.21.0",
-    "vuepress": "^1.9.10"
+    "vuepress": "1.9.10"
   },
   "dependencies": {
     "moment": "^2.29.4",
-    "v-viewer": "^1.6.4",
-    "vue2-baidu-map": "^0.0.4",
-    "yarn": "^1.22.21"
-  }
+    "v-viewer": "^1.6.4"
+  },
+  "packageManager": "yarn@4.6.0+sha512.5383cc12567a95f1d668fbe762dfe0075c595b4bfff433be478dbbe24e05251a8e8c3eb992a986667c1d53b6c3a9c85b8398c35a960587fbd9fa3a0915406728"
 }

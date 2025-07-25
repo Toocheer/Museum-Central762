@@ -17,7 +17,7 @@
 import Header from '@theme/components/plugins/Header.vue'
 import LandingGrids from '@theme/components/plugins/Grids/LandingGrids.vue'
 export default {
-  name: 'Landingpage',
+  name: 'LandingPage',
 
   components: { Header, LandingGrids },
 

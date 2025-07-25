@@ -5,18 +5,7 @@
     data-bs-ride="carousel"
     data-bs-interval="3000"
   >
-    <!-- <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        v-for="(item, index) in jumboItems"
-        :data-bs-slide-to="index"
-        :class="{active:item.isActive}"
-        :key="index"
-        :aria-label="index"
-      ></button>
-    </div>
- -->    <div class="carousel-inner">
+    <div class="carousel-inner">
       <div
         class="carousel-item "
         v-for="item in jumboItems"
@@ -80,12 +69,8 @@ export default {
   background-repeat no-repeat!important
 
 .jumboheight
-  height 90vh
+  height 100vh
   max-height 600px
-
-// @media(min-height: 1100px)
-//   .jumboheight
-//     height 60vh
 
 @media(max-width: 991px)
   .jumboheight
