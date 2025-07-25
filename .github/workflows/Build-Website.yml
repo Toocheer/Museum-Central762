@@ -33,7 +33,7 @@ jobs:
     - name: Copy dist files
       run: cp -r ./docs/.vuepress/dist/. ../site
     - name: Checkout branch
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: gh-pages
     - name: Copy dist to gh-pages branch

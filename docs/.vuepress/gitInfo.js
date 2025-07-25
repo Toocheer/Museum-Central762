@@ -13,5 +13,4 @@ const getLastCommitInfo = () => {
   };
 };
 
-
 module.exports = getLastCommitInfo;
