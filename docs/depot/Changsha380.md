@@ -51,6 +51,8 @@ appearance:
     text: 762 mm
   - name: 轮径
     text: 600 mm
+  - name: 转向架轴距
+    text: 1500 mm (4 ft 11 in)
   - name: 整备质量
     text: 24 t
   - name: 轴重

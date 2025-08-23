@@ -49,6 +49,8 @@ appearance:
     text: 762 mm (2 ft 6 in)
   - name: Wheel diameter
     text: 600 mm (1 ft 11⅝ in)
+  - name: Wheelbase
+    text: 1500 mm (4 ft 11 in)
   - name: Curb Weight
     text: 24 t
   - name: Axle load

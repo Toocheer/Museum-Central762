@@ -10,121 +10,126 @@ permalink: /column/the-investigation-of-JMY380-series
 mainpic: https://pic4.zhimg.com/v2-25367e1483ac93736d6c98d336a9eee7_r.jpg
 ---
 
-> Sorry, this page has not yet been fully translated into English. 
-> 
-> Translation is in progress.
-
-
 ### Overview of JMY380 locomotive family 
 
 The JMY380 diesel locomotive is one of the most common models  also the undisputed mainstay of trunk transportation on China's 762mm narrow-gauge railway system. But in fact, the locomotives named JMY380 are several models from different manufacturers. The reason for this phenomenon is that the models of China's industrial and mining diesel locomotives have the following naming rules:<sup><a href="#ref1">[1]</a></sup>：
 
 > The first letter indicates the product type：
 >
-> - J (机车 "Ji che", locomotives)
+> - J (Chinese: 机车, pinyin: _Ji che_, lit. "locomotives")
 >
 > The second letter indicates the working environment：
 >
-> - M (地面 "di Mian", suitable for ground use) 
+> - M (Chinese: 地面, pinyin: _di Mian_, lit. "suitable for ground use") 
 >
-> - X (井巷 "jing Xiang", suitable for underground tunnel)
+> - X (Chinese: 井巷, pinyin: _jing Xiang_, lit. "suitable for underground tunnel")
 > 
 > The third letter indicates the transmission mode：
 >
-> - Y (液力 "Ye li", Diesel-Hydraulic, adopts torque converter) 
+> - Y (Chinese: 液力, pinyin: _Ye li_, lit. "Diesel-Hydraulic, adopts torque converter") 
 >
-> - D (电力 "Dian li", Diesel-Electric) 
+> - D (Chinese: 电力, pinyin: _Dian li_, lit. "Diesel-Electric") 
 >
-> - J (液压 "ye ya", Diesel-Hydraulic, adopts pump and cylinder) 
+> - J (Chinese: 液压, pinyin: _Ye ya_, lit. "Diesel-Hydraulic, adopts pump and cylinder") 
 >
 > - \[void\]  (Mechanical transmission)
 > 
 > The following three digits indicate the horsepower.
 
-The suffix letters after the number indicate the characteristics of the locomotive. Currently, it can only be confirmed that KB (抗爆, "Kang Bao") stands for "explosion-proof" (suitable for flammable and explosive environments such as coal mines). The actual suffix letters include M, B, SH, ZR, SF, FA, FD, etc. A large number of subtypes have no extant images, and their meanings have not yet been confirmed.
+The suffix letters after the number indicate the characteristics of the locomotive. Currently, it can only be confirmed that KB (Chinese: 抗爆, pinyin: _Kang Bao_) stands for "explosion-proof" (suitable for flammable and explosive environments such as coal mines). The actual suffix letters include M, B, SH, ZR, SF, FA, FD, etc. A large number of subtypes have no extant images, and their meanings have not yet been confirmed.
 
-So the meaning of the JMY380 model is "a 380-horsepower hydraulic transmission diesel locomotive suitable for ground use". According to the naming method of the standard gauge locomotive of Chinese National Railway, the model of the diesel hydraulic transmission locomotive is NY, so many 380-horsepower diesel locomotives are written as NY380 on the nameplate. The manufacturers that produce the JMY380 and NY380 series locomotives include Shijiazhuang Power Machinery Factory (石家庄动力机械厂, "太行" Taihang Brand), Changsha Mining General Machinery Factory (长沙矿山通用机械厂), Jiangsu Changzhou Diesel Locomotive Factory (江苏常州内燃机车厂, "今创" Jinchuang Brand), etc. Some locomotives have models assigned by the manufacturer, such as the products of Shijiazhuang Power Machinery Factory, the common 380-horsepower hydraulic transmission narrow-gauge locomotive Model "Taihang 52A" (a.k.a. "金马" Jinma, a production model of JMY380A Ⅲ, to be confirmed) and the "WHY380" series products produced by Changzhou Wanhang Machinery Equipment Factory (常州万航机械设备厂). 
+So the meaning of the JMY380 model is "a 380-horsepower hydraulic transmission diesel locomotive suitable for ground use". According to the naming method of the standard gauge locomotive of Chinese National Railway, the model of the diesel hydraulic transmission locomotive is NY, so many 380-horsepower diesel locomotives are written as NY380 on the nameplate. The manufacturers that produce the JMY380 and NY380 series locomotives include Shijiazhuang Power Machinery Factory (Chinese: 石家庄动力机械厂, Brand: "太行", pinyin: _Taihang_), Changsha Mining General Machinery Factory (Chinese: 长沙矿山通用机械厂), Jiangsu Changzhou Diesel Locomotive Factory (Chinese: 江苏常州内燃机车厂, Brand: "今创", pinyin: _Jinchuang_), etc. Some locomotives have models assigned by the manufacturer, such as the products of Shijiazhuang Power Machinery Factory, the common 380-horsepower hydraulic transmission narrow-gauge locomotive Model "Taihang 52A" (a.k.a. "金马", pinyin: _Jinma_, a production model of JMY380A Ⅲ, to be confirmed) and the "WHY380" series products produced by Changzhou Wanhang Machinery Equipment Factory (Chinese: 常州万航机械设备厂). 
 
-It can be seen that JMY380 does not refer to a specific model, but a "family" of 380-horsepower diesel locomotives. These locomotives have different shapes, with whether inner or outer corridors, single or double cabs, and support various track gauges from 750, 762, 900, 1067 to 1435 mm. In addition, since 380 horsepower can be approximately converted to 279 kilowatts, there are also some locomotives marked as JMY279, such as the JMY279 standard-gauge/narrow-gauge dual-purpose diesel locomotive jointly developed by Shijiazhuang Power Machinery Plant and Jinan Iron and Steel Plant. This article mainly discusses several 762 mm gauge 380 horsepower diesel locomotives used in Henan local railway system, hereinafter referred to as "JMY380 locomotive family".
+It can be seen that JMY380 does not refer to a specific model, but a "family" of 380-horsepower diesel locomotives. These locomotives have different shapes, with whether inner or outer corridors, single or double cabs, and support various track gauges from 750, 762, 900, 1067 to 1435 mm. In addition, since 380 horsepower can be approximately converted to 279 kilowatts, there are also some locomotives marked as JMY279, such as the JMY279 standard-gauge/narrow-gauge dual-purpose diesel locomotive jointly developed by Shijiazhuang Power Machinery Factory and Jinan Iron and Steel Factory. This article mainly discusses several 762 mm gauge 380 horsepower diesel locomotives used in Henan local railway system, hereinafter referred to as "JMY380 locomotive family".
 
-The JMY380 locomotive family is responsible for the main trunk passenger and freight transportation of the Chao-Qi Narrow-Gauge Railway, Yu-Dan Narrow-Gauge Railway, Zhu-Ru Narrow-Gauge Railway and other major lines of Henan local railway system. In addition, this type of locomotive is also widely used in factories and mines in various places, including Mudanjiang Northern Cement Plant, Nanjing Jiangnan Cement Plant, Ma'anshan Taochong Mining and other well-known narrow-gauge lines. Among them, the 380-horsepower narrow-gauge locomotive produced by Shijiazhuang Power Machinery Plant was rated as a high-quality product and excellent new product in Hebei Province in 1983. "It is well received by users and the products are sold well in 26 provinces, cities and autonomous regions in China, and the output increases year by year."<sup><a href="#ref2">[2]</a></sup>。
+The JMY380 locomotive family is responsible for the main trunk passenger and freight transportation of the Chao-Qi Narrow-Gauge Railway, Yu-Dan Narrow-Gauge Railway, Zhu-Ru Narrow-Gauge Railway and other major lines of Henan local railway system. In addition, this type of locomotive is also widely used in factories and mines in various places, including Mudanjiang Northern Cement Plant, Nanjing Jiangnan Cement Plant, Ma'anshan Taochong Mining and other well-known narrow-gauge lines. Among them, the 380-horsepower narrow-gauge locomotive produced by Shijiazhuang Power Machinery Factory was rated as a high-quality product and excellent new product in Hebei Province in 1983. "It is well received by users and the products are sold well in 26 provinces, cities and autonomous regions in China, and the output increases year by year."<sup><a href="#ref2">[2]</a></sup>。
 
-### JMY380车族技术特点
+### Technical features of JMY380 family
 
-JMY380窄轨液力传动内燃机车额定功率为279千瓦（380马力），燃油消耗率238克/千瓦小时(175克/马力小时)，轨矩762毫米，轴式B-B，轮径600毫米，轴距1500毫米，液力传动。机车整备质量24吨，轴重6吨，通过最小曲线半径60米，最大速度45千米/小时，持续速度13.5千米/小时，持续牵引力7.92千牛<sup><a href="#ref3">[3]</a></sup>。
+- Rated power: 279 kW (380 hp)
+- Fuel consumption rate: 238 g/kW · h (175 g/hp · h)
+- Gauge: 762 mm (2 ft 6 in)
+- UIC axle arrangements: B-B
+- wheel diameter: 600 mm (1 ft 11⅝ in)
+- Wheelbase: 1500 mm (4 ft 11 in)
+- Curb weight: 24 t
+- Axle load: 6 t
+- Minimum curve radius: 60 m
+- Maximum speed: 45 km/h (28 mph)
+- Tractive effort: 7.92 kN (1780 lbf) continuous at 13.5 km/h (8.64 mph)<sup><a href="#ref3">[3]</a></sup>
 
-下面是一种常州内燃机车厂生产的JMY380机车的图纸<sup><a href="#ref4">[4]</a></sup>，通过后文的观察可以发现长沙矿山通用机车厂的同类机车也有参照该图纸生产的版本。这种内走廊JMY380机车主要由三个舱段构成，从左向右分别为司机室、机械间、非操纵司机室（下图称为“后机室”）。司机室内主要的仪表、手轮、制动靠右布置，与国铁车辆不同。机械间内安装一台12V135Z型柴油机及液力传动总装，一台冷却风扇。燃油、水均从顶部加注，供油不需要油泵。底部位置安装了传动轴和风缸。非操纵司机室内没有安装座椅和仪表，在下图所示的车型中，非操纵司机室较司机室缩短不少，侧面仅有一扇三角窗。
+This is a drawing of a JMY380 locomotive produced by Changzhou Diesel Locomotive Factory.<sup><a href="#ref4">[4]</a></sup>From the following observations, it can be found that the Changsha Mining General Locomotive Factory also produced a version of the same locomotive based on this drawing. This inner corridor JMY380 locomotive is mainly composed of three compartments, from left to right, namely the driver's cab, the machinery room, and the non-operating driver's cab (referred to as the "rear engine room" in the figure below). The main instruments, handwheels, and brakes in the driver's cab are arranged on the right, which is different from the China Railway standard-gauge locomotives. A Model 12V135Z diesel engine and a hydraulic transmission assembly, as well as a cooling fan are installed in the machinery room. Fuel and water are both added from the top, and no oil pump is required for fuel supply. The drive shaft and air cylinder are installed at the bottom. There are no seats and instruments installed in the non-operating driver's cab. In the model shown in the figure below, the non-operating driver's cab is much shorter than the driver's cab, and there is only a triangular window on the side.
 
 <center>
 
-![常州内燃机车厂JMY380机车图纸](https://pic1.zhimg.com/v2-3faa05799bb7470b3fee0c11361f8c30_r.jpg)
+![Drawing of JMY380 locomotive of Changzhou Diesel Locomotive Factory](https://pic1.zhimg.com/v2-3faa05799bb7470b3fee0c11361f8c30_r.jpg)
 
 </center>
-<center class="subtext">常州内燃机车厂JMY380机车图纸</center>
+<center class="subtext">Drawing of JMY380 locomotive of Changzhou Diesel Locomotive Factory</center>
 
 ------------------
 
-### 朝杞铁路机车坟场简介
+### Introduction to Chao-Qi Railway Locomotive Cemetery
 
-朝杞铁路现有废弃机车车辆主要几种在炮房、川口两站，另有数台经过维修的机车停放在朝阳沟站豫见铁路公园车库内，包括太行52A和许昌产380马力两种三台JMY380车族机车。炮房站位于河南郑州登封大冶镇境内，1976年随朝尉段开通运用，2013年前后停用。站内建筑物无存，现有线路三股。炮房车站停放的废弃机车有19辆之多，蔚为壮观。其中3台（炮房1-3）为蓝白涂装，其余（炮房4-19）均为新郑分局橙色涂装。炮房站东侧引出一条北向支线，停放废弃敞车车底一列。在一些材料中，炮房站也被称为炮房沟站或炮坊沟站。炮房站是朝杞铁路西起第三站，向西距离西端朝阳沟站6千米，距离上一站川口站3千米，向东距离下一站大冶站2千米，距离东端杞县站162千米。
-
-<center>
-
-![炮房站存放废弃机车全景图](https://pic2.zhimg.com/v2-e50b5b02d0f404abfd47c7f67d4cebbd_r.jpg)
-
-</center>
-<center class="subtext mb-3">炮房站存放废弃机车全景图</center>
-
-川口站位于河南郑州登封大冶镇境内，1976年随朝尉段开通运用，2013年前后停用。目前川口站保留有机车检修库，并为朝杞铁路改建旅游线路进行了一定整修。站内停放了两列敞车、平车等货车车底，4台蓝白涂装380马力内燃机车和一台C2型蒸汽机车的煤水车（川口1北侧），其中两台机车（川口3、川口4）被拆除了走行部移至线路两侧。川口站是朝杞铁路西起第二站，向西距离西端朝阳沟站3千米，向东距离下一站炮房站3千米，距离东端杞县站166千米。
+The abandoned locomotives and stocks on Chao-Qi Railway are mainly concentrated in Paofang and Chuankou stations. Several repaired locomotives are parked in the garage of Yujian Railway Park at Chaoyanggou Station, including three JMY380 locomotives of two types, "Taihang 52A" and Xuchang-produced 380 horsepower. Paofang Station is located in Daye Town, Dengfeng, Zhengzhou, Henan Province. It was opened and used with Chao-Wei Section in 1976 and was decommissioned around 2013, with no buildings in the station but three existing lines. The abandoned locomotives with a spectacular sight as many as 19 locomotives. Among them, 3 (Codename: 炮房1-炮房3) are painted blue and white, and the rest (Codename: 炮房4-炮房19) are painted orange by Xinzheng Branch. A northbound branch line is drawn from the east side of Paofang Station, where a row of abandoned open car bottoms are parked. In some materials, Paofang Station is also called Paofanggou Station (Chinese: 炮房沟站 or 炮坊沟站). Paofang Station is the third station from the west of Chao-Qi Railway. It is 6 kilometers west of Chaoyanggou Station at the western, 3 kilometers from the previous station Chuankou Station, 2 kilometers east of the next station Daye Station, and 162 kilometers from Qixian Station at the eastern end.
 
 <center>
 
-![川口站存放废弃机车全景图](https://pic3.zhimg.com/v2-0c8d8f6d4c61c34520a67a83bb92650a_r.jpg)
+![Panoramic view of abandoned locomotives stored at Paofang Station](https://pic2.zhimg.com/v2-e50b5b02d0f404abfd47c7f67d4cebbd_r.jpg)
 
 </center>
-<center class="subtext mb-3">川口站存放废弃机车全景图</center>
+<center class="subtext mb-3">Panoramic view of abandoned locomotives stored at Paofang Station</center>
 
-上述炮房19台、川口4台共23台机车均属JMY380窄轨内燃机车车族。
-
-
-### 废弃机车型号辨认
-
-#### 长沙矿山通用机械厂NY380
+Chuankou Station (Chinese: 川口站), located in Daye Town, Dengfeng District, Zhengzhou, Henan Province, opened in 1976 with the Chao-Wei Section and closed around 2013. Currently, Chuankou Station maintains a locomotive maintenance depot and has undergone renovations to prepare for the Chao-Qi Railway's development into a tourist route. The station houses two open wagons, flat cars, and other freight trains, four blue-and-white 380-horsepower diesel locomotives, and the tender for a C2 steam locomotive (north side of Codename: 川口1). Two of these locomotives (Codename: 川口3 and 川口4) have had their running gear removed and moved to opposite sides of the line. Chuankou Station is the second western station on the Chao-Qi Railway, 3 kilometers west of Chaoyanggou Station, 3 kilometers east of the next station, Paofang Station, and 166 kilometers east of Qixian Station.
 
 <center>
 
-![炮房19，新机3820号车](https://pic4.zhimg.com/v2-d4edf63f05be27196b540204af875817_r.jpg)
+![Panorama of abandoned locomotives stored at Chuankou Station](https://pic3.zhimg.com/v2-0c8d8f6d4c61c34520a67a83bb92650a_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房19，新机3820号车</center>
+<center class="subtext mb-3">Panorama of abandoned locomotives stored at Chuankou Station</center>
 
-长沙矿山通用机械厂生产的NY380机车在外观上来看与上文提到的常州JMY380机车图纸几乎相同。其外观特点包括机械间三扇大窗、非操纵司机室的三角窗、冷却室上下均有通风口等，车长较短。
+The above-mentioned 19 locomotives at Chuankou Station and 4 at Chuankou Station, totaling 23 locomotives, all belong to the JMY380 narrow-gauge diesel locomotive family.
 
-本型车：炮房7（3819）、炮房10（未知）、炮房13（38□1）、炮房17（3816）、炮房19（3820），是朝杞铁路现存废弃机车中最多型号之一。
+
+### Model identification of abandoned locomotives
+
+#### NY380 by Changsha Mining General Machinery Factory
 
 <center>
 
-![炮房17和炮房13](https://pic1.zhimg.com/v2-d063d8b0089a795edcca762338bb5288_r.jpg)
+![炮房19, No.新机3820](https://pic4.zhimg.com/v2-d4edf63f05be27196b540204af875817_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房17和炮房13</center>
+<center class="subtext mb-3">炮房19, No.新机3820</center>
+
+The NY380 locomotive, manufactured by the Changsha Mining General Machinery Factory, is virtually identical in appearance to the Changzhou JMY380 locomotive drawings mentioned above. Its distinctive features include three large windows in the machinery compartment, a triangular window in the non-operating driver's cab, and vents above and below the cooling compartment. It is also shorter in length. 
+
+This type of locomotive includes (Codename): 炮房7 (No.新机3819), 炮房10 (Unknown Number), 炮房13 (No.新机38□1), 炮房17 (No.新机3816), and 炮房19 (No.新机3820). It is one of the most numerous types of abandoned locomotives still in existence on the Chao-Qi Railway.
 
 <center>
 
-![炮房10是一台事故损毁车，车号未知](https://pic1.zhimg.com/v2-59250eaf2b852b0fd26344921fe64e20_r.jpg)
+![炮房17 & 炮房13](https://pic1.zhimg.com/v2-d063d8b0089a795edcca762338bb5288_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房10是一台事故损毁车，车号未知</center>
+<center class="subtext mb-3">炮房17 & 炮房13</center>
 
 <center>
 
-![炮房7，新机3819号车](https://pic2.zhimg.com/v2-24bc7030c7da00369b3be91c11ade0d9_r.jpg)
+![炮房10 is a damaged car in an accident, the license plate number is unknown](https://pic1.zhimg.com/v2-59250eaf2b852b0fd26344921fe64e20_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房7，新机3819号车</center>
+<center class="subtext mb-3">炮房10 is a damaged car in an accident, the license plate number is unknown</center>
+
+<center>
+
+![炮房7, No.新机3819](https://pic2.zhimg.com/v2-24bc7030c7da00369b3be91c11ade0d9_r.jpg)
+
+</center>
+<center class="subtext mb-3">炮房7, No.新机3819</center>
 
 
-#### 石家庄动力机械厂NY380
+#### NY380 by Shijiazhuang Power Machinery Factory
 
 <center>
 
@@ -132,9 +137,7 @@ JMY380窄轨液力传动内燃机车额定功率为279千瓦（380马力），�
 
 </center>
 
-石家庄动力机械厂的NY380内燃机车两端正面不尽相同，其中靠近机械间一端正面两副灯之间有一检修开口，而靠近冷却室一端的正面则没有。司机室布局不同，只有一端带两扇侧窗，推测为单向操纵。石家庄版NY380车头没有折线，副灯位置较低。机械间有两扇一组共六扇侧窗，下部有散热孔。
-
-石家庄版NY380（川口2）与长沙版NY380（炮房17）均为3816车号，其中炮房17涂打了“新机”字样。因许昌机务段也曾使用过蓝白涂装，推测前者有可能来自许昌淘汰或废弃车辆。
+The two sides of the NY380 diesel locomotives front face from the Shijiazhuang Power Machinery Factory are differ. The front face of the locomotive near the engine room has an inspection opening between the two auxiliary lights, while the front face near the cooling room has none. The driver's cab layout is different, with only two side windows on one end, presumably for one-way operation. The Shijiazhuang-issued NY380 lacks a folding line on the front, and the auxiliary lights are positioned low. The engine room has six side windows, each in a group of two, with cooling vents at the bottom. Both the Shijiazhuang-version NY380 (川口2) and the Changsha-version NY380 (炮房17) bear the number 3816, with 炮房17 bearing the inscription "新机"(pinyin: Xinji, lit. Xinxiang Depot) Since the Xuchang Locomotive Depot also used a blue and white livery, it is speculated that the former may have come from a discarded or abandoned vehicle in Xuchang.
 
 <center>
 
@@ -143,7 +146,7 @@ JMY380窄轨液力传动内燃机车额定功率为279千瓦（380马力），�
 </center>
 
 
-#### 许昌机车车辆厂380马力内燃机车
+#### 380hp diesel locomotive by Xuchang Locomotive and Rolling Stock Factory
 
 <center>
 
@@ -152,152 +155,151 @@ https://pic4.zhimg.com/v2-cacfed94ece6d8cc31c75e4272cd29ff_r.jpg)
 
 </center>
 
-河南地铁许昌机车车辆厂自行制造的380马力内燃机车是JMY380车族中最容易区分的一种，因其为朝杞铁路现存JMY380车族中唯一的单司机室型号。这一类型的几台保留机车均没有找到铭牌，根据许昌机车车辆厂既往产品的命名习惯，这种机车或称为“XC-380”。许昌380马力机车在机械间侧墙和II端头灯等部位有差异，如下图，炮房18的机械间开窗变成了散热孔，在司机室后另外增加了一个开窗；而炮房15、炮房18又均与炮房6不同，后者冷却室后方只有一个窗户。
+The 380-horsepower locomotive manufactured by Xuchang Locomotive and Rolling Stock Factory of Henan Local Railway is the easiest to distinguish among the JMY380 family, because it is the only single driver's room model among the existing JMY380s of Chao-Qi Railway. No nameplate was found for several retained locomotives of this type. According to the naming habits of the previous products of Xuchang Locomotive and Rolling Stock Factory, this locomotive may be called "XC-380". The Xuchang 380-horsepower locomotive has differences in the side wall of the mechanical room and the II end headlights. As shown in the figure below, the window of the mechanical room of the 炮房18 has become a cooling hole, and an additional window is added behind the driver's room; the 炮房15 and 炮房18 are both different from the 炮房6, and there is only one window behind the cooling room of the latter.
 
 <center>
 
-![炮房15和炮房18的侧面对比](https://pic4.zhimg.com/v2-6738cf059fec3699fac2d07f9eaa00bb_r.jpg)
+![Side comparison of 炮房15 and 炮房18](https://pic4.zhimg.com/v2-6738cf059fec3699fac2d07f9eaa00bb_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房15和炮房18的侧面对比</center>
+<center class="subtext mb-3">Side comparison of 炮房15 and 炮房18</center>
 
 
 <center>
 
-![炮房12，38□4](https://pic4.zhimg.com/v2-d5f74e898f9ab277b46a13a278749373_r.jpg)
+![炮房12, No.新机38□4](https://pic4.zhimg.com/v2-d5f74e898f9ab277b46a13a278749373_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房12，38□4</center>
+<center class="subtext mb-3">炮房12, No.新机38□4</center>
 
 <center>
 
-![炮房12，38□4](https://pic2.zhimg.com/v2-884266f04874e43ec04413f42fdbb4f5_r.jpg)
+![Train No.新机3804 after restoration at Chaoyanggou Station](https://pic2.zhimg.com/v2-884266f04874e43ec04413f42fdbb4f5_r.jpg)
 
 </center>
-<center class="subtext mb-3">朝阳沟站内修复后的3804号车</center>
+<center class="subtext mb-3">Train No.新机3804 after restoration at Chaoyanggou Station</center>
 
-目前朝阳沟站内修复的三台内燃机车中，有一台是许昌380马力机车。
+Among the three diesel locomotives currently being repaired at Chaoyanggou Station, one is a Xuchang 380-horsepower locomotive.
 
-#### 江苏常州内燃机车厂NY380M
+#### NY380M by Jiangsu Changzhou Diesel Locomotive Factory 
 
 <center>
 
-![炮房14，车号不明](https://pic1.zhimg.com/v2-54fd62bb01ccb39b31fd99bc165d82d0_r.jpg)
+![炮房14, locomotive number unknown](https://pic1.zhimg.com/v2-54fd62bb01ccb39b31fd99bc165d82d0_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房14，车号不明</center>
+<center class="subtext mb-3">炮房14, locomotive number unknown</center>
 
-本型车共2台，其一为3814（炮房16），此车涂装与其他车辆不太相同，可能原为红色而非橙色，另一为3813（炮房14）。常州NY380M的机械间有三大一小四扇窗，且两端司机室空间对称，推测可以两向操纵。
+There were two vehicles of this type: one designated No.3814 (炮房16), whose paint job differed from the others, possibly originally being red rather than orange. The other designated No.3813 (炮房14). The Changzhou version NY380M's machinery compartment had four windows, one large and one small, and the driver's cabs were symmetrical at both ends, suggesting bidirectional operation.
 
 <center>
 
-![炮房16，3814](https://pic4.zhimg.com/v2-25367e1483ac93736d6c98d336a9eee7_r.jpg)
+![炮房16, 3814](https://pic4.zhimg.com/v2-25367e1483ac93736d6c98d336a9eee7_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房16，3814</center>
+<center class="subtext mb-3">炮房16, 3814</center>
 
-#### 江苏常州内燃机车厂JMY380SH
+#### JMY380SH by Jiangsu Changzhou Diesel Locomotive Factory
 
 <center>
 
-![炮房8，JMY380SH，车号不明](
+![炮房8, JMY380SH, locomotive number unknown](
 https://pic3.zhimg.com/v2-c9e1fc17f18bfcfef698c0e80a4491f2_r.jpg)
 
 </center>
-<center class="subtext mb-3">炮房8，JMY380SH，车号不明</center>
+<center class="subtext mb-3">炮房8, JMY380SH, locomotive number unknown</center>
 
-铭牌显示这台JMY380SH机车出厂于1992年，本车是朝杞铁路机车废弃机车中的唯一一辆。这一型车与上述几种机车外观上已经存在较大不同。可以看出冷却室百叶窗面积明显增加，且后方添加了一个小窗；机械间下部的散热孔取消，将车窗改为推拉式，兼顾散热；前后司机室外观上对称，长度相同且均配置了可开闭的车窗，有可能具备两向操纵的功能；副灯上移至机车正面折线上方。
+The nameplate indicates that this JMY380SH locomotive was manufactured in 1992. It is the only one among the abandoned locomotives on the Chao-Qi Railway. This type of locomotive has significant visual differences from the aforementioned locomotives. The cooling compartment louvers have been significantly increased, and a small window has been added to the rear. The cooling vents in the lower engine compartment have been removed, and the windows have been replaced with sliding ones to improve heat dissipation. The front and rear driver's cabs are symmetrical, identical in length, and both feature retractable windows, possibly with two-way control. The auxiliary lights have been moved above the front fold line of the locomotive.
 
-#### 未知型号A：双向操纵380马力内燃机车
+#### Unknown Model A: Bi-directional-operate 380hp diesel locomotive
 
 <center>
 
-![3807和3808号车](
+![No.3807 & No.3808](
 https://pic1.zhimg.com/v2-f6bf37ae633d6195410274abf003b284_r.jpg)
 
 </center>
-<center class="subtext mb-3">3807和3808号车</center>
+<center class="subtext mb-3">No.3807 & No.3808</center>
 
-这类型号不明的机车车身较长，机械间有多达7个小窗。该车型两端司机室布局一致，均有操纵台，可以两向行驶，但奇怪的是司机室侧窗分别为一扇和两扇，且一个直角，一个圆角。这一车型的另一特点是副灯外框为圆角。炮房5（3808）副灯和头灯都略有不同，可能与该车出过事故有关，机车II端和左侧基本损毁。
+This type of locomotive has a longer body and up to seven small windows in the machinery compartment. The driver's cab layout is identical at both ends of this model, both with a control console and bidirectional travel. However, the driver's cab has one and two side windows, one with a right angle and the other with rounded corners. Another characteristic of this model is the rounded corners of the auxiliary headlights. 炮房5 (No.3808) has slightly different auxiliary and headlights, possibly due to its previous accident. The second end and left side of the locomotive are largely destroyed.
 
 <center>
 
-![3808机车的两端操纵台](
+![The control consoles of the No.3808 locomotive](
 https://pic4.zhimg.com/v2-11e489c9945a2de4e2a09b2a24f901af_r.jpg)
 
 </center>
-<center class="subtext mb-3">3808机车的两端操纵台</center>
+<center class="subtext mb-3">The control consoles of the No.3808 locomotive</center>
 
-#### 未知型号B：380马力内燃机车
+#### Unknown Model B: "Taihang 52A-like" locomotive
 
 <center>
 
-![川口3，车号未知](
+![川口3, locomotive number unknown](
 https://pic4.zhimg.com/v2-25187a997fe709868435ec09e224a3f7_r.jpg)
 
 </center>
-<center class="subtext mb-3">川口3，车号未知</center>
+<center class="subtext mb-3">川口3, locomotive number unknown</center>
 
-本车是朝杞铁路机车废弃机车中的唯一一辆。从外观来看，这种机车的机械间布局和司机室侧窗非常接近石家庄动力机械厂生产的380马力“太行52A”内燃机车（注意上图虚线所示位置），但正面、头灯则显著不同。因此车（川口3）没有保留走行部且铭牌遗失，无法对二者进行进一步比较。
+This locomotive is the only one among the abandoned locomotives of the Chao-Qi Railway. Externally, its engine room layout and windows at driver's cab side  closely resemble those of the 380-horsepower "Taihang 52A" diesel locomotive produced by the Shijiazhuang Power Machinery Factory (note the location indicated by the dotted line in the image above), but the front and headlights are significantly different. Since the running gear of this locomotive (川口3) is missing, and its nameplate is missing, further comparison between the two is impossible.
 
 <center>
 
-![驻汝铁路老君庙站的废弃太行52A内燃机车](
+![Abandoned Taihang 52A diesel locomotive at Laojunmiao Station on the Zhu-Ru Railway](
 https://pic1.zhimg.com/v2-5767c7c42962b869fcfe2a8fbdfd7bac_r.jpg)
 
 </center>
-<center class="subtext mb-3">驻汝铁路老君庙站的废弃太行52A内燃机车</center>
+<center class="subtext mb-3">Abandoned Taihang 52A diesel locomotive at Laojunmiao Station on the Zhu-Ru Railway</center>
 
 
-#### 未知型号C：“类长沙NY380”机车
+#### Unknown Model C: "Changsha NY380-like" locomotives. 
 
-这类机车在各方面都十分接近长沙版NY380机车，其外观仅有一处差异，为冷却室上部没有通风孔，而长沙版有。但因铭牌缺失，无法断定其属于长沙版NY380。资料显示长沙版NY380也有常州内燃机车厂生产，因此推测这些机车或为常州采用相似图纸生产的版本，或是长沙矿山通用机械厂在不同阶段的产品。
+These locomotives are very similar to the Changsha NY380 in all aspects, with the only difference being the lack of ventilation holes above the cooling chamber, while the Changsha version does. However, due to the missing nameplate, it is impossible to determine whether they are Changsha NY380s. Literature indicates that the Changsha-version NY380 was also produced by the Changzhou Diesel Locomotive Factory, leading to speculation that these locomotives may be versions produced in Changzhou using similar drawings, or products of the Changsha Mining General Machinery Factory at different stages.
 
 <center>
 
-![类长沙版NY380](
+!["Changsha NY380-like" locomotives](
 https://pic3.zhimg.com/v2-247f5e18c0e76dc92630cec4f9ca8436_r.jpg)
 
 </center>
-<center class="subtext mb-3">类长沙版NY380</center>
+<center class="subtext mb-3">"Changsha NY380-like" locomotives</center>
 
-#### 未知型号D：“类长沙NY380”机车（单副灯）
-
-这台机车大部分特征与上述三台类长沙NY380相似，但其副灯仅有一侧一个，在全部朝杞铁路废弃机车中属唯一一例。
+#### Unknown model D: "Changsha NY380-like" locomotive (single auxiliary light) 
+Most of the features of this locomotive are similar to the above three Changsha NY380-like locomotives, but it has only one auxiliary light on each side, which is the only one among all the abandoned locomotives of Chao-Qi Railway.
 
 <center>
 
-![单副灯机车](
+![Single-headlight locomotive](
 https://pic1.zhimg.com/v2-c66499f3ffd5f94f2f2f501aff15c6f4_r.jpg)
 
 </center>
-<center class="subtext mb-3">单副灯机车</center>
+<center class="subtext mb-3">Single-headlight locomotive</center>
 
-### 总结
+### Summary
 
-朝杞铁路机车坟场中的废弃机车有如下几类：
+The abandoned locomotives in the Chao-Qi Railway Locomotive Cemetery are of the following types: 
 
-1、长沙矿山通用机械厂NY380：共5台，炮房7、10、13、17、19
+1. Changsha Mining General Machinery Factory NY380: 5 units in total (The codenames in this article are 炮房7, 炮房10, 炮房13, 炮房17, and 炮房19) 
 
-2、石家庄动力机械厂NY380：共4台，川口1、2，炮房1，3
+2. Shijiazhuang Power Machinery Factory NY380: 4 units in total (The codenames in this article are 川口1 and 川口2, 炮房1 and 炮房3)
 
-3、许昌机车车辆厂380马力单司机室：共4台，炮房6、12、15、18
+3. Xuchang Locomotive and Rolling Stock Factory 380 horsepower single cab: 4 units in total (The codenames in this article are 炮房6, 炮房12, 炮房15, and 炮房18) 
 
-4、常州内燃机车厂NY380M：共2台，炮房14、16
+4. Changzhou Diesel Locomotive Factory NY380M: 2 units in total (The codenames in this article are 炮房14 and 炮房16) 
 
-5、常州内燃机车厂JMY380SH：共1台，炮房8
+5. Changzhou Diesel Locomotive Factory JMY380SH: 1 unit in total (The codename in this article is 炮房8)  
 
-6、未知型号A“双向操纵380马力机车”：共2台，炮房4、5
+6. Unknown model A "bi-directional control cab 380hp locomotive": 2 units in total (The codenames in this article are 炮房4 and 炮房5) 
 
-7、未知型号B“类太行52A”机车：共1台，川口3
+7. Unknown model B "Taihang 52A-like" locomotive: 1 unit in total (The codename in this article is 川口3)
 
-8、未知型号C“类长沙NY380”机车：共3台，川口4，炮房9、11
+8. Unknown Model C "Changsha NY380-like" locomotive: 3 units total (The codenames in this article are 川口4, 炮房9 and 炮房11)
 
-9、未知型号D“类长沙NY380”机车（单副灯）：共1台，炮房2
+9. Unknown Model D "Changsha NY380-like" locomotive (single auxiliary headlight): 1 unit total (The codename in this article is 炮房2)
 
-其中8、9两类或可合并入第1类。
+Type 8 and Type 9 may be merged into Type 1. 
 
-通过对废弃机车的整理可见，朝杞铁路作为河南重要窄轨线路，运用的干线机车来源广泛，车型丰富，本文的整理将为网站后续建设车辆板块和插画绘制工作提供有价值的参考。
+This collection of abandoned locomotives demonstrates that the Chao-Qi Railway, as a key narrow-gauge line in Henan Province, utilized a wide variety of locomotives. This compilation will provide valuable reference for the website's subsequent vehicle section and illustration work.
 
 
 
@@ -323,6 +325,6 @@ RailwayWhale (铁道上的蓝鲸)
 
 **Revision Date** 
 
-2025.07.25
+2025.08.23
 
 `This article is available under the CC BY-NC-SA 4.0 license`

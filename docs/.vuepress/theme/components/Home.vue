@@ -16,7 +16,7 @@
             <Content slot-key="preface" class="colored bold"/>
           </div>
 
-          <div class="preface-content">
+          <div class="preface-content intro-content">
             <Content />
           </div>
         </div>

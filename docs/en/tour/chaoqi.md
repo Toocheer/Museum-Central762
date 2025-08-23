@@ -119,7 +119,7 @@ Chuankou Station (川口站) is located in Daye Town, Dengfeng, Henan Province. 
 
 Paofang Station (炮房站) is located in Daye Town, Dengfeng, Henan Province. It was opened in 1976 with the Chaoyanggou-Weixian Section and was closed around 2013. 
 
-The buildings in the station are no longer in existence, but there are three tracks. The abandoned locomotives of the Chaoyanggou-Weixian Section are mainly concentrated at Paofang Station with a spectacular sight as many as 18 locomotives. A northbound branch line is drawn from the east side of Paofang Station, where a row of open cars are parked.
+The buildings in the station are no longer in existence, but there are three tracks. The abandoned locomotives of the Chaoyanggou-Weixian Section are mainly concentrated at Paofang Station with a spectacular sight as many as 19 locomotives. A northbound branch line is drawn from the east side of Paofang Station, where a row of open cars are parked.
 :::
 
 ::: slot Daye

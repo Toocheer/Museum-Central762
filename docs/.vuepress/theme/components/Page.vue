@@ -52,7 +52,7 @@ export default {
       text-decoration underline
   img
     max-width 100%
-    border-radius 10px
+    border-radius 5px
 
 .important
   -webkit-text-emphasis circle
@@ -62,5 +62,5 @@ export default {
 
 blockquote
   padding: 1.5em 1.5em 1.5em 1.5em
-  border-radius 10px
+  border-radius 5px
 </style>
