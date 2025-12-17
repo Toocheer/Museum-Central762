@@ -64,4 +64,11 @@ th, td {
 
 .mt-7
   margin-top 80px
+  
+@media (max-width: 992px)
+  .mt-6
+    margin-top 110px
+  
+  .mt-7
+    margin-top 130px
 </style>

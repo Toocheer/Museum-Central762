@@ -27,6 +27,8 @@ export default {
 <style lang="stylus">
 .nav-link
   justify-content center
+  padding-right 0
+  padding-left 0
   span
     display inline-block
   &.router-link-active,

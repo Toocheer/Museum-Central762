@@ -21,18 +21,6 @@
 
     <SearchBox :placeholder="searchLabel" />
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
     <NavLinks />
   </div>
 
@@ -76,8 +64,5 @@ export default {
 <style lang="stylus">
 img.logo
   height 40px
-
-.navbar-collapse
-  flex-grow 0!important
 </style>
 

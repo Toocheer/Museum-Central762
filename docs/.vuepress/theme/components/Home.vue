@@ -5,7 +5,7 @@
   >
     <div class="container-xl">
 
-      <div class="row mt-5">
+      <div class="row mt-6">
         <div class="col-lg-8 col-12 mt-3">
           <Heropics :jumboItems="data.jumboItems" />
         </div>

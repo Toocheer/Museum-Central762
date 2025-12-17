@@ -36,10 +36,10 @@ export default {
   h1, h2, h3, h4
     margin-bottom 0.5em
     padding-top 65px
-    margin-top: -30px;
+    margin-top -30px
   .ref
     padding-top 65px
-    margin-top: -65px;
+    margin-top -65px
   blockquote
     h1, h2, h3, h4, h5
       &:first-child
@@ -53,6 +53,16 @@ export default {
   img
     max-width 100%
     border-radius 5px
+
+@media (max-width: 992px)
+  .main-contents
+    h1, h2, h3, h4
+      margin-bottom 0.5em
+      padding-top 125px
+      margin-top -80px
+    .ref
+      padding-top 125px
+      margin-top -125px
 
 .important
   -webkit-text-emphasis circle

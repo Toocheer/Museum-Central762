@@ -1,10 +1,8 @@
 <template>
   <nav
-    class="collapse navbar-collapse"
-    id="navbarNavDropdown"
-    style="justify-content:flex-end;"
+    class="navbar-self"
   >
-    <ul class="navbar-nav">
+    <ul class="navbar-items">
       <li v-for="item in userLinks">
         <NavLink :item="item" />
       </li>
@@ -68,4 +66,23 @@ export default {
 }
 </script>
 
+<style lang="stylus">
+.navbar-self
+  display flex
+  justify-content flex-end
+
+.navbar-items
+  display flex
+  padding 0
+  margin-bottom 0
+  list-style none
+  
+@media (max-width: 992px)
+  .navbar-items
+    width 100vw
+    padding 0 2em 0 0
+    overflow-y scroll
+    word-break keep-all
+  
+</style>
 
