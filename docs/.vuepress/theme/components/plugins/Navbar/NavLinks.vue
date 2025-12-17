@@ -83,6 +83,10 @@ export default {
     padding 0 2em 0 0
     overflow-y scroll
     word-break keep-all
+    scrollbar-width none
+
+  .navbar-items::-webkit-scrollbar
+    display none
   
 </style>
 
